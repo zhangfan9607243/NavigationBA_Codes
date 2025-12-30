@@ -4,19 +4,23 @@
 
 Python 语言的起源：
 
-- Python 语言是1989年由 Guido van Rossum 发明的（当时 Guido 只有33岁），灵感来源于教学语言 ABC - 由 Guido 参加设计的一种教学语言
+- Python 语言是1989年由 Guido van Rossum 发明的（当时 Guido 只有33岁），最初的动机是在圣诞节假期开发一种新的脚本语言，以在
+
+- Python 语言的灵感来源于教学语言 ABC - 由 Guido 参加设计的一种教学语言
 - 当时 ABC 这种语言非常优美和强大，是**专门为非程序员设计的**，但是 ABC 语言并没有成功，Guido 认为是非开放造成的
 - 因此 Guido 决心设计一种新的编程语言，继承 ABC 优雅简单的特点，但是要保持开放
 
 <p align="center">
-  <img src="../Guido_van_Rossum_in_PyConUS24_(cropped).jpg" width="300"/>
+  <img src="./Guido_van_Rossum_in_PyConUS24_(cropped).jpg" width="300"/>
 </p>
 
 - Python 的名字取自英国喜剧节目 - Monty Python’s Flying Circus，而非蟒蛇的意思，虽然之后 Python 的官方 logo 就是蟒蛇
 
 <p align="center">
-  <img src="../MV5BZDkyZjUyOTUtYWI3Zi00YTJhLTk3MDMtY2Q2MGM1ZjFhNTRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300"/>
+  <img src="./MV5BZDkyZjUyOTUtYWI3Zi00YTJhLTk3MDMtY2Q2MGM1ZjFhNTRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300"/>
 </p>
+
+- Guido 的故事告诉我们，程序员不是书呆子，该打游戏就打游戏，该刷剧就刷剧，该好好学编程就好好学编程
 
 Python语言的主要发展历程：
 

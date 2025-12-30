@@ -75,6 +75,41 @@ print(number_squares)
     [4]
 
 
+列表推导式还有一种写法，使用 `else` 语句来处理不满足条件的元素，语法格式如下，有点像三元表达式：
+
+```python
+[表达式1 if 条件 else 表达式2 for 变量 in 可迭代对象]
+```
+
+- 例如，我们创建一个数字列表，如果是偶数就输出"偶数"，否则输出"奇数"：
+
+
+```python
+numbers = [2, 5, 7, 9, 11]
+results = ["偶数" if x % 2 == 0 else "奇数" for x in numbers]
+print(results)
+```
+
+    ['偶数', '奇数', '奇数', '奇数', '奇数']
+
+
+- 这段代码等同于：
+
+
+```python
+numbers = [2, 5, 7, 9, 11]
+results = []
+for x in numbers:
+    if x % 2 == 0:
+        results.append("偶数")
+    else:
+        results.append("奇数")
+print(results)
+```
+
+    ['偶数', '奇数', '奇数', '奇数', '奇数']
+
+
 ### (2) 集合推导式
 
 除了列表推导式以外，Python 还支持集合推导式来创建集合，语法格式如下：
@@ -199,7 +234,7 @@ print(gen_squares)
 print(type(gen_squares))
 ```
 
-    <generator object <genexpr> at 0x1101adcb0>
+    <generator object <genexpr> at 0x10d8c05f0>
     <class 'generator'>
 
 
@@ -254,6 +289,79 @@ for num in gen_squares:
     9
     16
 
+
+### (6) `all()` 函数和 `any()` 函数
+
+Python 中的 `all()` 函数和 `any()` 函数都是接受一个列表的 True/False 值作为输入，然后返回一个布尔值：
+
+- `all()` 中必须所有的元素都为 True 才返回 True，只要有一个 False 就返回 False，
+- `any()` 中只要有一个元素为 True 就返回 True，所有元素都是 False 时返回 False
+
+
+```python
+print(all([True, True, True]))
+print(all([True, False, True]))
+```
+
+    True
+    False
+
+
+
+```python
+print(any([False, False, True]))
+print(any([False, False, False]))
+```
+
+    True
+    False
+
+
+当然，在实际 Python 编程中，基本不会有专门的列表只包含 True/False 值的情况，更多的是我们会传入一些条件表达式的结果列表。
+
+我们来看下面这个例子：
+
+
+```python
+num_list1 = [2, 4, 5, 6, 8, 10]
+
+# 检查是否所有数字都是偶数
+num_list1_is_even = [num % 2 == 0 for num in num_list1]
+print(num_list1_is_even)
+print(all(num_list1_is_even))
+```
+
+    [True, True, False, True, True, True]
+    False
+
+
+在这个例子中：
+
+- 我们首先创建了一个包含数字的列表 `num_list1`
+- 然后，我们使用列表推导式来生成一个新的列表 `num_list1_is_even`，这个列表包含了 `num_list1` 中每个数字是否为偶数的布尔值
+- 最后，我们使用 `all()` 函数来检查 `num_list1_is_even` 列表中是否所有的值都是 True，从而判断 `num_list1` 中的所有数字是否都是偶数
+
+我们再来看一个例子：
+
+
+```python
+num_list2 = [-1, 6, 0, 3, 8, 2, 9, -5]
+
+# 检查列表中的正数是否含有一个偶数
+num_list2_is_positive_even = [num % 2 == 0 for num in num_list2 if num > 0]
+print(num_list2_is_positive_even)
+print(any(num_list2_is_positive_even))
+```
+
+    [True, False, True, True, False]
+    True
+
+
+在这个例子中：
+
+- 我们首先创建了一个包含数字的列表 `num_list2`
+- 然后，我们使用列表推导式来生成一个新的列表 `num_list2_is_positive_even`，这个列表包含了 `num_list2` 中所有正数是否为偶数的布尔值
+- 最后，我们使用 `any()` 函数来检查 `num_list2_is_positive_even` 列表中是否有至少一个值为 True，从而判断 `num_list2` 中的正数是否含有一个偶数
 
 ## 2. `enumerate()` 函数
 

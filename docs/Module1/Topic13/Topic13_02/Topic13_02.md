@@ -99,7 +99,6 @@ while True:
         break
 ```
 
-
 在这个版本中，我们主要使用了以下技术点：
 
 - 使用 `while True` 无限循环来让程序持续运行，直到用户选择退出
@@ -135,8 +134,9 @@ while True:
 
 - `tests/` 文件夹用于存放测试代码，与 `src/` 文件夹中的模块一一对应，负责对各个模块进行单元测试
 
-    - 但是 `config.py` 模块通常不需要单独测试，我们可以不为它创建测试文件
-    - 我们这个程序中大部分模块比较简单，测试代码就会比较少，我们就可以**直接在原模块的 `if __name__ == "__main__":` 中编写测试代码，而不必单独创建测试文件**
+    - 首先 `config.py` 模块通常不需要单独测试，我们可以不为它创建测试文件
+    - 其次，我们这个程序中大部分模块比较简单，测试代码就会比较少，我们就可以**直接在原模块的 `if __name__ == "__main__":` 中编写测试代码，而不必单独创建测试文件**
+    - 因此，我们就只给 `main.py` 和 `animal_viewer.py` 创建测试文件，大家来体会以下测试代码怎么用就行了
 
 - `logs/` 文件夹用于存放程序运行的日志文件
 
@@ -144,7 +144,42 @@ while True:
 
 - `requirements.txt` 文件我们可以先创建，如果后续需要第三方库就添加到这个文件中，如果没有第三方库，这个文件可以为空
 
+在正式开始代码编写之前，我们可以先将目录结构创建好：
+
+```text
+zoo_program_v1/
+|
+├── data/
+│   ├── animal1_camel.txt
+│   ├── animal2_cow.txt
+│   ├── animal3_horse.txt
+│   └── title.txt
+|
+├── logs/
+│   └── zoo.log
+|
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── ui.py
+│   ├── animal_viewer.py
+│   ├── input_handler.py
+│   ├── logger.py
+│   └── config.py
+|
+├── tests/
+│   ├── test_main.py
+│   └── test_animal_viewer.py
+│
+├── README.md
+└── requirements.txt
+```
+
+
+
 ## 3. 主程序设计
+
+### (1) 根据新需求设计主程序框架
 
 根据上面的设计思路，我们可以设计主程序的整体流程，我们先将之前实现过的代码放到 `src/main.py` 中：
 
@@ -205,7 +240,12 @@ def main():
             # TODO: 记录错误日志
             # logger(时间, f"程序错误: {e}")
             pass
+
+if __name__ == "__main__":
+    main()
 ```
+
+### (2) 改进主程序代码 - 提高代码复用性和可扩展性
 
 但是，上面的代码框架其实有一个问题，那就是 `display_animal()` 这个函数我们调用了3次，
 
@@ -215,6 +255,8 @@ def main():
 
     - 将用户输入的动物编号直接传递给 `display_animal()` 函数
     - 在 `display_animal()` 函数内部，直接根据传入的动物编号来决定展示哪个动物
+
+- 改进后的主程序代码如下：
 
 ```python
 def main():
@@ -236,11 +278,15 @@ def main():
             elif user_input in ['1', '2', '3']:
                 # display_animal(user_input)
                 # logger(f"用户查看动物{user_input}")
+                pass
         
         except Exception as e:
             # TODO: 记录错误日志
             # logger(f"程序错误: {e}")
             pass
+
+if __name__ == "__main__":
+    main()
 ```
 
 这一点改进给我们以下两点启示：
@@ -248,7 +294,81 @@ def main():
 - 首先就是，当我们发现代码中有重复的部分时，一定要想办法**提高代码的复用性**，例如封装函数、命名变量、使用高级数据结构等
 - 其次就是，我们在开发时一定要考虑代码的可扩展性，尽量**避免“硬编码”**，让代码更容易适应未来的需求变化
 
-主程序的框架设计结束后，我们会在接下来的小节我把预留的各个功能实现。
+### (3) 主程序测试
+
+接下来，我们准备对主程序进行测试。
+
+但是，此时，虽然我们设计完了主程序的框架，并且尽可能地用占位符来保证代码完整性，但此时程序还不能运行。
+
+- 运行到 `if` 语句时会报错，因为 `get_user_input()` 函数还没有定义，导致 `user_input` 变量未定义
+- 但是我们发现，只要实现了 `get_user_input()` 函数，程序是可以正常运行的，虽然还没能实现项目需求，但是程序已经可以正常启动和运行了
+- 所以我们可以先实现一个临时的 `get_user_input()` 函数，我们只需要它能帮助程序运行起来就行了
+
+```python
+def get_user_input():
+    # 临时实现，直接复制之前的输入处理代码
+    while True:
+        user_input = input("请输入你的选择: ")
+        if user_input in ['1', '2', '3', 'q']:
+            break
+        else:
+            print("输入有误，请重新输入")
+    return user_input
+
+def main():
+    
+    # TODO: 日志记录
+    # logger("程序启动")
+
+    while True:
+        try:
+            # TODO: 展示标题和菜单
+            # display_title_menu()
+            
+            # TODO: 只是临时实现，后续要改成调用真正的函数
+            user_input = get_user_input()
+            
+            if user_input == 'q':
+                # logger("程序退出")
+                break
+            elif user_input in ['1', '2', '3']:
+                # display_animal(user_input)
+                # logger(f"用户查看动物{user_input}")
+                pass
+        
+        except Exception as e:
+            # TODO: 记录错误日志
+            # logger(f"程序错误: {e}")
+            pass
+
+if __name__ == "__main__":
+    main()
+```
+
+接着，我们在 `tests/test_main.py` 中编写测试代码，对主程序进行测试：
+
+```python
+# 需要先添加项目路径到 sys.path 中
+import sys
+sys.path.append("codes/Module1/Topic13/Topic13_02/zoo_program_v1")
+sys.path.append("codes/Module1/Topic13/Topic13_02/zoo_program_v1/src")
+
+from src.main import main
+
+if __name__ == "__main__":
+    main()
+```
+
+```text
+请输入你的选择: 1
+请输入你的选择: 2
+请输入你的选择: 3
+请输入你的选择: 4
+输入有误，请重新输入
+请输入你的选择: q
+```
+
+看到这个运行结果，说明我们的主程序框架设计是正确的，程序可以正常启动和运行。
 
 ## 4. 各个功能实现
 
@@ -276,7 +396,6 @@ def main():
 
 - `animal2_cow.txt` 文件内容：
 
-
 ```text
     ^__^
     (oo)\_______
@@ -284,7 +403,6 @@ def main():
         ||----w |
         ||     ||
 ```
-
 
 - `animal3_horse.txt` 文件内容：
 
@@ -309,6 +427,7 @@ def main():
   < |    /__\                <  \
   /__\                       /___\
 ```
+
 
 接着我们来看一下 `display_animal(animal_id)` 函数的代码实现，这部分我们放在 `src/animal_viewer.py` 模块中：
 
@@ -373,14 +492,14 @@ FileNotFoundError: No such file or directory: 'data/animal1_camel.txt'
 
 为什么会报这个错呢？这是因为我们当前的工作目录是 `src/`，而数据文件在 `data/` 文件夹中，因此我们需要调整文件路径：
 
-- 正确的相对路径应该是 `Topic13/zoo_program_v1/data/animal1_camel.txt`，这样才能从 `src/` 目录访问到 `data/` 目录中的文件
+- 正确的相对路径应该是 `codes/Module1/Topic13/zoo_program_v1/data/animal1_camel.txt`，这样才能从 `src/` 目录访问到 `data/` 目录中的文件
 - 但是我们如果每个文件都这样写路径，代码会变得很冗长
-- 所以我们可以直接把前缀 `Topic13/zoo_program_v1/` 放在 `config.py` 模块中，作为一个全局变量 `PATH_PREFIX`，然后在其他模块中导入使用
+- 所以我们可以直接把前缀 `codes/Module1/Topic13/zoo_program_v1/` 放在 `config.py` 模块中，作为一个全局变量 `PATH_PREFIX`，然后在其他模块中导入使用
 
 我们在 `config.py` 模块中加入如下设置：
 
 ```python
-PATH_PREFIX = "Topic13/zoo_program_v1/"
+PATH_PREFIX = "codes/Module1/Topic13/zoo_program_v1/"
 ```
 
 我们修改 `animal_viewer.py` 模块中的文件路径代码：
@@ -440,8 +559,71 @@ if __name__ == "__main__":
 输入任意内容退回到菜单
 ```
 
+此外，我们还可以在 `animal_viewer.py` 对应的测试文件 `tests/test_animal_viewer.py` 中编写测试代码：
 
+```python
+# 需要先添加项目路径到 sys.path 中
+import sys
+sys.path.append("codes/Module1/Topic13/Topic13_02/zoo_program_v1")
+sys.path.append("codes/Module1/Topic13/Topic13_02/zoo_program_v1/src")
 
+from src.animal_viewer import display_animal
+
+if __name__ == "__main__":
+    display_animal("1")
+    display_animal("2")
+    display_animal("3")
+```
+
+```text
+请看，这是一头骆驼：
+        _
+    .--' |
+   /___^ |     .--.
+       ) |    /    \
+      /  |  /`      '.
+     |   '-'    /     \
+     \         |      |\
+      \    /   \      /\|
+       \  /'----`\   /
+       |||       \\ |
+       ((|        ((|
+       |||        |||
+      //_(       //_(
+输入任意内容退回到菜单
+请看，这是一头牛：
+    ^__^
+    (oo)\_______
+    (__)\       )\/\
+        ||----w |
+        ||     ||
+输入任意内容退回到菜单
+请看，这是一头马：
+                                 |\    /|
+                              ___| \,,/_/
+                           ---__/ \/    \
+                          __--/    (D)(D)\
+                          _ -/    (_      \
+                         // /       \_ /  -\
+   __-------_____--___--/           / \_ O o)
+  /                                 /   \__/
+ /                                 /
+||          )                   \_/\
+||         /              _      /  |
+| |      /--______      ___\    /\  :
+| /   __-  - _/   ------    |  |   \ \
+ |   -  -   /                | |     \ )
+ |  |   -  |                 | )     | |
+  | |    | |                 | |    | |
+  | |    < |                 | |   |_/
+  < |    /__\                <  \
+  /__\                       /___\
+输入任意内容退回到菜单
+
+通过 `test_main.py` 和 `test_animal_viewer.py` 这两个测试文件，我们体验了一下使用单独测试文件来验证程序功能的过程
+
+- 但是，由于我们这个程序比较简单，测试代码也比较少，使用单独的测试文件显得有些多余
+- 所以我们只是让大家知道有这个方法，以后接触到复杂的项目时，我们就可以使用这种方法来进行测试
 
 ### (2) 展示标题和菜单函数设计
 
@@ -684,3 +866,183 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+此时的主程序是可以完整运行的，但是其实我们又发现了一个“硬编码”的问题：
+
+- 就是判断用户输入是否在 `['1', '2', '3']` 这个列表中
+- 我们按照之前的做法，也可以使用 `animal_info` 字典来动态生成有效输入列表
+- 改进后的代码如下：
+
+```python
+from ui import display_title_menu
+from input_handler import get_user_input
+from animal_viewer import display_animal, animal_info
+from logger import logger
+
+def main():
+    
+    logger("程序启动")
+
+    while True:
+        try:
+            display_title_menu()
+            
+            user_input = get_user_input()
+            
+            if user_input == 'q':
+                logger("程序退出")
+                break
+            elif user_input in list(animal_info.keys()):
+                display_animal(user_input)
+                logger(f"用户查看动物{user_input}")
+        
+        except Exception as e:
+            logger(f"程序错误: {e}")
+            print("程序出现错误，请稍后再试。")
+
+if __name__ == "__main__":
+    main()
+```
+
+我们再运行一下 `main.py` 主程序，或者在 `test/test_main.py`看看效果如何：
+
+```text
+*****************************
+*       欢迎来到动物园      *
+*****************************
+请选择你想查看的动物：
+1. 查看骆驼
+2. 查看牛
+3. 查看马
+q. 退出
+请输入您的选择: 1
+请看，这是一头骆驼：
+        _
+    .--' |
+   /___^ |     .--.
+       ) |    /    \
+      /  |  /`      '.
+     |   '-'    /     \
+     \         |      |\
+      \    /   \      /\|
+       \  /'----`\   /
+       |||       \\ |
+       ((|        ((|
+       |||        |||
+      //_(       //_(
+输入任意内容退回到菜单
+*****************************
+*       欢迎来到动物园      *
+*****************************
+请选择你想查看的动物：
+1. 查看骆驼
+2. 查看牛
+3. 查看马
+q. 退出
+请输入您的选择: 2
+请看，这是一头牛：
+    ^__^
+    (oo)\_______
+    (__)\       )\/\
+        ||----w |
+        ||     ||
+输入任意内容退回到菜单
+*****************************
+*       欢迎来到动物园      *
+*****************************
+请选择你想查看的动物：
+1. 查看骆驼
+2. 查看牛
+3. 查看马
+q. 退出
+请输入您的选择: 3
+请看，这是一头马：
+                                 |\    /|
+                              ___| \,,/_/
+                           ---__/ \/    \
+                          __--/    (D)(D)\
+                          _ -/    (_      \
+                         // /       \_ /  -\
+   __-------_____--___--/           / \_ O o)
+  /                                 /   \__/
+ /                                 /
+||          )                   \_/\
+||         /              _      /  |
+| |      /--______      ___\    /\  :
+| /   __-  - _/   ------    |  |   \ \
+ |   -  -   /                | |     \ )
+ |  |   -  |                 | )     | |
+  | |    | |                 | |    | |
+  | |    < |                 | |   |_/
+  < |    /__\                <  \
+  /__\                       /___\
+输入任意内容退回到菜单
+*****************************
+*       欢迎来到动物园      *
+*****************************
+请选择你想查看的动物：
+1. 查看骆驼
+2. 查看牛
+3. 查看马
+q. 退出
+请输入您的选择: q
+感谢使用动物园程序，再见！
+```
+
+此时，程序已经可以完整运行，并且各个功能模块也都实现了，我们可以查看一下日志文件 `logs/zoo.log` 的内容：
+
+```text
+时间：2025-11-07 00:17:49
+消息：程序启动
+
+时间：2025-11-07 00:17:52
+消息：用户查看动物1
+
+时间：2025-11-07 00:17:54
+消息：用户查看动物2
+
+时间：2025-11-07 00:17:56
+消息：用户查看动物3
+
+时间：2025-11-07 00:17:57
+消息：程序退出
+```
+
+## 6. 编写 README 文件
+
+到此为止，我们的动物园程序已经开发完成，我们还剩下一个 `requirements.txt` 文件和一个 `README.md` 文件需要编写。
+
+- 由于我们的程序没有使用任何第三方库，因此 `requirements.txt` 文件可以为空。
+- 所以我们只需要再编写一个 `README.md` 文件，介绍程序的功能和使用方法即可
+
+`README.md` 文件是一个 Markdown 格式的文本文件，主要用于介绍项目的基本信息、功能特点、使用方法等
+
+- 对于一个项目的 `README.md` 文件，需要包括哪些内容，要具体到什么程度，其实是没有通俗的标准的
+- 我们这里给出一个比较简单的示例，大家可以根据自己的需要进行修改和完善
+
+本项目的 `README.md` 文件内容如下：
+
+```markdown
+# 动物园程序
+
+## 项目介绍
+
+该项目是一个简单的动物展示系统，主要用于展示动物和日志记录。
+
+## 功能特点
+
+- 查看动物的 ASCII 艺术字，包括骆驼、牛和马
+- 记录用户操作日志
+
+## 使用方法
+
+1. 克隆项目到本地
+2. 运行 `main.py` 文件，或在终端中执行 `python src/main.py`
+3. 按照提示进行操作
+```
+
+## 7. 小结
+
+到此为止，我们已经完成了动物园程序的开发工作，带着大家完整地体验了一遍 Python 程序开发的基本流程和实践方法。
+
+下一节，我们讲体验一下项目开发的版本迭代，根据新的需求和出现的新的问题，对程序进行改进和优化。
