@@ -200,3 +200,13 @@
 # jupyter nbconvert --to markdown codes/Module2/Topic02/Topic02_03/Topic02_03.ipynb --output-dir docs/Module2/Topic02/Topic02_03 --output Topic02_03
 #### Topic 02.04
 # jupyter nbconvert --to markdown codes/Module2/Topic02/Topic02_04/Topic02_04.ipynb --output-dir docs/Module2/Topic02/Topic02_04 --output Topic02_04
+
+### Topic 03
+#### Topic 03.00
+# jupyter nbconvert --to markdown codes/Module2/Topic03/Topic03_00/Topic03_00.ipynb --output-dir docs/Module2/Topic03/Topic03_00 --output Topic03_00
+#### Topic 03.01
+# jupyter nbconvert --to markdown codes/Module2/Topic03/Topic03_01/Topic03_01.ipynb --output-dir docs/Module2/Topic03/Topic03_01 --output Topic03_01
+#### Topic 03.02
+# jupyter nbconvert --to markdown codes/Module2/Topic03/Topic03_02/Topic03_02.ipynb --output-dir docs/Module2/Topic03/Topic03_02 --output Topic03_02
+#### Topic 03.03
+# jupyter nbconvert --to markdown codes/Module2/Topic03/Topic03_03/Topic03_03.ipynb --output-dir docs/Module2/Topic03/Topic03_03 --output Topic03_03

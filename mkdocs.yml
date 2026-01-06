@@ -158,11 +158,11 @@ nav:
       - ☑️ Topic 2.2 - 类继承的进阶用法:            Module2/Topic02/Topic02_02/Topic02_02.md
       - ☑️ Topic 2.3 - 类对象:                    Module2/Topic02/Topic02_03/Topic02_03.md
       - ☑️ Topic 2.4 - 单例:                      Module2/Topic02/Topic02_04/Topic02_04.md
-    # - Topic 3 - Python 面向对象的程序开发方式（补充）:
-    #   - ☑️ Topic 3.0 - 章节概览:                    Module2/Topic03/Topic03_00/Topic03_00.md
-    #   - ☑️ Topic 3.1 - 面向对象程序开发简介:       Module2/Topic03/Topic03_01/Topic03_01.md
-    #   - ☑️ Topic 3.2 - 面向对象程序开发流程:       Module2/Topic03/Topic03_02/Topic03_02.md
-    #   - ☑️ Topic 3.3 - 面向对象程序开发实例:       Module2/Topic03/Topic03_03/Topic03_03.md
+    - Topic 3 - Python 面向对象的程序开发方式（补充）:
+      - ✴️ Topic 3 章节概览:                                   Module2/Topic03/Topic03_00/Topic03_00.md
+      - ☑️ Topic 3.1 - Python 面向对象的程序开发概览:                Module2/Topic03/Topic03_01/Topic03_01.md
+      - ☑️ Topic 3.2 - Python 面向对象程序 - 石头剪刀布程序开发:       Module2/Topic03/Topic03_02/Topic03_02.md
+      - ☑️ Topic 3.3 - Python 面向对象程序 - 石头剪刀布程序改进:       Module2/Topic03/Topic03_03/Topic03_03.md
     # - Topic 4 - 勇士与地下城项目 - Python 面向对象结课项目（补充）:
     #   - ☑️ Topic 4.0 - 章节概览:                    Module2/Topic03/Topic03_00/Topic03_00.md
     #   - ☑️ Topic 4.1 - 项目需求分析与主程序框架搭建: Module2/Topic03/Topic03_01/Topic03_01.md
