@@ -92,11 +92,9 @@ tom = Cat(color="gray", name="Tom")
 kitty = Cat("white", "Kitty")
 ```
 
-这时，我们可以先查看一下 `tom` 和 `kitty` 这两个对象的类型，使用我们熟悉的 `type()` 函数：
+这时，我们可以验证一下，`tom` 和 `kitty` 这两个对象，确实是 `Cat` 类的实例：
 
-- 可以看到，这两个对象的类型都是我们自定义的 `Cat`
-- 说明它们都是 `Cat` 类的实例对象
-
+- 首先，我们可以使用我们熟悉的 `type()` 函数，查看一下 `tom` 和 `kitty` 这两个对象的类型：
 
 
 ```python
@@ -107,6 +105,20 @@ print(type(kitty))
     <class '__main__.Cat'>
     <class '__main__.Cat'>
 
+
+- 同时，我们还可以使用我们熟悉的 `isinstance()` 函数来检查 `tom` 和 `kitty` 是否是 `Cat` 类的实例：
+
+
+```python
+print(isinstance(tom, Cat))
+print(isinstance(kitty, Cat))
+```
+
+    True
+    True
+
+
+- 调用我们熟悉的 `type()` 函数和 `isinstance()` 函数，可以看到 `tom` 和 `kitty` 确实是 `Cat` 类的实例对象，说明我们已经成功地在 Python 中创建了一个自定义的类别
 
 #### (b) 调用对象的属性
 
@@ -521,7 +533,7 @@ else:
     print(f"{ball2}吃掉了{ball1}！")
 ```
 
-    红球吃掉了蓝球！
+    蓝球吃掉了红球！
 
 
 ### (3) 口袋妖怪打架

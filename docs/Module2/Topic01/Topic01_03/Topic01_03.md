@@ -13,7 +13,7 @@
 
 ```python
 class 子类名(父类名):
-    # 子类的属性和方法
+    子类的属性和方法
 ```
 
 例如，我们可以定义一个 `Animal` 类，然后创建一个 `Dog` 类继承自 `Animal`：
@@ -339,6 +339,35 @@ mickey.run()
 
 - 父类的方法怎么定义的，子类调用时就怎么执行
 - 如果有参数，调用时就得传递参数；如果有返回值，调用时就得用变量接收返回值
+
+这里要注意，`super()` 函数并不限于在同名的父类方法中使用：
+
+- `super().父类方法()` 这种形式其实就是调用方法而已，方法是在哪里都可以调用的
+- 所以，`super()` 可以在子类的任何方法中使用
+- 我们来看一个例子，在以下例子中，`Dog` 继承自 `Animal` 类，并在自己的 `bark` 方法中使用了 `super()` 函数来调用父类的 `intro` 方法：
+
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    def intro(self):
+        print("我是一个动物。")
+    def make_sound(self):
+        print("动物会发出声音。")
+
+class Dog(Animal):
+    def bark(self):
+        super().intro()
+        print("汪汪！") 
+
+goofy = Dog("高飞")
+goofy.bark()
+```
+
+    我是一个动物。
+    汪汪！
+
 
 ## 3. 继承与多态综合练习
 
