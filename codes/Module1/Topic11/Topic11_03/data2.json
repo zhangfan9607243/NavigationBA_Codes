@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Charlie",
+        "age": 28,
+        "is_student": false,
+        "courses": [
+            "Physics",
+            "Chemistry"
+        ],
+        "address": {
+            "street": "789 C St",
+            "city": "City C"
+        }
+    },
+    {
+        "name": "Diana",
+        "age": 22,
+        "is_student": true,
+        "courses": [
+            "Biology",
+            "Geography"
+        ],
+        "address": {
+            "street": "101 D St",
+            "city": "City D"
+        }
+    }
+]

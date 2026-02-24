@@ -1,0 +1,3 @@
+name,age,is_student,courses,address_street,address_city
+Charlie,28,False,Physics;Chemistry,789 C St,City C
+Diana,22,True,Biology;Geography,101 D St,City D

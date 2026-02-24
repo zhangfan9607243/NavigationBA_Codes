@@ -1,0 +1,22 @@
+[
+    {
+        "name": "eve",
+        "age": 29,
+        "is_student": false,
+        "courses": ["Philosophy", "Economics"],
+        "address": {
+            "street": "202 E St",
+            "city": "City E"
+        }
+    },
+    {
+        "name": "Frank",
+        "age": 24,
+        "is_student": true,
+        "courses": ["Sociology", "Psychology"],
+        "address": {
+            "street": "303 F St",
+            "city": "City F"
+        }
+    }
+]

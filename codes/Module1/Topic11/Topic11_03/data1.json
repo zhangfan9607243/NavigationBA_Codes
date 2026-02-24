@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Alice",
+        "age": 30,
+        "is_student": false,
+        "courses": ["Math", "Science", "Art"],
+        "address": {
+            "street": "123 A St",
+            "city": "City A"
+        }
+    },
+    {
+        "name": "Bob",
+        "age": 25,
+        "is_student": true,
+        "courses": ["History", "Literature"],
+        "address": {
+            "street": "456 B St",
+            "city": "City B"
+        }
+    }
+]

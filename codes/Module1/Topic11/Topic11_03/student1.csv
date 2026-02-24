@@ -1,0 +1,3 @@
+name,age,is_student,courses,address_street,address_city
+Alice,30,False,"Math;Science;Art","123 A St","City A"
+Bob,25,True,"History;Literature","456 B St","City B"

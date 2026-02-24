@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date": "2024-01-01",
+    "category": "A",
+    "value": 12.5,
+    "status": "ok"
+  },
+  {
+    "id": 2,
+    "date": "2024-01-01",
+    "category": "B",
+    "value": 9.8,
+    "status": "ok"
+  },
+  {
+    "id": 3,
+    "date": "2024-01-02",
+    "category": "A",
+    "value": 15.2,
+    "status": "warning"
+  },
+  {
+    "id": 4,
+    "date": "2024-01-02",
+    "category": "C",
+    "value": 7.1,
+    "status": "ok"
+  },
+  {
+    "id": 5,
+    "date": "2024-01-03",
+    "category": "B",
+    "value": 11.4,
+    "status": "error"
+  }
+]
