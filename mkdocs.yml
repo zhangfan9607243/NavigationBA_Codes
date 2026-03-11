@@ -1,9 +1,9 @@
 site_name: 领航国际教育 - BA专业代码课程
 site_description: 领航国际教育 - BA专业代码课程
-site_url: https://zhangfan9607243.github.io/NavigationBA_Python/
+site_url: https://zhangfan9607243.github.io/NavigationBA_Codes/
 site_dir: site
 edit_uri: edit/main/docs/
-repo_url: https://github.com/zhangfan9607243/NavigationBA_Python/
+repo_url: https://github.com/zhangfan9607243/NavigationBA_Codes/
 repo_name: GitHub
 
 theme:
@@ -211,4 +211,5 @@ nav:
       - ✅ Topic 2.2 - WHERE 条件过滤:                          Module4/Topic02/Topic02_02/Topic02_02.md
       - ✅ Topic 2.3 - ORDER BY 语句数据排序与 TOP 结果限制:      Module4/Topic02/Topic02_03/Topic02_03.md
       - ✅ Topic 2.4 - SELECT 语句中的进阶数据运算:               Module4/Topic02/Topic02_04/Topic02_04.md
+      - ✅ Topic 2.5 - GROUP BY 与数据集合运算:                  Module4/Topic02/Topic02_05/Topic02_05.md
     

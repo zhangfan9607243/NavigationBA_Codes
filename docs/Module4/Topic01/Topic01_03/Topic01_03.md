@@ -13,7 +13,7 @@
 - Chinook 数据库的 ERD 如下所示：
 
 <div style="text-align: center;">
-    <img src="./Chinook ERD.png" style="width: 900px; height: auto;">
+    <img src="../Chinook ERD.png" style="width: 900px; height: auto;">
 </div>
 
 ## 2. 连接并测试 Chinook 数据库
@@ -25,17 +25,17 @@
 - 安装完成后，我们在 VS Code 的左侧活动栏中会看到一个新的 SQL Server 图标，长得像一个冰箱，点击它进入 SQL Server 插件的界面
 
 <div style="text-align: center;">
-    <img src="./安装1.png" style="width: 800px; height: auto;">
+    <img src="../安装1.png" style="width: 800px; height: auto;">
 </div>
 
 - 在 SQL Server 插件界面中，我们点击左上角的加号 "New Connection" 来创建一个新的数据库连接
 
 <div style="text-align: center;">
-    <img src="./安装2.png" style="width: 800px; height: auto;">
+    <img src="../安装2.png" style="width: 800px; height: auto;">
 </div>
 
 <div style="text-align: center;">
-    <img src="./安装3.png" style="width: 800px; height: auto;">
+    <img src="../安装3.png" style="width: 800px; height: auto;">
 </div>
 
 - 在弹出的连接配置界面中，我们按照之前提供的连接信息填写相关字段：
@@ -51,13 +51,13 @@ User Name: student
 Password: Navigation666!
 Save Password: Yes
 Database Name: Chinook
-Encrypt: Yes
+Encrypt: Mandatory
 ```
 
 - 填写完成后，我们点击 "Connect" 来连接数据库，如果连接成功，你会在 SQL Server 插件的左侧看到一个新的连接项，显示为 "Chinook"（或者你之前设置的 Profile Name）
 
 <div style="text-align: center;">
-    <img src="./安装4.png" style="width: 800px; height: auto;">
+    <img src="../安装4.png" style="width: 800px; height: auto;">
 </div>
 
 ## 3. 测试连接是否成功
@@ -69,11 +69,11 @@ Encrypt: Yes
 - 之后，我们点击右上角的 "Connect" 按钮，选择我们之前创建的 "Chinook" 连接，这样就把这个 SQL 文件和 Chinook 数据库连接起来了
 
 <div style="text-align: center;">
-    <img src="./安装5.png" style="width: 800px; height: auto;">
+    <img src="../安装5.png" style="width: 800px; height: auto;">
 </div>
 
 <div style="text-align: center;">
-    <img src="./安装6.png" style="width: 800px; height: auto;">
+    <img src="../安装6.png" style="width: 800px; height: auto;">
 </div>
 
 - 之后，我们在 test.sql 文件中输入以下 SQL 查询语句（注意，SQL 文件中每一条 SQL 语句都需要以分号（`;`）结尾）：
@@ -86,7 +86,7 @@ FROM Artist;
 - 要想运行这一段 SQL 代码，我们需要选中这段代码，然后点击右上角的 "Run Query" 按钮，运行成功后，你会在下方的结果窗口看到 Artist 表中的前 10 条记录，这就说明我们已经成功连接并查询了 Chinook 数据库
 
 <div style="text-align: center;">
-    <img src="./安装7.png" style="width: 800px; height: auto;">
+    <img src="../安装7.png" style="width: 800px; height: auto;">
 </div>
 
 在之后的课程中，我们将使用这个数据库来练习各种 SQL 技能，大家之后的课程中，一定要确保**数据库在线**：

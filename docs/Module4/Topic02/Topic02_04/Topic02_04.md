@@ -88,162 +88,22 @@ FROM Track
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>UnitPrice</th>
-      <th>SqrtUnitPrice</th>
-      <th>LogUnitPrice</th>
-      <th>ExpUnitPrice</th>
-      <th>RoundedUnitPrice</th>
-      <th>CeilingUnitPrice</th>
-      <th>FloorUnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 8 columns</p>
-</div>
-
+```
+|      | TrackId | UnitPrice | SqrtUnitPrice | LogUnitPrice | ExpUnitPrice | RoundedUnitPrice | CeilingUnitPrice | FloorUnitPrice |
+|:-----|:--------|:----------|:--------------|:-------------|:-------------|:-----------------|:-----------------|:---------------|
+| 0    | 1       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 1    | 2       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 2    | 3       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 3    | 4       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 4    | 5       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 5    | 6       | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| ...  | ...     | ...       | ...           | ...          | ...          | ...              | ...              | ...            |
+| 3498 | 3499    | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 3499 | 3500    | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 3500 | 3501    | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 3501 | 3502    | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+| 3502 | 3503    | 0.99      | 0.994987      | -0.01005     | 2.691234     | 1.0              | 1                | 0              |
+```
 
 
 ### (3) 条件计算
@@ -297,104 +157,21 @@ SELECT
 FROM Track
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>UnitPrice</th>
-      <th>PriceLevel</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.99</td>
-      <td>Cheap</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 3 columns</p>
-</div>
-
+```
+|      | TrackId | UnitPrice | PriceLevel |
+|:-----|:--------|:----------|:-----------|
+| 0    | 1       | 0.99      | Cheap      |
+| 1    | 2       | 0.99      | Cheap      |
+| 2    | 3       | 0.99      | Cheap      |
+| 3    | 4       | 0.99      | Cheap      |
+| 4    | 5       | 0.99      | Cheap      |
+| 5    | 6       | 0.99      | Cheap      |
+| ...  | ...     | ...       | ...        |
+| 3499 | 3500    | 0.99      | Cheap      |
+| 3500 | 3501    | 0.99      | Cheap      |
+| 3501 | 3502    | 0.99      | Cheap      |
+| 3502 | 3503    | 0.99      | Cheap      |
+```
 
 
 - 查询 `Invoice` 表并创建一个新字段 `IsEnglishSpeakingCountry`，如果 BillingCountry 在 "USA"、"Canada"、"Australia"、"UK"、"New Zealand" 这五个国家中，那么这个新字段的值就是 1，否则就是 0：
@@ -414,101 +191,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>BillingCountry</th>
-      <th>IsEnglishSpeakingCountry</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Germany</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Norway</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Belgium</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Canada</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>USA</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>USA</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>Canada</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>Portugal</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>Finland</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>India</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 3 columns</p>
-</div>
+```
+|     | InvoiceId | BillingCountry | IsEnglishSpeakingCountry |
+|:----|:----------|:---------------|:-------------------------|
+| 0   | 1         | Germany        | 0                        |
+| 1   | 2         | Norway         | 0                        |
+| 2   | 3         | Belgium        | 0                        |
+| 3   | 4         | Canada         | 1                        |
+| 4   | 5         | USA            | 1                        |
+| 5   | 6         | Germany        | 0                        |
+| ... | ...       | ...            | ...                      |
+| 407 | 408       | USA            | 1                        |
+| 408 | 409       | Canada         | 1                        |
+| 409 | 410       | Portugal       | 0                        |
+| 410 | 411       | Finland        | 0                        |
+| 411 | 412       | India          | 0                        |
+```
 
 
 
@@ -530,101 +228,22 @@ FROM Track
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Milliseconds</th>
-      <th>TrackType</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>343719</td>
-      <td>Long</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>342562</td>
-      <td>Long</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>230619</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>252051</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>375418</td>
-      <td>Long</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>286741</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>139200</td>
-      <td>Short</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>66639</td>
-      <td>Short</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>221331</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>206005</td>
-      <td>Medium</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 3 columns</p>
-</div>
+```
+|      | TrackId | Milliseconds | TrackType |
+|:-----|:--------|:-------------|:----------|
+| 0    | 1       | 343719       | Long      |
+| 1    | 2       | 342562       | Long      |
+| 2    | 3       | 230619       | Medium    |
+| 3    | 4       | 252051       | Medium    |
+| 4    | 5       | 375418       | Long      |
+| 5    | 6       | 205662       | Medium    |
+| ...  | ...     | ...          | ...       |
+| 3498 | 3499    | 286741       | Medium    |
+| 3499 | 3500    | 139200       | Short     |
+| 3500 | 3501    | 66639        | Short     |
+| 3501 | 3502    | 221331       | Medium    |
+| 3502 | 3503    | 206005       | Medium    |
+```
 
 
 
@@ -649,91 +268,18 @@ FROM Employee
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>FirstName</th>
-      <th>LastName</th>
-      <th>FirstNameLength</th>
-      <th>LastNameLength</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Andrew</td>
-      <td>Adams</td>
-      <td>6</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Nancy</td>
-      <td>Edwards</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Jane</td>
-      <td>Peacock</td>
-      <td>4</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Margaret</td>
-      <td>Park</td>
-      <td>8</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Steve</td>
-      <td>Johnson</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Michael</td>
-      <td>Mitchell</td>
-      <td>7</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Robert</td>
-      <td>King</td>
-      <td>6</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Laura</td>
-      <td>Callahan</td>
-      <td>5</td>
-      <td>8</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | FirstName | LastName  | FirstNameLength | LastNameLength |
+|:---|:----------|:----------|:----------------|:---------------|
+| 0  | Andrew    | Adams     | 6               | 5              |
+| 1  | Nancy     | Edwards   | 5               | 7              |
+| 2  | Jane      | Peacock   | 4               | 7              |
+| 3  | Margaret  | Park      | 8               | 4              |
+| 4  | Steve     | Johnson   | 5               | 7              |
+| 5  | Michael   | Mitchell  | 7               | 8              |
+| 6  | Robert    | King      | 6               | 4              |
+| 7  | Laura     | Callahan  | 5               | 8              |
+```
 
 
 
@@ -768,101 +314,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>BillingPostalCode</th>
-      <th>PostalCodePrefix</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>70174</td>
-      <td>701</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0171</td>
-      <td>017</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>1000</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>T6G 2C7</td>
-      <td>T6G</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2113</td>
-      <td>211</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>53703</td>
-      <td>537</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>M6J 1V1</td>
-      <td>M6J</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>00530</td>
-      <td>005</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>110017</td>
-      <td>110</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 3 columns</p>
-</div>
+```
+|     | InvoiceId | BillingPostalCode | PostalCodePrefix |
+|:----|:----------|:------------------|:-----------------|
+| 0   | 1         | 70174             | 701              |
+| 1   | 2         | 0171              | 017              |
+| 2   | 3         | 1000              | 100              |
+| 3   | 4         | T6G 2C7           | T6G              |
+| 4   | 5         | 2113              | 211              |
+| 5   | 6         | 60316             | 603              |
+| ... | ...       | ...               | ...              |
+| 407 | 408       | 53703             | 537              |
+| 408 | 409       | M6J 1V1           | M6J              |
+| 409 | 410       | NaN               | NaN              |
+| 410 | 411       | 00530             | 005              |
+| 411 | 412       | 110017            | 110              |
+```
 
 
 
@@ -880,388 +347,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Company</th>
-      <th>CompanySuffix</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Embraer - Empresa Brasileira de Aeronáutica S.A.</td>
-      <td>S.A.</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>JetBrains s.r.o.</td>
-      <td>r.o.</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>Woodstock Discos</td>
-      <td>scos</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>Banco do Brasil S.A.</td>
-      <td>S.A.</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>Riotur</td>
-      <td>otur</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>Telus</td>
-      <td>elus</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>Rogers Canada</td>
-      <td>nada</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>Google Inc.</td>
-      <td>Inc.</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>Microsoft Corporation</td>
-      <td>tion</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>Apple Inc.</td>
-      <td>Inc.</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Company                                          | CompanySuffix |
+|:----|:-----------|:-------------------------------------------------|:--------------|
+| 0   | 1          | Embraer - Empresa Brasileira de Aeronáutica S.A. | S.A.          |
+| 1   | 2          | NaN                                              | NaN           |
+| 2   | 3          | NaN                                              | NaN           |
+| 3   | 4          | NaN                                              | NaN           |
+| 4   | 5          | JetBrains s.r.o.                                 | r.o.          |
+| 5   | 6          | NaN                                              | NaN           |
+| ... | ...        | ...                                              | ...           |
+| 54  | 55         | NaN                                              | NaN           |
+| 55  | 56         | NaN                                              | NaN           |
+| 56  | 57         | NaN                                              | NaN           |
+| 57  | 58         | NaN                                              | NaN           |
+| 58  | 59         | NaN                                              | NaN           |
+```
 
 
 
@@ -1279,101 +380,22 @@ FROM Artist
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ArtistId</th>
-      <th>Name</th>
-      <th>NameSubstring</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>AC/DC</td>
-      <td>C/D</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Accept</td>
-      <td>cce</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Aerosmith</td>
-      <td>ero</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Alanis Morissette</td>
-      <td>lan</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Alice In Chains</td>
-      <td>lic</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>270</th>
-      <td>271</td>
-      <td>Mela Tenenbaum, Pro Musica Prague &amp; Richard Kapp</td>
-      <td>ela</td>
-    </tr>
-    <tr>
-      <th>271</th>
-      <td>272</td>
-      <td>Emerson String Quartet</td>
-      <td>mer</td>
-    </tr>
-    <tr>
-      <th>272</th>
-      <td>273</td>
-      <td>C. Monteverdi, Nigel Rogers - Chiaroscuro; Lon...</td>
-      <td>. M</td>
-    </tr>
-    <tr>
-      <th>273</th>
-      <td>274</td>
-      <td>Nash Ensemble</td>
-      <td>ash</td>
-    </tr>
-    <tr>
-      <th>274</th>
-      <td>275</td>
-      <td>Philip Glass Ensemble</td>
-      <td>hil</td>
-    </tr>
-  </tbody>
-</table>
-<p>275 rows × 3 columns</p>
-</div>
+```
+|     | ArtistId | Name                                                                               | NameSubstring |
+|:----|:---------|:-----------------------------------------------------------------------------------|:--------------|
+| 0   | 1        | AC/DC                                                                              | C/D           |
+| 1   | 2        | Accept                                                                             | cce           |
+| 2   | 3        | Aerosmith                                                                          | ero           |
+| 3   | 4        | Alanis Morissette                                                                  | lan           |
+| 4   | 5        | Alice In Chains                                                                    | lic           |
+| 5   | 6        | Antônio Carlos Jobim                                                               | ntô           |
+| ... | ...      | ...                                                                                | ...           |
+| 270 | 271      | Mela Tenenbaum, Pro Musica Prague & Richard Kapp                                   | ela           |
+| 271 | 272      | Emerson String Quartet                                                             | mer           |
+| 272 | 273      | C. Monteverdi, Nigel Rogers - Chiaroscuro; London Baroque; London Cornett & Sackbu | . M           |
+| 273 | 274      | Nash Ensemble                                                                      | ash           |
+| 274 | 275      | Philip Glass Ensemble                                                              | hil           |
+```
 
 
 
@@ -1402,388 +424,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>AtSymbolPosition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>16</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | AtSymbolPosition |
+|:----|:-----------|:--------------------------|:-----------------|
+| 0   | 1          | luisg@embraer.com.br      | 6                |
+| 1   | 2          | leonekohler@surfeu.de     | 12               |
+| 2   | 3          | ftremblay@gmail.com       | 10               |
+| 3   | 4          | bjorn.hansen@yahoo.no     | 13               |
+| 4   | 5          | frantisekw@jetbrains.com  | 11               |
+| 5   | 6          | hholy@gmail.com           | 6                |
+| ... | ...        | ...                       | ...              |
+| 54  | 55         | mark.taylor@yahoo.au      | 12               |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | 16               |
+| 56  | 57         | luisrojas@yahoo.cl        | 10               |
+| 57  | 58         | manoj.pareek@rediff.com   | 13               |
+| 58  | 59         | puja\_srivastava@yahoo.in | 16               |
+```
 
 
 
@@ -1801,388 +457,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>GmailPosition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | GmailPosition |
+|:----|:-----------|:--------------------------|:--------------|
+| 0   | 1          | luisg@embraer.com.br      | 0             |
+| 1   | 2          | leonekohler@surfeu.de     | 0             |
+| 2   | 3          | ftremblay@gmail.com       | 10            |
+| 3   | 4          | bjorn.hansen@yahoo.no     | 0             |
+| 4   | 5          | frantisekw@jetbrains.com  | 0             |
+| 5   | 6          | hholy@gmail.com           | 6             |
+| ... | ...        | ...                       | ...           |
+| 54  | 55         | mark.taylor@yahoo.au      | 0             |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | 0             |
+| 56  | 57         | luisrojas@yahoo.cl        | 0             |
+| 57  | 58         | manoj.pareek@rediff.com   | 0             |
+| 58  | 59         | puja\_srivastava@yahoo.in | 0             |
+```
 
 
 
@@ -2200,388 +490,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>luisg</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>leonekohler</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>ftremblay</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>bjorn.hansen</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>frantisekw</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>hholy</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>astrid.gruber</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>daan_peeters</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>kara.nielsen</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>eduardo</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>alero</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>roberto.almeida</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>fernadaramos4</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>mphilips12</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>jenniferp</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>fharris</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>jacksmith</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>michelleb</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>tgoyer</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>dmiller</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>kachase</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>hleacock</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>johngordon22</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>fralston</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>vstevens</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>ricunningham</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>patrick.gray</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>jubarnett</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>robbrown</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>edfrancis</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>marthasilk</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>aaronmitchell</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ellie.sullivan</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>jfernandes</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>masampaio</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>hannah.schneider</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>fzimmermann</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>nschroder</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>camille.bernard</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>dominiquelefebvre</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>marc.dubois</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>wyatt.girard</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>isabelle_mercier</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>terhi.hamalainen</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>ladislav_kovacs</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>hughoreilly</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>lucas.mancini</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>johavanderberg</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>stanisław.wójcik</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>enrique_munoz</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>joakim.johansson</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>emma_jones</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>phil.hughes</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>steve.murray</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>mark.taylor</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>diego.gutierrez</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>luisrojas</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>manoj.pareek</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>puja_srivastava</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | Username         |
+|:----|:-----------|:--------------------------|:-----------------|
+| 0   | 1          | luisg@embraer.com.br      | luisg            |
+| 1   | 2          | leonekohler@surfeu.de     | leonekohler      |
+| 2   | 3          | ftremblay@gmail.com       | ftremblay        |
+| 3   | 4          | bjorn.hansen@yahoo.no     | bjorn.hansen     |
+| 4   | 5          | frantisekw@jetbrains.com  | frantisekw       |
+| 5   | 6          | hholy@gmail.com           | hholy            |
+| ... | ...        | ...                       | ...              |
+| 54  | 55         | mark.taylor@yahoo.au      | mark.taylor      |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | diego.gutierrez  |
+| 56  | 57         | luisrojas@yahoo.cl        | luisrojas        |
+| 57  | 58         | manoj.pareek@rediff.com   | manoj.pareek     |
+| 58  | 59         | puja\_srivastava@yahoo.in | puja\_srivastava |
+```
 
 
 
@@ -2625,388 +549,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>ComPosition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | ComPosition |
+|:----|:-----------|:--------------------------|:------------|
+| 0   | 1          | luisg@embraer.com.br      | 0           |
+| 1   | 2          | leonekohler@surfeu.de     | 0           |
+| 2   | 3          | ftremblay@gmail.com       | 17          |
+| 3   | 4          | bjorn.hansen@yahoo.no     | 0           |
+| 4   | 5          | frantisekw@jetbrains.com  | 22          |
+| 5   | 6          | hholy@gmail.com           | 13          |
+| ... | ...        | ...                       | ...         |
+| 54  | 55         | mark.taylor@yahoo.au      | 0           |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | 0           |
+| 56  | 57         | luisrojas@yahoo.cl        | 0           |
+| 57  | 58         | manoj.pareek@rediff.com   | 21          |
+| 58  | 59         | puja\_srivastava@yahoo.in | 0           |
+```
 
 
 
@@ -3025,448 +583,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>GmailPosition1</th>
-      <th>GmailPosition2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>11</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>7</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>11</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>12</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>19</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>13</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | GmailPosition1 | GmailPosition2 |
+|:----|:-----------|:--------------------------|:---------------|:---------------|
+| 0   | 1          | luisg@embraer.com.br      | 0              | 0              |
+| 1   | 2          | leonekohler@surfeu.de     | 0              | 0              |
+| 2   | 3          | ftremblay@gmail.com       | 11             | 11             |
+| 3   | 4          | bjorn.hansen@yahoo.no     | 0              | 0              |
+| 4   | 5          | frantisekw@jetbrains.com  | 0              | 0              |
+| 5   | 6          | hholy@gmail.com           | 7              | 7              |
+| ... | ...        | ...                       | ...            | ...            |
+| 54  | 55         | mark.taylor@yahoo.au      | 0              | 0              |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | 0              | 0              |
+| 56  | 57         | luisrojas@yahoo.cl        | 0              | 0              |
+| 57  | 58         | manoj.pareek@rediff.com   | 0              | 0              |
+| 58  | 59         | puja\_srivastava@yahoo.in | 0              | 0              |
+```
 
 
 
@@ -3496,91 +628,18 @@ FROM Employee
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>EmployeeID</th>
-      <th>FullNameV1</th>
-      <th>FullNameV2</th>
-      <th>FullNameV3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>General Manager Andrew Adams</td>
-      <td>General Manager Andrew Adams</td>
-      <td>General Manager Andrew Adams</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Sales Manager Nancy Edwards</td>
-      <td>Sales Manager Nancy Edwards</td>
-      <td>Sales Manager Nancy Edwards</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Sales Support Agent Jane Peacock</td>
-      <td>Sales Support Agent Jane Peacock</td>
-      <td>Sales Support Agent Jane Peacock</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Sales Support Agent Margaret Park</td>
-      <td>Sales Support Agent Margaret Park</td>
-      <td>Sales Support Agent Margaret Park</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Sales Support Agent Steve Johnson</td>
-      <td>Sales Support Agent Steve Johnson</td>
-      <td>Sales Support Agent Steve Johnson</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>IT Manager Michael Mitchell</td>
-      <td>IT Manager Michael Mitchell</td>
-      <td>IT Manager Michael Mitchell</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>IT Staff Robert King</td>
-      <td>IT Staff Robert King</td>
-      <td>IT Staff Robert King</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>IT Staff Laura Callahan</td>
-      <td>IT Staff Laura Callahan</td>
-      <td>IT Staff Laura Callahan</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | EmployeeID | FullNameV1                        | FullNameV2                        | FullNameV3                        |
+|:---|:-----------|:----------------------------------|:----------------------------------|:----------------------------------|
+| 0  | 1          | General Manager Andrew Adams      | General Manager Andrew Adams      | General Manager Andrew Adams      |
+| 1  | 2          | Sales Manager Nancy Edwards       | Sales Manager Nancy Edwards       | Sales Manager Nancy Edwards       |
+| 2  | 3          | Sales Support Agent Jane Peacock  | Sales Support Agent Jane Peacock  | Sales Support Agent Jane Peacock  |
+| 3  | 4          | Sales Support Agent Margaret Park | Sales Support Agent Margaret Park | Sales Support Agent Margaret Park |
+| 4  | 5          | Sales Support Agent Steve Johnson | Sales Support Agent Steve Johnson | Sales Support Agent Steve Johnson |
+| 5  | 6          | IT Manager Michael Mitchell       | IT Manager Michael Mitchell       | IT Manager Michael Mitchell       |
+| 6  | 7          | IT Staff Robert King              | IT Staff Robert King              | IT Staff Robert King              |
+| 7  | 8          | IT Staff Laura Callahan           | IT Staff Laura Callahan           | IT Staff Laura Callahan           |
+```
 
 
 
@@ -3618,808 +677,22 @@ FROM Customer
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>Email</th>
-      <th>UpperEmail</th>
-      <th>LowerEmail</th>
-      <th>LeftTrimmedEmail</th>
-      <th>RightTrimmedEmail</th>
-      <th>TrimmedEmail</th>
-      <th>ReplacedEmail</th>
-      <th>ReplicatedEmail</th>
-      <th>ReversedEmail</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>luisg@embraer.com.br</td>
-      <td>LUISG@EMBRAER.COM.BR</td>
-      <td>luisg@embraer.com.br</td>
-      <td>luisg@embraer.com.br</td>
-      <td>luisg@embraer.com.br</td>
-      <td>luisg@embraer.com.br</td>
-      <td>luisg[at]embraer.com.br</td>
-      <td>luisg@embraer.com.brluisg@embraer.com.br</td>
-      <td>rb.moc.rearbme@gsiul</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>LEONEKOHLER@SURFEU.DE</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>leonekohler@surfeu.de</td>
-      <td>leonekohler[at]surfeu.de</td>
-      <td>leonekohler@surfeu.deleonekohler@surfeu.de</td>
-      <td>ed.uefrus@relhokenoel</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>ftremblay@gmail.com</td>
-      <td>FTREMBLAY@GMAIL.COM</td>
-      <td>ftremblay@gmail.com</td>
-      <td>ftremblay@gmail.com</td>
-      <td>ftremblay@gmail.com</td>
-      <td>ftremblay@gmail.com</td>
-      <td>ftremblay[at]gmail.com</td>
-      <td>ftremblay@gmail.comftremblay@gmail.com</td>
-      <td>moc.liamg@yalbmertf</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>BJORN.HANSEN@YAHOO.NO</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>bjorn.hansen@yahoo.no</td>
-      <td>bjorn.hansen[at]yahoo.no</td>
-      <td>bjorn.hansen@yahoo.nobjorn.hansen@yahoo.no</td>
-      <td>on.oohay@nesnah.nrojb</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>FRANTISEKW@JETBRAINS.COM</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>frantisekw@jetbrains.com</td>
-      <td>frantisekw[at]jetbrains.com</td>
-      <td>frantisekw@jetbrains.comfrantisekw@jetbrains.com</td>
-      <td>moc.sniarbtej@wkesitnarf</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>hholy@gmail.com</td>
-      <td>HHOLY@GMAIL.COM</td>
-      <td>hholy@gmail.com</td>
-      <td>hholy@gmail.com</td>
-      <td>hholy@gmail.com</td>
-      <td>hholy@gmail.com</td>
-      <td>hholy[at]gmail.com</td>
-      <td>hholy@gmail.comhholy@gmail.com</td>
-      <td>moc.liamg@ylohh</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>ASTRID.GRUBER@APPLE.AT</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>astrid.gruber@apple.at</td>
-      <td>astrid.gruber[at]apple.at</td>
-      <td>astrid.gruber@apple.atastrid.gruber@apple.at</td>
-      <td>ta.elppa@reburg.dirtsa</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>daan_peeters@apple.be</td>
-      <td>DAAN_PEETERS@APPLE.BE</td>
-      <td>daan_peeters@apple.be</td>
-      <td>daan_peeters@apple.be</td>
-      <td>daan_peeters@apple.be</td>
-      <td>daan_peeters@apple.be</td>
-      <td>daan_peeters[at]apple.be</td>
-      <td>daan_peeters@apple.bedaan_peeters@apple.be</td>
-      <td>eb.elppa@sreteep_naad</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>KARA.NIELSEN@JUBII.DK</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>kara.nielsen@jubii.dk</td>
-      <td>kara.nielsen[at]jubii.dk</td>
-      <td>kara.nielsen@jubii.dkkara.nielsen@jubii.dk</td>
-      <td>kd.iibuj@neslein.arak</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>EDUARDO@WOODSTOCK.COM.BR</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>eduardo@woodstock.com.br</td>
-      <td>eduardo[at]woodstock.com.br</td>
-      <td>eduardo@woodstock.com.breduardo@woodstock.com.br</td>
-      <td>rb.moc.kcotsdoow@odraude</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>alero@uol.com.br</td>
-      <td>ALERO@UOL.COM.BR</td>
-      <td>alero@uol.com.br</td>
-      <td>alero@uol.com.br</td>
-      <td>alero@uol.com.br</td>
-      <td>alero@uol.com.br</td>
-      <td>alero[at]uol.com.br</td>
-      <td>alero@uol.com.bralero@uol.com.br</td>
-      <td>rb.moc.lou@orela</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>ROBERTO.ALMEIDA@RIOTUR.GOV.BR</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>roberto.almeida@riotur.gov.br</td>
-      <td>roberto.almeida[at]riotur.gov.br</td>
-      <td>roberto.almeida@riotur.gov.brroberto.almeida@r...</td>
-      <td>rb.vog.rutoir@adiemla.otrebor</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>FERNADARAMOS4@UOL.COM.BR</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>fernadaramos4@uol.com.br</td>
-      <td>fernadaramos4[at]uol.com.br</td>
-      <td>fernadaramos4@uol.com.brfernadaramos4@uol.com.br</td>
-      <td>rb.moc.lou@4somaradanref</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>MPHILIPS12@SHAW.CA</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>mphilips12@shaw.ca</td>
-      <td>mphilips12[at]shaw.ca</td>
-      <td>mphilips12@shaw.camphilips12@shaw.ca</td>
-      <td>ac.wahs@21spilihpm</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>JENNIFERP@ROGERS.CA</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>jenniferp@rogers.ca</td>
-      <td>jenniferp[at]rogers.ca</td>
-      <td>jenniferp@rogers.cajenniferp@rogers.ca</td>
-      <td>ac.sregor@prefinnej</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>fharris@google.com</td>
-      <td>FHARRIS@GOOGLE.COM</td>
-      <td>fharris@google.com</td>
-      <td>fharris@google.com</td>
-      <td>fharris@google.com</td>
-      <td>fharris@google.com</td>
-      <td>fharris[at]google.com</td>
-      <td>fharris@google.comfharris@google.com</td>
-      <td>moc.elgoog@sirrahf</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>JACKSMITH@MICROSOFT.COM</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>jacksmith@microsoft.com</td>
-      <td>jacksmith[at]microsoft.com</td>
-      <td>jacksmith@microsoft.comjacksmith@microsoft.com</td>
-      <td>moc.tfosorcim@htimskcaj</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>michelleb@aol.com</td>
-      <td>MICHELLEB@AOL.COM</td>
-      <td>michelleb@aol.com</td>
-      <td>michelleb@aol.com</td>
-      <td>michelleb@aol.com</td>
-      <td>michelleb@aol.com</td>
-      <td>michelleb[at]aol.com</td>
-      <td>michelleb@aol.commichelleb@aol.com</td>
-      <td>moc.loa@bellehcim</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>tgoyer@apple.com</td>
-      <td>TGOYER@APPLE.COM</td>
-      <td>tgoyer@apple.com</td>
-      <td>tgoyer@apple.com</td>
-      <td>tgoyer@apple.com</td>
-      <td>tgoyer@apple.com</td>
-      <td>tgoyer[at]apple.com</td>
-      <td>tgoyer@apple.comtgoyer@apple.com</td>
-      <td>moc.elppa@reyogt</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>dmiller@comcast.com</td>
-      <td>DMILLER@COMCAST.COM</td>
-      <td>dmiller@comcast.com</td>
-      <td>dmiller@comcast.com</td>
-      <td>dmiller@comcast.com</td>
-      <td>dmiller@comcast.com</td>
-      <td>dmiller[at]comcast.com</td>
-      <td>dmiller@comcast.comdmiller@comcast.com</td>
-      <td>moc.tsacmoc@rellimd</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>kachase@hotmail.com</td>
-      <td>KACHASE@HOTMAIL.COM</td>
-      <td>kachase@hotmail.com</td>
-      <td>kachase@hotmail.com</td>
-      <td>kachase@hotmail.com</td>
-      <td>kachase@hotmail.com</td>
-      <td>kachase[at]hotmail.com</td>
-      <td>kachase@hotmail.comkachase@hotmail.com</td>
-      <td>moc.liamtoh@esahcak</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>hleacock@gmail.com</td>
-      <td>HLEACOCK@GMAIL.COM</td>
-      <td>hleacock@gmail.com</td>
-      <td>hleacock@gmail.com</td>
-      <td>hleacock@gmail.com</td>
-      <td>hleacock@gmail.com</td>
-      <td>hleacock[at]gmail.com</td>
-      <td>hleacock@gmail.comhleacock@gmail.com</td>
-      <td>moc.liamg@kcocaelh</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>JOHNGORDON22@YAHOO.COM</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>johngordon22@yahoo.com</td>
-      <td>johngordon22[at]yahoo.com</td>
-      <td>johngordon22@yahoo.comjohngordon22@yahoo.com</td>
-      <td>moc.oohay@22nodrognhoj</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>fralston@gmail.com</td>
-      <td>FRALSTON@GMAIL.COM</td>
-      <td>fralston@gmail.com</td>
-      <td>fralston@gmail.com</td>
-      <td>fralston@gmail.com</td>
-      <td>fralston@gmail.com</td>
-      <td>fralston[at]gmail.com</td>
-      <td>fralston@gmail.comfralston@gmail.com</td>
-      <td>moc.liamg@notslarf</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>vstevens@yahoo.com</td>
-      <td>VSTEVENS@YAHOO.COM</td>
-      <td>vstevens@yahoo.com</td>
-      <td>vstevens@yahoo.com</td>
-      <td>vstevens@yahoo.com</td>
-      <td>vstevens@yahoo.com</td>
-      <td>vstevens[at]yahoo.com</td>
-      <td>vstevens@yahoo.comvstevens@yahoo.com</td>
-      <td>moc.oohay@snevetsv</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>RICUNNINGHAM@HOTMAIL.COM</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>ricunningham@hotmail.com</td>
-      <td>ricunningham[at]hotmail.com</td>
-      <td>ricunningham@hotmail.comricunningham@hotmail.com</td>
-      <td>moc.liamtoh@mahgninnucir</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>patrick.gray@aol.com</td>
-      <td>PATRICK.GRAY@AOL.COM</td>
-      <td>patrick.gray@aol.com</td>
-      <td>patrick.gray@aol.com</td>
-      <td>patrick.gray@aol.com</td>
-      <td>patrick.gray@aol.com</td>
-      <td>patrick.gray[at]aol.com</td>
-      <td>patrick.gray@aol.compatrick.gray@aol.com</td>
-      <td>moc.loa@yarg.kcirtap</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>jubarnett@gmail.com</td>
-      <td>JUBARNETT@GMAIL.COM</td>
-      <td>jubarnett@gmail.com</td>
-      <td>jubarnett@gmail.com</td>
-      <td>jubarnett@gmail.com</td>
-      <td>jubarnett@gmail.com</td>
-      <td>jubarnett[at]gmail.com</td>
-      <td>jubarnett@gmail.comjubarnett@gmail.com</td>
-      <td>moc.liamg@ttenrabuj</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>robbrown@shaw.ca</td>
-      <td>ROBBROWN@SHAW.CA</td>
-      <td>robbrown@shaw.ca</td>
-      <td>robbrown@shaw.ca</td>
-      <td>robbrown@shaw.ca</td>
-      <td>robbrown@shaw.ca</td>
-      <td>robbrown[at]shaw.ca</td>
-      <td>robbrown@shaw.carobbrown@shaw.ca</td>
-      <td>ac.wahs@nworbbor</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>EDFRANCIS@YACHOO.CA</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>edfrancis@yachoo.ca</td>
-      <td>edfrancis[at]yachoo.ca</td>
-      <td>edfrancis@yachoo.caedfrancis@yachoo.ca</td>
-      <td>ac.oohcay@sicnarfde</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>marthasilk@gmail.com</td>
-      <td>MARTHASILK@GMAIL.COM</td>
-      <td>marthasilk@gmail.com</td>
-      <td>marthasilk@gmail.com</td>
-      <td>marthasilk@gmail.com</td>
-      <td>marthasilk@gmail.com</td>
-      <td>marthasilk[at]gmail.com</td>
-      <td>marthasilk@gmail.commarthasilk@gmail.com</td>
-      <td>moc.liamg@klisahtram</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>AARONMITCHELL@YAHOO.CA</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>aaronmitchell@yahoo.ca</td>
-      <td>aaronmitchell[at]yahoo.ca</td>
-      <td>aaronmitchell@yahoo.caaaronmitchell@yahoo.ca</td>
-      <td>ac.oohay@llehctimnoraa</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ELLIE.SULLIVAN@SHAW.CA</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ellie.sullivan@shaw.ca</td>
-      <td>ellie.sullivan[at]shaw.ca</td>
-      <td>ellie.sullivan@shaw.caellie.sullivan@shaw.ca</td>
-      <td>ac.wahs@navillus.eille</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>JFERNANDES@YAHOO.PT</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>jfernandes@yahoo.pt</td>
-      <td>jfernandes[at]yahoo.pt</td>
-      <td>jfernandes@yahoo.ptjfernandes@yahoo.pt</td>
-      <td>tp.oohay@sednanrefj</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>masampaio@sapo.pt</td>
-      <td>MASAMPAIO@SAPO.PT</td>
-      <td>masampaio@sapo.pt</td>
-      <td>masampaio@sapo.pt</td>
-      <td>masampaio@sapo.pt</td>
-      <td>masampaio@sapo.pt</td>
-      <td>masampaio[at]sapo.pt</td>
-      <td>masampaio@sapo.ptmasampaio@sapo.pt</td>
-      <td>tp.opas@oiapmasam</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>HANNAH.SCHNEIDER@YAHOO.DE</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>hannah.schneider@yahoo.de</td>
-      <td>hannah.schneider[at]yahoo.de</td>
-      <td>hannah.schneider@yahoo.dehannah.schneider@yaho...</td>
-      <td>ed.oohay@redienhcs.hannah</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>FZIMMERMANN@YAHOO.DE</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>fzimmermann@yahoo.de</td>
-      <td>fzimmermann[at]yahoo.de</td>
-      <td>fzimmermann@yahoo.defzimmermann@yahoo.de</td>
-      <td>ed.oohay@nnamremmizf</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>nschroder@surfeu.de</td>
-      <td>NSCHRODER@SURFEU.DE</td>
-      <td>nschroder@surfeu.de</td>
-      <td>nschroder@surfeu.de</td>
-      <td>nschroder@surfeu.de</td>
-      <td>nschroder@surfeu.de</td>
-      <td>nschroder[at]surfeu.de</td>
-      <td>nschroder@surfeu.denschroder@surfeu.de</td>
-      <td>ed.uefrus@redorhcsn</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>CAMILLE.BERNARD@YAHOO.FR</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>camille.bernard@yahoo.fr</td>
-      <td>camille.bernard[at]yahoo.fr</td>
-      <td>camille.bernard@yahoo.frcamille.bernard@yahoo.fr</td>
-      <td>rf.oohay@dranreb.ellimac</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>DOMINIQUELEFEBVRE@GMAIL.COM</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>dominiquelefebvre@gmail.com</td>
-      <td>dominiquelefebvre[at]gmail.com</td>
-      <td>dominiquelefebvre@gmail.comdominiquelefebvre@g...</td>
-      <td>moc.liamg@ervbefeleuqinimod</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>MARC.DUBOIS@HOTMAIL.COM</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>marc.dubois@hotmail.com</td>
-      <td>marc.dubois[at]hotmail.com</td>
-      <td>marc.dubois@hotmail.commarc.dubois@hotmail.com</td>
-      <td>moc.liamtoh@siobud.cram</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>WYATT.GIRARD@YAHOO.FR</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>wyatt.girard@yahoo.fr</td>
-      <td>wyatt.girard[at]yahoo.fr</td>
-      <td>wyatt.girard@yahoo.frwyatt.girard@yahoo.fr</td>
-      <td>rf.oohay@drarig.ttayw</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>ISABELLE_MERCIER@APPLE.FR</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>isabelle_mercier@apple.fr</td>
-      <td>isabelle_mercier[at]apple.fr</td>
-      <td>isabelle_mercier@apple.frisabelle_mercier@appl...</td>
-      <td>rf.elppa@reicrem_ellebasi</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>TERHI.HAMALAINEN@APPLE.FI</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>terhi.hamalainen@apple.fi</td>
-      <td>terhi.hamalainen[at]apple.fi</td>
-      <td>terhi.hamalainen@apple.fiterhi.hamalainen@appl...</td>
-      <td>if.elppa@nenialamah.ihret</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>LADISLAV_KOVACS@APPLE.HU</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>ladislav_kovacs@apple.hu</td>
-      <td>ladislav_kovacs[at]apple.hu</td>
-      <td>ladislav_kovacs@apple.huladislav_kovacs@apple.hu</td>
-      <td>uh.elppa@scavok_valsidal</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>HUGHOREILLY@APPLE.IE</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>hughoreilly@apple.ie</td>
-      <td>hughoreilly[at]apple.ie</td>
-      <td>hughoreilly@apple.iehughoreilly@apple.ie</td>
-      <td>ei.elppa@yllierohguh</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>LUCAS.MANCINI@YAHOO.IT</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>lucas.mancini@yahoo.it</td>
-      <td>lucas.mancini[at]yahoo.it</td>
-      <td>lucas.mancini@yahoo.itlucas.mancini@yahoo.it</td>
-      <td>ti.oohay@inicnam.sacul</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>JOHAVANDERBERG@YAHOO.NL</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>johavanderberg@yahoo.nl</td>
-      <td>johavanderberg[at]yahoo.nl</td>
-      <td>johavanderberg@yahoo.nljohavanderberg@yahoo.nl</td>
-      <td>ln.oohay@grebrednavahoj</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>STANISŁAW.WÓJCIK@WP.PL</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>stanisław.wójcik@wp.pl</td>
-      <td>stanisław.wójcik[at]wp.pl</td>
-      <td>stanisław.wójcik@wp.plstanisław.wójcik@wp.pl</td>
-      <td>lp.pw@kicjów.wałsinats</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>ENRIQUE_MUNOZ@YAHOO.ES</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>enrique_munoz@yahoo.es</td>
-      <td>enrique_munoz[at]yahoo.es</td>
-      <td>enrique_munoz@yahoo.esenrique_munoz@yahoo.es</td>
-      <td>se.oohay@zonum_euqirne</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>JOAKIM.JOHANSSON@YAHOO.SE</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>joakim.johansson@yahoo.se</td>
-      <td>joakim.johansson[at]yahoo.se</td>
-      <td>joakim.johansson@yahoo.sejoakim.johansson@yaho...</td>
-      <td>es.oohay@nossnahoj.mikaoj</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>EMMA_JONES@HOTMAIL.COM</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>emma_jones@hotmail.com</td>
-      <td>emma_jones[at]hotmail.com</td>
-      <td>emma_jones@hotmail.comemma_jones@hotmail.com</td>
-      <td>moc.liamtoh@senoj_amme</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>PHIL.HUGHES@GMAIL.COM</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>phil.hughes@gmail.com</td>
-      <td>phil.hughes[at]gmail.com</td>
-      <td>phil.hughes@gmail.comphil.hughes@gmail.com</td>
-      <td>moc.liamg@sehguh.lihp</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>STEVE.MURRAY@YAHOO.UK</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>steve.murray@yahoo.uk</td>
-      <td>steve.murray[at]yahoo.uk</td>
-      <td>steve.murray@yahoo.uksteve.murray@yahoo.uk</td>
-      <td>ku.oohay@yarrum.evets</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>MARK.TAYLOR@YAHOO.AU</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>mark.taylor@yahoo.au</td>
-      <td>mark.taylor[at]yahoo.au</td>
-      <td>mark.taylor@yahoo.aumark.taylor@yahoo.au</td>
-      <td>ua.oohay@rolyat.kram</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>DIEGO.GUTIERREZ@YAHOO.AR</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>diego.gutierrez@yahoo.ar</td>
-      <td>diego.gutierrez[at]yahoo.ar</td>
-      <td>diego.gutierrez@yahoo.ardiego.gutierrez@yahoo.ar</td>
-      <td>ra.oohay@zerreitug.ogeid</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>LUISROJAS@YAHOO.CL</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>luisrojas@yahoo.cl</td>
-      <td>luisrojas[at]yahoo.cl</td>
-      <td>luisrojas@yahoo.clluisrojas@yahoo.cl</td>
-      <td>lc.oohay@sajorsiul</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>MANOJ.PAREEK@REDIFF.COM</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>manoj.pareek@rediff.com</td>
-      <td>manoj.pareek[at]rediff.com</td>
-      <td>manoj.pareek@rediff.commanoj.pareek@rediff.com</td>
-      <td>moc.ffider@keerap.jonam</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>PUJA_SRIVASTAVA@YAHOO.IN</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>puja_srivastava@yahoo.in</td>
-      <td>puja_srivastava[at]yahoo.in</td>
-      <td>puja_srivastava@yahoo.inpuja_srivastava@yahoo.in</td>
-      <td>ni.oohay@avatsavirs_ajup</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | Email                     | UpperEmail                | LowerEmail                | LeftTrimmedEmail          | RightTrimmedEmail         | TrimmedEmail              | ReplacedEmail                  | ReplicatedEmail                                    | ReversedEmail             |
+|:----|:-----------|:--------------------------|:--------------------------|:--------------------------|:--------------------------|:--------------------------|:--------------------------|:-------------------------------|:---------------------------------------------------|:--------------------------|
+| 0   | 1          | luisg@embraer.com.br      | LUISG@EMBRAER.COM.BR      | luisg@embraer.com.br      | luisg@embraer.com.br      | luisg@embraer.com.br      | luisg@embraer.com.br      | luisg\[at\]embraer.com.br      | luisg@embraer.com.brluisg@embraer.com.br           | rb.moc.rearbme@gsiul      |
+| 1   | 2          | leonekohler@surfeu.de     | LEONEKOHLER@SURFEU.DE     | leonekohler@surfeu.de     | leonekohler@surfeu.de     | leonekohler@surfeu.de     | leonekohler@surfeu.de     | leonekohler\[at\]surfeu.de     | leonekohler@surfeu.deleonekohler@surfeu.de         | ed.uefrus@relhokenoel     |
+| 2   | 3          | ftremblay@gmail.com       | FTREMBLAY@GMAIL.COM       | ftremblay@gmail.com       | ftremblay@gmail.com       | ftremblay@gmail.com       | ftremblay@gmail.com       | ftremblay\[at\]gmail.com       | ftremblay@gmail.comftremblay@gmail.com             | moc.liamg@yalbmertf       |
+| 3   | 4          | bjorn.hansen@yahoo.no     | BJORN.HANSEN@YAHOO.NO     | bjorn.hansen@yahoo.no     | bjorn.hansen@yahoo.no     | bjorn.hansen@yahoo.no     | bjorn.hansen@yahoo.no     | bjorn.hansen\[at\]yahoo.no     | bjorn.hansen@yahoo.nobjorn.hansen@yahoo.no         | on.oohay@nesnah.nrojb     |
+| 4   | 5          | frantisekw@jetbrains.com  | FRANTISEKW@JETBRAINS.COM  | frantisekw@jetbrains.com  | frantisekw@jetbrains.com  | frantisekw@jetbrains.com  | frantisekw@jetbrains.com  | frantisekw\[at\]jetbrains.com  | frantisekw@jetbrains.comfrantisekw@jetbrains.com   | moc.sniarbtej@wkesitnarf  |
+| 5   | 6          | hholy@gmail.com           | HHOLY@GMAIL.COM           | hholy@gmail.com           | hholy@gmail.com           | hholy@gmail.com           | hholy@gmail.com           | hholy\[at\]gmail.com           | hholy@gmail.comhholy@gmail.com                     | moc.liamg@ylohh           |
+| ... | ...        | ...                       | ...                       | ...                       | ...                       | ...                       | ...                       | ...                            | ...                                                | ...                       |
+| 54  | 55         | mark.taylor@yahoo.au      | MARK.TAYLOR@YAHOO.AU      | mark.taylor@yahoo.au      | mark.taylor@yahoo.au      | mark.taylor@yahoo.au      | mark.taylor@yahoo.au      | mark.taylor\[at\]yahoo.au      | mark.taylor@yahoo.aumark.taylor@yahoo.au           | ua.oohay@rolyat.kram      |
+| 55  | 56         | diego.gutierrez@yahoo.ar  | DIEGO.GUTIERREZ@YAHOO.AR  | diego.gutierrez@yahoo.ar  | diego.gutierrez@yahoo.ar  | diego.gutierrez@yahoo.ar  | diego.gutierrez@yahoo.ar  | diego.gutierrez\[at\]yahoo.ar  | diego.gutierrez@yahoo.ardiego.gutierrez@yahoo.ar   | ra.oohay@zerreitug.ogeid  |
+| 56  | 57         | luisrojas@yahoo.cl        | LUISROJAS@YAHOO.CL        | luisrojas@yahoo.cl        | luisrojas@yahoo.cl        | luisrojas@yahoo.cl        | luisrojas@yahoo.cl        | luisrojas\[at\]yahoo.cl        | luisrojas@yahoo.clluisrojas@yahoo.cl               | lc.oohay@sajorsiul        |
+| 57  | 58         | manoj.pareek@rediff.com   | MANOJ.PAREEK@REDIFF.COM   | manoj.pareek@rediff.com   | manoj.pareek@rediff.com   | manoj.pareek@rediff.com   | manoj.pareek@rediff.com   | manoj.pareek\[at\]rediff.com   | manoj.pareek@rediff.commanoj.pareek@rediff.com     | moc.ffider@keerap.jonam   |
+| 58  | 59         | puja\_srivastava@yahoo.in | PUJA\_SRIVASTAVA@YAHOO.IN | puja\_srivastava@yahoo.in | puja\_srivastava@yahoo.in | puja\_srivastava@yahoo.in | puja\_srivastava@yahoo.in | puja\_srivastava\[at\]yahoo.in | puja\_srivastava@yahoo.inpuja\_srivastava@yahoo.in | ni.oohay@avatsavirs\_ajup |
+```
 
 
 
@@ -4448,38 +721,11 @@ SELECT
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CurrentDateTime1</th>
-      <th>CurrentDateTime2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2026-03-09 12:57:54.963</td>
-      <td>2026-03-09 12:57:54.963</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CurrentDateTime1         | CurrentDateTime2        |
+|:----|:-------------------------|:------------------------|
+| 0   | 2026-03-11 03:07:30.820  | 2026-03-11 03:07:30.820 |
+```
 
 
 
@@ -4493,19 +739,19 @@ SELECT
 
 - 这两个函数中，`part` 参数用来指定要提取的部分，常见的提取部分有：
 
-| part | 等价缩写         | 描述        | 举例                                          | 备注                            |
-|-----|--------------|-----------|---------------------------------------------|-------------------------------|
-| `YEAR` | `yy` 或 `yyyy` | 提取年份      | `2024-12-31 10:12:30.567` 的年份部分是 `2024`     |                               |
-| `QUARTER` | `qq` 或 `q`   | 提取季度      | `2024-12-31 10:12:30.567` 的季度部分是 `4`        |                               |
-| `MONTH` | `mm` 或 `m`   | 提取月份      | `2024-12-31 10:12:30.567` 的月份部分是 `12`       |                               |
-| `DAY` | `dd` 或 `d`   | 提取日       | `2024-12-31 10:12:30.567` 的日部分是 `31`        |                               |
-| `DAYOFYEAR` | `dy` 或 `y`   | 提取一年中的第几天 | `2024-12-31 10:12:30.567` 的年份中的第几天部分是 `366` |                               |                    |
-| `WEEK` | `wk` 或 `ww`  | 提取一年中的第几周 | `2024-12-31 10:12:30.567` 的年份中的第几周部分是 `1` | 国际惯例，一年中最后一周如果跨年了，那么它属于下一年第一周 |
-| `WEEKDAY` |              | 提取星期几     | `2024-12-31` 是周二，但是函数会返回 `3`           | SQL Server 默认：`Sunday = 1`    |
-| `HOUR` | `hh`         | 提取小时      | `2024-12-31 10:12:30.567` 的小时部分是 `10`  |                               |
-| `MINUTE` | `mi` 或 `n`   | 提取分钟      | `2024-12-31 10:12:30.567` 的分钟部分是 `12`  |                               |
-| `SECOND` | `ss` 或 `s`   | 提取秒       | `2024-12-31 10:12:30.567` 的秒部分是 `30`   |                               |
-| `MILLISECOND` |     `ms`     |  提取毫秒     | `2024-12-31 10:12:30.567` 的毫秒部分是 `567` |                               |
+| part           | 等价缩写             | 描述            | 举例                                          | 备注                            |
+|----------------|------------------|---------------|---------------------------------------------|-------------------------------|
+| `YEAR`         | `yy` 或 `yyyy`    | 提取年份          | `2024-12-31 10:12:30.567` 的年份部分是 `2024`     |                               |
+| `QUARTER`      | `qq` 或 `q`       | 提取季度          | `2024-12-31 10:12:30.567` 的季度部分是 `4`        |                               |
+| `MONTH`        | `mm` 或 `m`       | 提取月份          | `2024-12-31 10:12:30.567` 的月份部分是 `12`       |                               |
+| `DAY`          | `dd` 或 `d`       | 提取日           | `2024-12-31 10:12:30.567` 的日部分是 `31`        |                               |
+| `DAYOFYEAR`    | `dy` 或 `y`       | 提取一年中的第几天     | `2024-12-31 10:12:30.567` 的年份中的第几天部分是 `366` |                               |                    |
+| `WEEK`         | `wk` 或 `ww`      | 提取一年中的第几周     | `2024-12-31 10:12:30.567` 的年份中的第几周部分是 `1`   | 国际惯例，一年中最后一周如果跨年了，那么它属于下一年第一周 |
+| `WEEKDAY`      |                  | 提取星期几         | `2024-12-31` 是周二，但是函数会返回 `3`                | SQL Server 默认：`Sunday = 1`    |
+| `HOUR`         | `hh`             | 提取小时          | `2024-12-31 10:12:30.567` 的小时部分是 `10`       |                               |
+| `MINUTE`       | `mi` 或 `n`       | 提取分钟          | `2024-12-31 10:12:30.567` 的分钟部分是 `12`       |                               |
+| `SECOND`       | `ss` 或 `s`       | 提取秒           | `2024-12-31 10:12:30.567` 的秒部分是 `30`        |                               |
+| `MILLISECOND`  | `ms`             | 提取毫秒          | `2024-12-31 10:12:30.567` 的毫秒部分是 `567`      |                               |
 
 
 我们在 `Invoice` 表中的 `InvoiceDate` 字段上提取日期时间的部分：
@@ -4533,210 +779,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>InvoiceYear</th>
-      <th>InvoiceMonth</th>
-      <th>InvoiceQuarter</th>
-      <th>InvoiceWeek</th>
-      <th>InvoiceWeekday</th>
-      <th>InvoiceDay</th>
-      <th>InvoiceHour</th>
-      <th>InvoiceMinute</th>
-      <th>InvoiceSecond</th>
-      <th>InvoiceMillisecond</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>6</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>7</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>1</td>
-      <td>3</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
-      <td>4</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021</td>
-      <td>1</td>
-      <td>1</td>
-      <td>3</td>
-      <td>2</td>
-      <td>11</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025</td>
-      <td>12</td>
-      <td>4</td>
-      <td>49</td>
-      <td>6</td>
-      <td>5</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025</td>
-      <td>12</td>
-      <td>4</td>
-      <td>49</td>
-      <td>7</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025</td>
-      <td>12</td>
-      <td>4</td>
-      <td>50</td>
-      <td>3</td>
-      <td>9</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025</td>
-      <td>12</td>
-      <td>4</td>
-      <td>51</td>
-      <td>1</td>
-      <td>14</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025</td>
-      <td>12</td>
-      <td>4</td>
-      <td>52</td>
-      <td>2</td>
-      <td>22</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 12 columns</p>
-</div>
-
+```
+|     | InvoiceId | InvoiceDate             | InvoiceYear | InvoiceMonth | InvoiceQuarter | InvoiceWeek | InvoiceWeekday | InvoiceDay | InvoiceHour | InvoiceMinute | InvoiceSecond | InvoiceMillisecond |
+|:----|:----------|:------------------------|:------------|:-------------|:---------------|:------------|:---------------|:-----------|:------------|:--------------|:--------------|:-------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 2021        | 1            | 1              | 1           | 6              | 1          | 0           | 0             | 0             | 0                  |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 2021        | 1            | 1              | 1           | 7              | 2          | 0           | 0             | 0             | 0                  |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 2021        | 1            | 1              | 2           | 1              | 3          | 0           | 0             | 0             | 0                  |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 2021        | 1            | 1              | 2           | 4              | 6          | 0           | 0             | 0             | 0                  |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 2021        | 1            | 1              | 3           | 2              | 11         | 0           | 0             | 0             | 0                  |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 2021        | 1            | 1              | 4           | 3              | 19         | 0           | 0             | 0             | 0                  |
+| ... | ...       | ...                     | ...         | ...          | ...            | ...         | ...            | ...        | ...         | ...           | ...           | ...                |
+| 407 | 408       | 2025-12-05 00:00:00.000 | 2025        | 12           | 4              | 49          | 6              | 5          | 0           | 0             | 0             | 0                  |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 2025        | 12           | 4              | 49          | 7              | 6          | 0           | 0             | 0             | 0                  |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 2025        | 12           | 4              | 50          | 3              | 9          | 0           | 0             | 0             | 0                  |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 2025        | 12           | 4              | 51          | 1              | 14         | 0           | 0             | 0             | 0                  |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 2025        | 12           | 4              | 52          | 2              | 22         | 0           | 0             | 0             | 0                  |
+```
 
 
 - 接着，我们再来使用 `DATENAME` 函数来提取日期时间的部分，返回字符串形式
@@ -4762,209 +820,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>InvoiceYear</th>
-      <th>InvoiceMonth</th>
-      <th>InvoiceQuarter</th>
-      <th>InvoiceWeek</th>
-      <th>InvoiceWeekday</th>
-      <th>InvoiceDay</th>
-      <th>InvoiceHour</th>
-      <th>InvoiceMinute</th>
-      <th>InvoiceSecond</th>
-      <th>InvoiceMillisecond</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021</td>
-      <td>January</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Friday</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021</td>
-      <td>January</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Saturday</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021</td>
-      <td>January</td>
-      <td>1</td>
-      <td>2</td>
-      <td>Sunday</td>
-      <td>3</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021</td>
-      <td>January</td>
-      <td>1</td>
-      <td>2</td>
-      <td>Wednesday</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021</td>
-      <td>January</td>
-      <td>1</td>
-      <td>3</td>
-      <td>Monday</td>
-      <td>11</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025</td>
-      <td>December</td>
-      <td>4</td>
-      <td>49</td>
-      <td>Friday</td>
-      <td>5</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025</td>
-      <td>December</td>
-      <td>4</td>
-      <td>49</td>
-      <td>Saturday</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025</td>
-      <td>December</td>
-      <td>4</td>
-      <td>50</td>
-      <td>Tuesday</td>
-      <td>9</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025</td>
-      <td>December</td>
-      <td>4</td>
-      <td>51</td>
-      <td>Sunday</td>
-      <td>14</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025</td>
-      <td>December</td>
-      <td>4</td>
-      <td>52</td>
-      <td>Monday</td>
-      <td>22</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 12 columns</p>
-</div>
+```
+|     | InvoiceId | InvoiceDate             | InvoiceYear | InvoiceMonth | InvoiceQuarter | InvoiceWeek | InvoiceWeekday | InvoiceDay | InvoiceHour | InvoiceMinute | InvoiceSecond | InvoiceMillisecond |
+|:----|:----------|:------------------------|:------------|:-------------|:---------------|:------------|:---------------|:-----------|:------------|:--------------|:--------------|:-------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 2021        | January      | 1              | 1           | Friday         | 1          | 0           | 0             | 0             | 0                  |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 2021        | January      | 1              | 1           | Saturday       | 2          | 0           | 0             | 0             | 0                  |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 2021        | January      | 1              | 2           | Sunday         | 3          | 0           | 0             | 0             | 0                  |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 2021        | January      | 1              | 2           | Wednesday      | 6          | 0           | 0             | 0             | 0                  |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 2021        | January      | 1              | 3           | Monday         | 11         | 0           | 0             | 0             | 0                  |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 2021        | January      | 1              | 4           | Tuesday        | 19         | 0           | 0             | 0             | 0                  |
+| ... | ...       | ...                     | ...         | ...     | ...            | ...         | ...            | ...        | ...         | ...           | ...           | ...                |
+| 407 | 408       | 2025-12-05 00:00:00.000 | 2025        | December     | 4              | 49          | Friday         | 5          | 0           | 0             | 0             | 0                  |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 2025        | December     | 4              | 49          | Saturday       | 6          | 0           | 0             | 0             | 0                  |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 2025        | December     | 4              | 50          | Tuesday        | 9          | 0           | 0             | 0             | 0                  |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 2025        | December     | 4              | 51          | Sunday         | 14         | 0           | 0             | 0             | 0                  |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 2025        | December     | 4              | 52          | Monday         | 22         | 0           | 0             | 0             | 0                  |
+```
 
 
 
@@ -4998,113 +869,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>ReconstructedToDay</th>
-      <th>ReconstructedToMonth</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11</td>
-      <td>2021-01-01</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05</td>
-      <td>2025-12-01</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06</td>
-      <td>2025-12-01</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09</td>
-      <td>2025-12-01</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14</td>
-      <td>2025-12-01</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22</td>
-      <td>2025-12-01</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 4 columns</p>
-</div>
+```
+|     | InvoiceId | InvoiceDate             | ReconstructedToDay | ReconstructedToMonth |
+|:----|:----------|:------------------------|:-------------------|:---------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 2021-01-01         | 2021-01-01           |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 2021-01-02         | 2021-01-01           |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 2021-01-03         | 2021-01-01           |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 2021-01-06         | 2021-01-01           |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 2021-01-11         | 2021-01-01           |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 2021-01-19         | 2021-01-01           |
+| ... | ...       | ...                     | ...                | ...                  |
+| 407 | 408       | 2025-12-05 00:00:00.000 | 2025-12-05         | 2025-12-01           |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 2025-12-06         | 2025-12-01           |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 2025-12-09         | 2025-12-01           |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 2025-12-14         | 2025-12-01           |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 2025-12-22         | 2025-12-01           |
+```
 
 
 
@@ -5163,197 +943,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>TruncatedToYear</th>
-      <th>TruncatedToQuarter</th>
-      <th>TruncatedToMonth</th>
-      <th>TruncatedToWeek</th>
-      <th>TruncatedToDay</th>
-      <th>TruncatedToHour</th>
-      <th>TruncatedToMinute</th>
-      <th>TruncatedToSecond</th>
-      <th>TruncatedToMillisecond</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2020-12-27 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2020-12-27 00:00:00.000</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-10 00:00:00.000</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-01-01 00:00:00.000</td>
-      <td>2025-10-01 00:00:00.000</td>
-      <td>2025-12-01 00:00:00.000</td>
-      <td>2025-11-30 00:00:00.000</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-01-01 00:00:00.000</td>
-      <td>2025-10-01 00:00:00.000</td>
-      <td>2025-12-01 00:00:00.000</td>
-      <td>2025-11-30 00:00:00.000</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-01-01 00:00:00.000</td>
-      <td>2025-10-01 00:00:00.000</td>
-      <td>2025-12-01 00:00:00.000</td>
-      <td>2025-12-07 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-01-01 00:00:00.000</td>
-      <td>2025-10-01 00:00:00.000</td>
-      <td>2025-12-01 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-01-01 00:00:00.000</td>
-      <td>2025-10-01 00:00:00.000</td>
-      <td>2025-12-01 00:00:00.000</td>
-      <td>2025-12-21 00:00:00.000</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22 00:00:00.000</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 11 columns</p>
-</div>
+```
+|     | InvoiceId | InvoiceDate             | TruncatedToYear         | TruncatedToQuarter      | TruncatedToMonth        | TruncatedToWeek         | TruncatedToDay          | TruncatedToHour         | TruncatedToMinute       | TruncatedToSecond       | TruncatedToMillisecond  |
+|:----|:----------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2020-12-27 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2020-12-27 00:00:00.000 | 2021-01-02 00:00:00.000 | 2021-01-02 00:00:00.000 | 2021-01-02 00:00:00.000 | 2021-01-02 00:00:00.000 | 2021-01-02 00:00:00.000 |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-03 00:00:00.000 |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-03 00:00:00.000 | 2021-01-06 00:00:00.000 | 2021-01-06 00:00:00.000 | 2021-01-06 00:00:00.000 | 2021-01-06 00:00:00.000 | 2021-01-06 00:00:00.000 |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-10 00:00:00.000 | 2021-01-11 00:00:00.000 | 2021-01-11 00:00:00.000 | 2021-01-11 00:00:00.000 | 2021-01-11 00:00:00.000 | 2021-01-11 00:00:00.000 |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-01 00:00:00.000 | 2021-01-17 00:00:00.000 | 2021-01-19 00:00:00.000 | 2021-01-19 00:00:00.000 | 2021-01-19 00:00:00.000 | 2021-01-19 00:00:00.000 | 2021-01-19 00:00:00.000 |
+| ... | ...       | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     |
+| 407 | 408       | 2025-12-05 00:00:00.000 | 2025-01-01 00:00:00.000 | 2025-10-01 00:00:00.000 | 2025-12-01 00:00:00.000 | 2025-11-30 00:00:00.000 | 2025-12-05 00:00:00.000 | 2025-12-05 00:00:00.000 | 2025-12-05 00:00:00.000 | 2025-12-05 00:00:00.000 | 2025-12-05 00:00:00.000 |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 2025-01-01 00:00:00.000 | 2025-10-01 00:00:00.000 | 2025-12-01 00:00:00.000 | 2025-11-30 00:00:00.000 | 2025-12-06 00:00:00.000 | 2025-12-06 00:00:00.000 | 2025-12-06 00:00:00.000 | 2025-12-06 00:00:00.000 | 2025-12-06 00:00:00.000 |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 2025-01-01 00:00:00.000 | 2025-10-01 00:00:00.000 | 2025-12-01 00:00:00.000 | 2025-12-07 00:00:00.000 | 2025-12-09 00:00:00.000 | 2025-12-09 00:00:00.000 | 2025-12-09 00:00:00.000 | 2025-12-09 00:00:00.000 | 2025-12-09 00:00:00.000 |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 2025-01-01 00:00:00.000 | 2025-10-01 00:00:00.000 | 2025-12-01 00:00:00.000 | 2025-12-14 00:00:00.000 | 2025-12-14 00:00:00.000 | 2025-12-14 00:00:00.000 | 2025-12-14 00:00:00.000 | 2025-12-14 00:00:00.000 | 2025-12-14 00:00:00.000 |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 2025-01-01 00:00:00.000 | 2025-10-01 00:00:00.000 | 2025-12-01 00:00:00.000 | 2025-12-21 00:00:00.000 | 2025-12-22 00:00:00.000 | 2025-12-22 00:00:00.000 | 2025-12-22 00:00:00.000 | 2025-12-22 00:00:00.000 | 2025-12-22 00:00:00.000 |
+```
 
 
 
@@ -5402,197 +1007,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>NextYear</th>
-      <th>PreviousQuarter</th>
-      <th>TwoMonthsLater</th>
-      <th>OneWeekEarlier</th>
-      <th>ThreeDaysLater</th>
-      <th>FiveHoursEarlier</th>
-      <th>FifteenMinutesLater</th>
-      <th>ThirtySecondsEarlier</th>
-      <th>FiveHundredMillisecondsLater</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2022-01-01 00:00:00.000</td>
-      <td>2020-10-01 00:00:00.000</td>
-      <td>2021-03-01 00:00:00.000</td>
-      <td>2020-12-25 00:00:00.000</td>
-      <td>2021-01-04 00:00:00.000</td>
-      <td>2020-12-31 19:00:00.000</td>
-      <td>2021-01-01 00:15:00.000</td>
-      <td>2020-12-31 23:59:30.000</td>
-      <td>2021-01-01 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2022-01-02 00:00:00.000</td>
-      <td>2020-10-02 00:00:00.000</td>
-      <td>2021-03-02 00:00:00.000</td>
-      <td>2020-12-26 00:00:00.000</td>
-      <td>2021-01-05 00:00:00.000</td>
-      <td>2021-01-01 19:00:00.000</td>
-      <td>2021-01-02 00:15:00.000</td>
-      <td>2021-01-01 23:59:30.000</td>
-      <td>2021-01-02 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2022-01-03 00:00:00.000</td>
-      <td>2020-10-03 00:00:00.000</td>
-      <td>2021-03-03 00:00:00.000</td>
-      <td>2020-12-27 00:00:00.000</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-02 19:00:00.000</td>
-      <td>2021-01-03 00:15:00.000</td>
-      <td>2021-01-02 23:59:30.000</td>
-      <td>2021-01-03 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2022-01-06 00:00:00.000</td>
-      <td>2020-10-06 00:00:00.000</td>
-      <td>2021-03-06 00:00:00.000</td>
-      <td>2020-12-30 00:00:00.000</td>
-      <td>2021-01-09 00:00:00.000</td>
-      <td>2021-01-05 19:00:00.000</td>
-      <td>2021-01-06 00:15:00.000</td>
-      <td>2021-01-05 23:59:30.000</td>
-      <td>2021-01-06 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2022-01-11 00:00:00.000</td>
-      <td>2020-10-11 00:00:00.000</td>
-      <td>2021-03-11 00:00:00.000</td>
-      <td>2021-01-04 00:00:00.000</td>
-      <td>2021-01-14 00:00:00.000</td>
-      <td>2021-01-10 19:00:00.000</td>
-      <td>2021-01-11 00:15:00.000</td>
-      <td>2021-01-10 23:59:30.000</td>
-      <td>2021-01-11 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2026-12-05 00:00:00.000</td>
-      <td>2025-09-05 00:00:00.000</td>
-      <td>2026-02-05 00:00:00.000</td>
-      <td>2025-11-28 00:00:00.000</td>
-      <td>2025-12-08 00:00:00.000</td>
-      <td>2025-12-04 19:00:00.000</td>
-      <td>2025-12-05 00:15:00.000</td>
-      <td>2025-12-04 23:59:30.000</td>
-      <td>2025-12-05 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2026-12-06 00:00:00.000</td>
-      <td>2025-09-06 00:00:00.000</td>
-      <td>2026-02-06 00:00:00.000</td>
-      <td>2025-11-29 00:00:00.000</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-05 19:00:00.000</td>
-      <td>2025-12-06 00:15:00.000</td>
-      <td>2025-12-05 23:59:30.000</td>
-      <td>2025-12-06 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2026-12-09 00:00:00.000</td>
-      <td>2025-09-09 00:00:00.000</td>
-      <td>2026-02-09 00:00:00.000</td>
-      <td>2025-12-02 00:00:00.000</td>
-      <td>2025-12-12 00:00:00.000</td>
-      <td>2025-12-08 19:00:00.000</td>
-      <td>2025-12-09 00:15:00.000</td>
-      <td>2025-12-08 23:59:30.000</td>
-      <td>2025-12-09 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2026-12-14 00:00:00.000</td>
-      <td>2025-09-14 00:00:00.000</td>
-      <td>2026-02-14 00:00:00.000</td>
-      <td>2025-12-07 00:00:00.000</td>
-      <td>2025-12-17 00:00:00.000</td>
-      <td>2025-12-13 19:00:00.000</td>
-      <td>2025-12-14 00:15:00.000</td>
-      <td>2025-12-13 23:59:30.000</td>
-      <td>2025-12-14 00:00:00.500</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2026-12-22 00:00:00.000</td>
-      <td>2025-09-22 00:00:00.000</td>
-      <td>2026-02-22 00:00:00.000</td>
-      <td>2025-12-15 00:00:00.000</td>
-      <td>2025-12-25 00:00:00.000</td>
-      <td>2025-12-21 19:00:00.000</td>
-      <td>2025-12-22 00:15:00.000</td>
-      <td>2025-12-21 23:59:30.000</td>
-      <td>2025-12-22 00:00:00.500</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 11 columns</p>
-</div>
+```
+|     | InvoiceId | InvoiceDate             | NextYear                | PreviousQuarter         | TwoMonthsLater          | OneWeekEarlier          | ThreeDaysLater          | FiveHoursEarlier        | FifteenMinutesLater     | ThirtySecondsEarlier    | FiveHundredMillisecondsLater |
+|:----|:----------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:-----------------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 2022-01-01 00:00:00.000 | 2020-10-01 00:00:00.000 | 2021-03-01 00:00:00.000 | 2020-12-25 00:00:00.000 | 2021-01-04 00:00:00.000 | 2020-12-31 19:00:00.000 | 2021-01-01 00:15:00.000 | 2020-12-31 23:59:30.000 | 2021-01-01 00:00:00.500      |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 2022-01-02 00:00:00.000 | 2020-10-02 00:00:00.000 | 2021-03-02 00:00:00.000 | 2020-12-26 00:00:00.000 | 2021-01-05 00:00:00.000 | 2021-01-01 19:00:00.000 | 2021-01-02 00:15:00.000 | 2021-01-01 23:59:30.000 | 2021-01-02 00:00:00.500      |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 2022-01-03 00:00:00.000 | 2020-10-03 00:00:00.000 | 2021-03-03 00:00:00.000 | 2020-12-27 00:00:00.000 | 2021-01-06 00:00:00.000 | 2021-01-02 19:00:00.000 | 2021-01-03 00:15:00.000 | 2021-01-02 23:59:30.000 | 2021-01-03 00:00:00.500      |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 2022-01-06 00:00:00.000 | 2020-10-06 00:00:00.000 | 2021-03-06 00:00:00.000 | 2020-12-30 00:00:00.000 | 2021-01-09 00:00:00.000 | 2021-01-05 19:00:00.000 | 2021-01-06 00:15:00.000 | 2021-01-05 23:59:30.000 | 2021-01-06 00:00:00.500      |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 2022-01-11 00:00:00.000 | 2020-10-11 00:00:00.000 | 2021-03-11 00:00:00.000 | 2021-01-04 00:00:00.000 | 2021-01-14 00:00:00.000 | 2021-01-10 19:00:00.000 | 2021-01-11 00:15:00.000 | 2021-01-10 23:59:30.000 | 2021-01-11 00:00:00.500      |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 2022-01-19 00:00:00.000 | 2020-10-19 00:00:00.000 | 2021-03-19 00:00:00.000 | 2021-01-12 00:00:00.000 | 2021-01-22 00:00:00.000 | 2021-01-18 19:00:00.000 | 2021-01-19 00:15:00.000 | 2021-01-18 23:59:30.000 | 2021-01-19 00:00:00.500      |
+| ... | ...       | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                     | ...                          |
+| 407 | 408       | 2025-12-05 00:00:00.000 | 2026-12-05 00:00:00.000 | 2025-09-05 00:00:00.000 | 2026-02-05 00:00:00.000 | 2025-11-28 00:00:00.000 | 2025-12-08 00:00:00.000 | 2025-12-04 19:00:00.000 | 2025-12-05 00:15:00.000 | 2025-12-04 23:59:30.000 | 2025-12-05 00:00:00.500      |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 2026-12-06 00:00:00.000 | 2025-09-06 00:00:00.000 | 2026-02-06 00:00:00.000 | 2025-11-29 00:00:00.000 | 2025-12-09 00:00:00.000 | 2025-12-05 19:00:00.000 | 2025-12-06 00:15:00.000 | 2025-12-05 23:59:30.000 | 2025-12-06 00:00:00.500      |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 2026-12-09 00:00:00.000 | 2025-09-09 00:00:00.000 | 2026-02-09 00:00:00.000 | 2025-12-02 00:00:00.000 | 2025-12-12 00:00:00.000 | 2025-12-08 19:00:00.000 | 2025-12-09 00:15:00.000 | 2025-12-08 23:59:30.000 | 2025-12-09 00:00:00.500      |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 2026-12-14 00:00:00.000 | 2025-09-14 00:00:00.000 | 2026-02-14 00:00:00.000 | 2025-12-07 00:00:00.000 | 2025-12-17 00:00:00.000 | 2025-12-13 19:00:00.000 | 2025-12-14 00:15:00.000 | 2025-12-13 23:59:30.000 | 2025-12-14 00:00:00.500      |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 2026-12-22 00:00:00.000 | 2025-09-22 00:00:00.000 | 2026-02-22 00:00:00.000 | 2025-12-15 00:00:00.000 | 2025-12-25 00:00:00.000 | 2025-12-21 19:00:00.000 | 2025-12-22 00:15:00.000 | 2025-12-21 23:59:30.000 | 2025-12-22 00:00:00.500      |
+```
 
 
 
@@ -5648,161 +1078,21 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>YearsSinceInvoice</th>
-      <th>MonthsSinceInvoice</th>
-      <th>DaysSinceInvoice</th>
-      <th>HoursSinceInvoice</th>
-      <th>MinutesSinceInvoice</th>
-      <th>SecondsSinceInvoice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>5</td>
-      <td>62</td>
-      <td>1893</td>
-      <td>45444</td>
-      <td>2726697</td>
-      <td>163601878</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>5</td>
-      <td>62</td>
-      <td>1892</td>
-      <td>45420</td>
-      <td>2725257</td>
-      <td>163515478</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>5</td>
-      <td>62</td>
-      <td>1891</td>
-      <td>45396</td>
-      <td>2723817</td>
-      <td>163429078</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>5</td>
-      <td>62</td>
-      <td>1888</td>
-      <td>45324</td>
-      <td>2719497</td>
-      <td>163169878</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>5</td>
-      <td>62</td>
-      <td>1883</td>
-      <td>45204</td>
-      <td>2712297</td>
-      <td>162737878</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>1</td>
-      <td>3</td>
-      <td>94</td>
-      <td>2268</td>
-      <td>136137</td>
-      <td>8168278</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>1</td>
-      <td>3</td>
-      <td>93</td>
-      <td>2244</td>
-      <td>134697</td>
-      <td>8081878</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>1</td>
-      <td>3</td>
-      <td>90</td>
-      <td>2172</td>
-      <td>130377</td>
-      <td>7822678</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>1</td>
-      <td>3</td>
-      <td>85</td>
-      <td>2052</td>
-      <td>123177</td>
-      <td>7390678</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>1</td>
-      <td>3</td>
-      <td>77</td>
-      <td>1860</td>
-      <td>111657</td>
-      <td>6699478</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 8 columns</p>
-</div>
+```
+|     | InvoiceId | InvoiceDate             | YearsSinceInvoice | MonthsSinceInvoice | DaysSinceInvoice | HoursSinceInvoice | MinutesSinceInvoice | SecondsSinceInvoice |
+|:----|:----------|:------------------------|:------------------|:-------------------|:-----------------|:------------------|:--------------------|:--------------------|
+| 0   | 1         | 2021-01-01 00:00:00.000 | 5                 | 62                 | 1895             | 45483             | 2728987             | 163739254           |
+| 1   | 2         | 2021-01-02 00:00:00.000 | 5                 | 62                 | 1894             | 45459             | 2727547             | 163652854           |
+| 2   | 3         | 2021-01-03 00:00:00.000 | 5                 | 62                 | 1893             | 45435             | 2726107             | 163566454           |
+| 3   | 4         | 2021-01-06 00:00:00.000 | 5                 | 62                 | 1890             | 45363             | 2721787             | 163307254           |
+| 4   | 5         | 2021-01-11 00:00:00.000 | 5                 | 62                 | 1885             | 45243             | 2714587             | 162875254           |
+| 5   | 6         | 2021-01-19 00:00:00.000 | 5                 | 62                 | 1877             | 45051             | 2703067             | 162184054           |
+| ... | ...       | ...                     | ...               | ...                | ...              | ...               | ...                 | ...                 |
+| 408 | 409       | 2025-12-06 00:00:00.000 | 1                 | 3                  | 95               | 2283              | 136987              | 8219254             |
+| 409 | 410       | 2025-12-09 00:00:00.000 | 1                 | 3                  | 92               | 2211              | 132667              | 7960054             |
+| 410 | 411       | 2025-12-14 00:00:00.000 | 1                 | 3                  | 87               | 2091              | 125467              | 7528054             |
+| 411 | 412       | 2025-12-22 00:00:00.000 | 1                 | 3                  | 79               | 1899              | 113947              | 6836854             |
+```
 
 
 
@@ -5851,127 +1141,22 @@ FROM Invoice
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>InvoiceDate</th>
-      <th>FormattedDate1</th>
-      <th>FormattedDate2</th>
-      <th>FormattedDate3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>2021-01-01</td>
-      <td>01/01/2021</td>
-      <td>01 Jan 2021</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>2021-01-02</td>
-      <td>01/02/2021</td>
-      <td>02 Jan 2021</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>2021-01-03</td>
-      <td>01/03/2021</td>
-      <td>03 Jan 2021</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>2021-01-06</td>
-      <td>01/06/2021</td>
-      <td>06 Jan 2021</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>2021-01-11</td>
-      <td>01/11/2021</td>
-      <td>11 Jan 2021</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>408</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>2025-12-05</td>
-      <td>12/05/2025</td>
-      <td>05 Dec 2025</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>409</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>2025-12-06</td>
-      <td>12/06/2025</td>
-      <td>06 Dec 2025</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>410</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>2025-12-09</td>
-      <td>12/09/2025</td>
-      <td>09 Dec 2025</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>411</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>2025-12-14</td>
-      <td>12/14/2025</td>
-      <td>14 Dec 2025</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>412</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>2025-12-22</td>
-      <td>12/22/2025</td>
-      <td>22 Dec 2025</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 5 columns</p>
-</div>
-
+```
+|      | InvoiceId | InvoiceDate             | FormattedDate1 | FormattedDate2 | FormattedDate3 |
+|:-----|:----------|:------------------------|:---------------|:---------------|:---------------|
+| 0    | 1         | 2021-01-01 00:00:00.000 | 2021-01-01     | 01/01/2021     | 01 Jan 2021    |
+| 1    | 2         | 2021-01-02 00:00:00.000 | 2021-01-02     | 01/02/2021     | 02 Jan 2021    |
+| 2    | 3         | 2021-01-03 00:00:00.000 | 2021-01-03     | 01/03/2021     | 03 Jan 2021    |
+| 3    | 4         | 2021-01-06 00:00:00.000 | 2021-01-06     | 01/06/2021     | 06 Jan 2021    |
+| 4    | 5         | 2021-01-11 00:00:00.000 | 2021-01-11     | 01/11/2021     | 11 Jan 2021    |
+| 5    | 6         | 2021-01-19 00:00:00.000 | 2021-01-19     | 01/19/2021     | 19 Jan 2021    |
+| ...  | ...       | ...                     | ...            | ...            | ...            |
+| 407  | 408       | 2025-12-05 00:00:00.000 | 2025-12-05     | 12/05/2025     | 05 Dec 2025    |
+| 408  | 409       | 2025-12-06 00:00:00.000 | 2025-12-06     | 12/06/2025     | 06 Dec 2025    |
+| 409  | 410       | 2025-12-09 00:00:00.000 | 2025-12-09     | 12/09/2025     | 09 Dec 2025    |
+| 410  | 411       | 2025-12-14 00:00:00.000 | 2025-12-14     | 12/14/2025     | 14 Dec 2025    |
+| 411  | 412       | 2025-12-22 00:00:00.000 | 2025-12-22     | 12/22/2025     | 22 Dec 2025    |
+```
 
 
 ### (8) 日期时间操作小结
@@ -5990,3 +1175,61 @@ FROM Invoice
 | 日期时间的加减运算 | `DATEADD(part, number, date)` | 对日期时间进行加减运算 |
 | 日期时间的差值计算 | `DATEDIFF(part, start_date, end_date)` | 计算两个日期时间之间的差值 |
 | 日期时间的格式化 | `FORMAT(date, format_string)` | 将一个日期时间类型的值转换成一个特定格式的字符串 |
+
+## 5. SQL 中数据类型之间的转换
+
+我们在学习 Python 时，一个重要的知识点便是数据类型之间的转换，这一点在 SQL 中也是可以做到的：
+
+- SQL 中的数据类型之间的转换使用的是 `CAST` 函数，用法是 `CAST(expression AS data_type)`，其中 `expression` 是要转换的数据，`data_type` 是要转换成的数据类型
+- 其中 `data_type` 参数是数据类型的关键字：
+
+    - `INT` 表示整数类型
+    - `FLOAT` 表示浮点数类型
+    - `VARCHAR` 表示字符串类型
+    - `DATETIME` 表示日期时间类型
+
+目前，我们学习了三种 SQL 中的数据类型：数值类型、字符串类型和日期时间类型，这三种类型之间的转换场景其实是比较简单的：
+
+- 数值和字符串之间的转换：
+
+    - 基本上只能进行数值类型转换成字符串类型，字符串类型转换成数值类型的场景比较少见
+    - 因为很多字符串是无法转换成数值的，例如 `Hello` 这个字符串是无法转换成数值的
+
+- 日期时间与数值之间的转换：
+
+    - 日期时间类型转换成数值类型，大多数需要使用到我们上面介绍的 `DATEPART` 函数，而不是使用 `CAST` 函数来实现
+    - 数值类型转换成日期时间类型，也基本上使用我们上面介绍到的 `DATETIMEFROMPARTS` 与 `DATEFROMPARTS` 函数来实现，而不是使用 `CAST` 函数来实现
+
+- 日期时间和字符串之间的转换：
+    - 日期时间类型转换成字符串类型，大多数要是哟我们上面学到的 `FORMAT` 函数，而不是使用 `CAST` 函数来实现
+    - 字符串类型转换成日期时间类型的场景比较固定，例如数据库中有一个记录时间的列，由于数据采集或处理的原因，这一列在数据库中并不是日期时间类型，而是字符串类型，例如 `'2024-12-31'`，这时候就需要将这个字符串转换成日期时间类型，这时候我们就可以使用 `CAST(column, AS DATETIME)` 来实现这个功能
+
+综上，大家可以看到 `CAST` 函数在 SQL 中使用的场景是比较局限的，主要原因是 SQL 中的数据类型本身就不如 Python 中的数据类型丰富。
+
+我们在 Chinook 数据库中来演示一下 SQL 中的数据类型之间的转换，只看以下数字转为字符串：
+
+
+```sql
+%%sql
+SELECT
+    EmployeeId,
+    CONCAT(FirstName, ' ', LastName, ' ', CAST(DATEDIFF(YEAR, HireDate, GETDATE()) AS VARCHAR), ' Years') AS EmployeeInfo
+FROM Employee
+```
+
+
+
+```
+|     | EmployeeId | EmployeeInfo              |
+|:----|:-----------|:--------------------------|
+| 0   | 1          | Andrew Adams 24 Years     |
+| 1   | 2          | Nancy Edwards 24 Years    |
+| 2   | 3          | Jane Peacock 24 Years     |
+| 3   | 4          | Margaret Park 23 Years    |
+| 4   | 5          | Steve Johnson 23 Years    |
+| 5   | 6          | Michael Mitchell 23 Years |
+| 6   | 7          | Robert King 22 Years      |
+| 7   | 8          | Laura Callahan 22 Years   |
+```
+
+

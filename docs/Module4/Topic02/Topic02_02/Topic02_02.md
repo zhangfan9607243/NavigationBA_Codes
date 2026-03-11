@@ -37,46 +37,12 @@ WHERE ArtistId = 1
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>AlbumId</th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4</td>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | AlbumId | Title                                 | ArtistId |
+|:---|:--------|:--------------------------------------|:---------|
+| 0  | 1       | For Those About To Rock We Salute You | 1        |
+| 1  | 4       | Let There Be Rock                     | 1        |
+```
 
 
 
@@ -95,101 +61,22 @@ WHERE UnitPrice > 0.99
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2819</td>
-      <td>Battlestar Galactica: The Story So Far</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2820</td>
-      <td>Occupation / Precipice</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2821</td>
-      <td>Exodus, Pt. 1</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2822</td>
-      <td>Exodus, Pt. 2</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2823</td>
-      <td>Collaborators</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>208</th>
-      <td>3362</td>
-      <td>There's No Place Like Home, Pt. 1</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>209</th>
-      <td>3363</td>
-      <td>There's No Place Like Home, Pt. 2</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>210</th>
-      <td>3364</td>
-      <td>There's No Place Like Home, Pt. 3</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>211</th>
-      <td>3428</td>
-      <td>Branch Closing</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>212</th>
-      <td>3429</td>
-      <td>The Return</td>
-      <td>1.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>213 rows × 3 columns</p>
-</div>
+```
+|     | TrackId | Name                                   | UnitPrice |
+|:----|:--------|:---------------------------------------|:----------|
+| 0   | 2819    | Battlestar Galactica: The Story So Far | 1.99      |
+| 1   | 2820    | Occupation / Precipice                 | 1.99      |
+| 2   | 2821    | Exodus, Pt. 1                          | 1.99      |
+| 3   | 2822    | Exodus, Pt. 2                          | 1.99      |
+| 4   | 2823    | Collaborators                          | 1.99      |
+| 5   | 2824    | Torn                                   | 1.99      |
+| ... | ...     | ...                                    | ...       |
+| 208 | 3362    | There's No Place Like Home, Pt. 1      | 1.99      |
+| 209 | 3363    | There's No Place Like Home, Pt. 2      | 1.99      |
+| 210 | 3364    | There's No Place Like Home, Pt. 3      | 1.99      |
+| 211 | 3428    | Branch Closing                         | 1.99      |
+| 212 | 3429    | The Return                             | 1.99      |
+```
 
 
 
@@ -207,208 +94,22 @@ WHERE BillingCountry = 'Brazil'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>InvoiceDate</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>10</td>
-      <td>2021-04-09 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>12</td>
-      <td>2021-05-23 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>13</td>
-      <td>2021-06-05 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>11</td>
-      <td>2021-09-06 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>13</td>
-      <td>2021-09-07 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>11</td>
-      <td>2021-10-17 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>13</td>
-      <td>2021-12-10 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>1</td>
-      <td>2022-03-11 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>1</td>
-      <td>2022-06-13 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>11</td>
-      <td>2022-06-17 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>13</td>
-      <td>2022-07-31 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>1</td>
-      <td>2022-09-15 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>10</td>
-      <td>2022-11-14 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>12</td>
-      <td>2022-11-14 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>12</td>
-      <td>2022-12-25 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>10</td>
-      <td>2023-02-16 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>1</td>
-      <td>2023-05-06 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>10</td>
-      <td>2023-05-21 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>12</td>
-      <td>2023-08-25 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>10</td>
-      <td>2024-01-09 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>11</td>
-      <td>2024-01-22 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>13</td>
-      <td>2024-01-22 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>13</td>
-      <td>2024-03-03 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>11</td>
-      <td>2024-04-25 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>11</td>
-      <td>2024-07-28 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>1</td>
-      <td>2024-10-27 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>13</td>
-      <td>2024-11-01 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>1</td>
-      <td>2024-12-07 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>11</td>
-      <td>2025-03-18 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>12</td>
-      <td>2025-03-31 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>10</td>
-      <td>2025-07-02 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>12</td>
-      <td>2025-07-03 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>1</td>
-      <td>2025-08-07 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>10</td>
-      <td>2025-08-12 00:00:00.000</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>12</td>
-      <td>2025-10-05 00:00:00.000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | InvoiceDate             |
+|:----|:-----------|:------------------------|
+| 0   | 10         | 2021-04-09 00:00:00.000 |
+| 1   | 12         | 2021-05-23 00:00:00.000 |
+| 2   | 13         | 2021-06-05 00:00:00.000 |
+| 3   | 11         | 2021-09-06 00:00:00.000 |
+| 4   | 13         | 2021-09-07 00:00:00.000 |
+| 5   | 11         | 2021-10-17 00:00:00.000 |
+| ... | ...        | ...                     |
+| 30  | 10         | 2025-07-02 00:00:00.000 |
+| 31  | 12         | 2025-07-03 00:00:00.000 |
+| 32  | 1          | 2025-08-07 00:00:00.000 |
+| 33  | 10         | 2025-08-12 00:00:00.000 |
+| 34  | 12         | 2025-10-05 00:00:00.000 |
+```
 
 
 
@@ -434,64 +135,12 @@ AND Milliseconds > 5000000
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2820</td>
-      <td>Occupation / Precipice</td>
-      <td>227</td>
-      <td>3</td>
-      <td>19</td>
-      <td>NaN</td>
-      <td>5286953</td>
-      <td>1054423946</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3224</td>
-      <td>Through a Looking Glass</td>
-      <td>229</td>
-      <td>3</td>
-      <td>21</td>
-      <td>NaN</td>
-      <td>5088838</td>
-      <td>1059546140</td>
-      <td>1.99</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | TrackId | Name                   | AlbumId | MediaTypeId | GenreId | Composer | Milliseconds | Bytes      | UnitPrice |
+|:---|:--------|:-----------------------|:--------|:------------|:--------|:---------|:-------------|:-----------|:----------|
+| 0  | 2820    | Occupation / Precipice | 227     | 3           | 19      | NaN      | 5286953      | 1054423946 | 1.99      |
+| 1  | 3224    | Through a Looking Glass| 229     | 3           | 21      | NaN      | 5088838      | 1059546140 | 1.99      |
+```
 
 
 
@@ -508,544 +157,22 @@ OR BillingCountry = 'Austria'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>CustomerId</th>
-      <th>InvoiceDate</th>
-      <th>BillingAddress</th>
-      <th>BillingCity</th>
-      <th>BillingState</th>
-      <th>BillingCountry</th>
-      <th>BillingPostalCode</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>25</td>
-      <td>10</td>
-      <td>2021-04-09 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>34</td>
-      <td>12</td>
-      <td>2021-05-23 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>35</td>
-      <td>13</td>
-      <td>2021-06-05 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>57</td>
-      <td>11</td>
-      <td>2021-09-06 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>58</td>
-      <td>13</td>
-      <td>2021-09-07 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>68</td>
-      <td>11</td>
-      <td>2021-10-17 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>78</td>
-      <td>7</td>
-      <td>2021-12-08 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>80</td>
-      <td>13</td>
-      <td>2021-12-10 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>89</td>
-      <td>7</td>
-      <td>2022-01-18 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>18.86</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>98</td>
-      <td>1</td>
-      <td>2022-03-11 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>3.98</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>121</td>
-      <td>1</td>
-      <td>2022-06-13 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>123</td>
-      <td>11</td>
-      <td>2022-06-17 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>132</td>
-      <td>13</td>
-      <td>2022-07-31 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>143</td>
-      <td>1</td>
-      <td>2022-09-15 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>144</td>
-      <td>7</td>
-      <td>2022-09-18 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>154</td>
-      <td>10</td>
-      <td>2022-11-14 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>155</td>
-      <td>12</td>
-      <td>2022-11-14 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>166</td>
-      <td>12</td>
-      <td>2022-12-25 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>177</td>
-      <td>10</td>
-      <td>2023-02-16 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>195</td>
-      <td>1</td>
-      <td>2023-05-06 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>199</td>
-      <td>10</td>
-      <td>2023-05-21 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>221</td>
-      <td>12</td>
-      <td>2023-08-25 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>251</td>
-      <td>10</td>
-      <td>2024-01-09 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>252</td>
-      <td>11</td>
-      <td>2024-01-22 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>253</td>
-      <td>13</td>
-      <td>2024-01-22 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>264</td>
-      <td>13</td>
-      <td>2024-03-03 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>273</td>
-      <td>7</td>
-      <td>2024-04-24 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>275</td>
-      <td>11</td>
-      <td>2024-04-25 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>296</td>
-      <td>7</td>
-      <td>2024-07-27 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>297</td>
-      <td>11</td>
-      <td>2024-07-28 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>316</td>
-      <td>1</td>
-      <td>2024-10-27 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>318</td>
-      <td>7</td>
-      <td>2024-10-29 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>319</td>
-      <td>13</td>
-      <td>2024-11-01 00:00:00.000</td>
-      <td>Qe 7 Bloco G</td>
-      <td>Brasília</td>
-      <td>DF</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>327</td>
-      <td>1</td>
-      <td>2024-12-07 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>349</td>
-      <td>11</td>
-      <td>2025-03-18 00:00:00.000</td>
-      <td>Av. Paulista, 2022</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>350</td>
-      <td>12</td>
-      <td>2025-03-31 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>370</td>
-      <td>7</td>
-      <td>2025-06-19 00:00:00.000</td>
-      <td>Rotenturmstraße 4, 1010 Innere Stadt</td>
-      <td>Vienne</td>
-      <td>NaN</td>
-      <td>Austria</td>
-      <td>1010</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>372</td>
-      <td>10</td>
-      <td>2025-07-02 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>373</td>
-      <td>12</td>
-      <td>2025-07-03 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>382</td>
-      <td>1</td>
-      <td>2025-08-07 00:00:00.000</td>
-      <td>Av. Brigadeiro Faria Lima, 2170</td>
-      <td>São José dos Campos</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>383</td>
-      <td>10</td>
-      <td>2025-08-12 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>395</td>
-      <td>12</td>
-      <td>2025-10-05 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>5.94</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | InvoiceId | CustomerId | InvoiceDate             | BillingAddress                  | BillingCity         | BillingState | BillingCountry | BillingPostalCode | Total |
+|:----|:----------|:-----------|:------------------------|:--------------------------------|:--------------------|:-------------|:---------------|:------------------|:------|
+| 0   | 25        | 10         | 2021-04-09 00:00:00.000 | Rua Dr. Falcão Filho, 155       | São Paulo           | SP           | Brazil         | 01007-010         | 8.91  |
+| 1   | 34        | 12         | 2021-05-23 00:00:00.000 | Praça Pio X, 119                | Rio de Janeiro      | RJ           | Brazil         | 20040-020         | 0.99  |
+| 2   | 35        | 13         | 2021-06-05 00:00:00.000 | Qe 7 Bloco G                    | Brasília            | DF           | Brazil         | 71020-677         | 1.98  |
+| 3   | 57        | 11         | 2021-09-06 00:00:00.000 | Av. Paulista, 2022              | São Paulo           | SP           | Brazil         | 01310-200         | 1.98  |
+| 4   | 58        | 13         | 2021-09-07 00:00:00.000 | Qe 7 Bloco G                    | Brasília            | DF           | Brazil         | 71020-677         | 3.96  |
+| 5   | 68        | 11         | 2021-10-17 00:00:00.000 | Av. Paulista, 2022              | São Paulo           | SP           | Brazil         | 01310-200         | 13.86 |
+| ... | ...       | ...        | ...                     | ...                             | ...                 | ...          | ...            | ...               | ...   |
+| 37  | 372       | 10         | 2025-07-02 00:00:00.000 | Rua Dr. Falcão Filho, 155       | São Paulo           | SP           | Brazil         | 01007-010         | 1.98  |
+| 38  | 373       | 12         | 2025-07-03 00:00:00.000 | Praça Pio X, 119                | Rio de Janeiro      | RJ           | Brazil         | 20040-020         | 3.96  |
+| 39  | 382       | 1          | 2025-08-07 00:00:00.000 | Av. Brigadeiro Faria Lima, 2170 | São José dos Campos | SP           | Brazil         | 12227-000         | 8.91  |
+| 40  | 383       | 10         | 2025-08-12 00:00:00.000 | Rua Dr. Falcão Filho, 155       | São Paulo           | SP           | Brazil         | 01007-010         | 13.86 |
+| 41  | 395       | 12         | 2025-10-05 00:00:00.000 | Praça Pio X, 119                | Rio de Janeiro      | RJ           | Brazil         | 20040-020         | 5.94  |
+```
 
 
 
@@ -1062,173 +189,22 @@ OR (UnitPrice <= 0.99 AND Milliseconds <= 5000000)
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>For Those About To Rock (We Salute You)</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Angus Young, Malcolm Young, Brian Johnson</td>
-      <td>343719</td>
-      <td>11170334</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>U. Dirkschneider, W. Hoffmann, H. Frank, P. Ba...</td>
-      <td>342562</td>
-      <td>5510424</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Fast As a Shark</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>F. Baltes, S. Kaufman, U. Dirkscneider &amp; W. Ho...</td>
-      <td>230619</td>
-      <td>3990994</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Restless and Wild</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. D...</td>
-      <td>252051</td>
-      <td>4331779</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Princess of the Dawn</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>Deaffy &amp; R.A. Smith-Diesel</td>
-      <td>375418</td>
-      <td>6290521</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3287</th>
-      <td>3499</td>
-      <td>Pini Di Roma (Pinien Von Rom) \ I Pini Della V...</td>
-      <td>343</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>286741</td>
-      <td>4718950</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3288</th>
-      <td>3500</td>
-      <td>String Quartet No. 12 in C Minor, D. 703 "Quar...</td>
-      <td>344</td>
-      <td>2</td>
-      <td>24</td>
-      <td>Franz Schubert</td>
-      <td>139200</td>
-      <td>2283131</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3289</th>
-      <td>3501</td>
-      <td>L'orfeo, Act 3, Sinfonia (Orchestra)</td>
-      <td>345</td>
-      <td>2</td>
-      <td>24</td>
-      <td>Claudio Monteverdi</td>
-      <td>66639</td>
-      <td>1189062</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3290</th>
-      <td>3502</td>
-      <td>Quintet for Horn, Violin, 2 Violas, and Cello ...</td>
-      <td>346</td>
-      <td>2</td>
-      <td>24</td>
-      <td>Wolfgang Amadeus Mozart</td>
-      <td>221331</td>
-      <td>3665114</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3291</th>
-      <td>3503</td>
-      <td>Koyaanisqatsi</td>
-      <td>347</td>
-      <td>2</td>
-      <td>10</td>
-      <td>Philip Glass</td>
-      <td>206005</td>
-      <td>3305164</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>3292 rows × 9 columns</p>
-</div>
+```
+|      | TrackId | Name                                                                                     | AlbumId | MediaTypeId | GenreId | Composer                                                                     | Milliseconds | Bytes    | UnitPrice |
+|:-----|:--------|:-----------------------------------------------------------------------------------------|:--------|:------------|:--------|:-----------------------------------------------------------------------------|:-------------|:---------|:----------|
+| 0    | 1       | For Those About To Rock \(We Salute You\)                                                | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                                    | 343719       | 11170334 | 0.99      |
+| 1    | 2       | Balls to the Wall                                                                        | 2       | 2           | 1       | U. Dirkschneider, W. Hoffmann, H. Frank, P. Baltes, S. Kaufmann, G. Hoffmann | 342562       | 5510424  | 0.99      |
+| 2    | 3       | Fast As a Shark                                                                          | 3       | 2           | 1       | F. Baltes, S. Kaufman, U. Dirkscneider & W. Hoffman                          | 230619       | 3990994  | 0.99      |
+| 3    | 4       | Restless and Wild                                                                        | 3       | 2           | 1       | F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. Dirkscneider & W. Hoffman       | 252051       | 4331779  | 0.99      |
+| 4    | 5       | Princess of the Dawn                                                                     | 3       | 2           | 1       | Deaffy & R.A. Smith-Diesel                                                   | 375418       | 6290521  | 0.99      |
+| 5    | 6       | Put The Finger On You                                                                    | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                                    | 205662       | 6713451  | 0.99      |
+| ...  | ...     | ...                                                                                      | ...     | ...         | ...     | ...                                                                          | ...          | ...      | ...       |
+| 3287 | 3499    | Pini Di Roma \(Pinien Von Rom\) \\ I Pini Della Via Appia                                | 343     | 2           | 24      | NaN                                                                          | 286741       | 4718950  | 0.99      |
+| 3288 | 3500    | String Quartet No. 12 in C Minor, D. 703 "Quartettsatz": II. Andante - Allegro assai     | 344     | 2           | 24      | Franz Schubert                                                               | 139200       | 2283131  | 0.99      |
+| 3289 | 3501    | L'orfeo, Act 3, Sinfonia \(Orchestra\)                                                   | 345     | 2           | 24      | Claudio Monteverdi                                                           | 66639        | 1189062  | 0.99      |
+| 3290 | 3502    | Quintet for Horn, Violin, 2 Violas, and Cello in E Flat Major, K. 407/386c: III. Allegro | 346     | 2           | 24      | Wolfgang Amadeus Mozart                                                      | 221331       | 3665114  | 0.99      |
+| 3291 | 3503    | Koyaanisqatsi                                                                            | 347     | 2           | 10      | Philip Glass                                                                 | 206005       | 3305164  | 0.99      |
+```
 
 
 
@@ -1244,173 +220,22 @@ WHERE NOT (BillingCountry = 'Brazil')
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>CustomerId</th>
-      <th>InvoiceDate</th>
-      <th>BillingAddress</th>
-      <th>BillingCity</th>
-      <th>BillingState</th>
-      <th>BillingCountry</th>
-      <th>BillingPostalCode</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2</td>
-      <td>2021-01-01 00:00:00.000</td>
-      <td>Theodor-Heuss-Straße 34</td>
-      <td>Stuttgart</td>
-      <td>NaN</td>
-      <td>Germany</td>
-      <td>70174</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>4</td>
-      <td>2021-01-02 00:00:00.000</td>
-      <td>Ullevålsveien 14</td>
-      <td>Oslo</td>
-      <td>NaN</td>
-      <td>Norway</td>
-      <td>0171</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>8</td>
-      <td>2021-01-03 00:00:00.000</td>
-      <td>Grétrystraat 63</td>
-      <td>Brussels</td>
-      <td>NaN</td>
-      <td>Belgium</td>
-      <td>1000</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>14</td>
-      <td>2021-01-06 00:00:00.000</td>
-      <td>8210 111 ST NW</td>
-      <td>Edmonton</td>
-      <td>AB</td>
-      <td>Canada</td>
-      <td>T6G 2C7</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>23</td>
-      <td>2021-01-11 00:00:00.000</td>
-      <td>69 Salem Street</td>
-      <td>Boston</td>
-      <td>MA</td>
-      <td>USA</td>
-      <td>2113</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>372</th>
-      <td>408</td>
-      <td>25</td>
-      <td>2025-12-05 00:00:00.000</td>
-      <td>319 N. Frances Street</td>
-      <td>Madison</td>
-      <td>WI</td>
-      <td>USA</td>
-      <td>53703</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>373</th>
-      <td>409</td>
-      <td>29</td>
-      <td>2025-12-06 00:00:00.000</td>
-      <td>796 Dundas Street West</td>
-      <td>Toronto</td>
-      <td>ON</td>
-      <td>Canada</td>
-      <td>M6J 1V1</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>374</th>
-      <td>410</td>
-      <td>35</td>
-      <td>2025-12-09 00:00:00.000</td>
-      <td>Rua dos Campeões Europeus de Viena, 4350</td>
-      <td>Porto</td>
-      <td>NaN</td>
-      <td>Portugal</td>
-      <td>NaN</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>375</th>
-      <td>411</td>
-      <td>44</td>
-      <td>2025-12-14 00:00:00.000</td>
-      <td>Porthaninkatu 9</td>
-      <td>Helsinki</td>
-      <td>NaN</td>
-      <td>Finland</td>
-      <td>00530</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>376</th>
-      <td>412</td>
-      <td>58</td>
-      <td>2025-12-22 00:00:00.000</td>
-      <td>12,Community Centre</td>
-      <td>Delhi</td>
-      <td>NaN</td>
-      <td>India</td>
-      <td>110017</td>
-      <td>1.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>377 rows × 9 columns</p>
-</div>
+```
+|     | InvoiceId | CustomerId | InvoiceDate             | BillingAddress                           | BillingCity | BillingState | BillingCountry | BillingPostalCode | Total |
+|:----|:----------|:-----------|:------------------------|:-----------------------------------------|:------------|:-------------|:---------------|:------------------|:------|
+| 0   | 1         | 2          | 2021-01-01 00:00:00.000 | Theodor-Heuss-Straße 34                  | Stuttgart   | NaN          | Germany        | 70174             | 1.98  |
+| 1   | 2         | 4          | 2021-01-02 00:00:00.000 | Ullevålsveien 14                         | Oslo        | NaN          | Norway         | 0171              | 3.96  |
+| 2   | 3         | 8          | 2021-01-03 00:00:00.000 | Grétrystraat 63                          | Brussels    | NaN          | Belgium        | 1000              | 5.94  |
+| 3   | 4         | 14         | 2021-01-06 00:00:00.000 | 8210 111 ST NW                           | Edmonton    | AB           | Canada         | T6G 2C7           | 8.91  |
+| 4   | 5         | 23         | 2021-01-11 00:00:00.000 | 69 Salem Street                          | Boston      | MA           | USA            | 2113              | 13.86 |
+| 5   | 6         | 37         | 2021-01-19 00:00:00.000 | Berger Straße 10                         | Frankfurt   | NaN          | Germany        | 60316             | 0.99  |
+| ... | ...       | ...        | ...                     | ...                                      | ...         | ...          | ...            | ...               | ...   |
+| 372 | 408       | 25         | 2025-12-05 00:00:00.000 | 319 N. Frances Street                    | Madison     | WI           | USA            | 53703             | 3.96  |
+| 373 | 409       | 29         | 2025-12-06 00:00:00.000 | 796 Dundas Street West                   | Toronto     | ON           | Canada         | M6J 1V1           | 5.94  |
+| 374 | 410       | 35         | 2025-12-09 00:00:00.000 | Rua dos Campeões Europeus de Viena, 4350 | Porto       | NaN          | Portugal       | NaN               | 8.91  |
+| 375 | 411       | 44         | 2025-12-14 00:00:00.000 | Porthaninkatu 9                          | Helsinki    | NaN          | Finland        | 00530             | 13.86 |
+| 376 | 412       | 58         | 2025-12-22 00:00:00.000 | 12,Community Centre                      | Delhi       | NaN          | India          | 110017            | 1.99  |
+```
 
 
 
@@ -1449,6 +274,37 @@ WHERE TotalPrice > 1.00
 
     Exception: [S0001][207] 行 1: Invalid column name 'TotalPrice'.
 
+
+对于这一问题，一个可行的解决方式是：
+
+- 将带有原字段的表达式直接放在 `WHERE` 语句中来进行条件查询
+- 例如在上面的例子中，我们可以把计算字段 `TotalPrice` 的计算式 `UnitPrice * Quantity` 直接放在 `WHERE` 语句中：
+
+```sql
+%%sql
+SELECT
+    InvoiceId,
+    UnitPrice * Quantity AS TotalPrice
+FROM InvoiceLine
+WHERE UnitPrice * Quantity > 1.00
+```
+
+```
+|     | InvoiceId | TotalPrice |
+|:----|:----------|:-----------|
+| 0   | 87        | 1.99       |
+| 1   | 88        | 1.99       |
+| 2   | 88        | 1.99       |
+| 3   | 88        | 1.99       |
+| 4   | 88        | 1.99       |
+| 5   | 88        | 1.99       |
+| ... | ...       | ...        |
+| 106 | 404       | 1.99       |
+| 107 | 404       | 1.99       |
+| 108 | 404       | 1.99       |
+| 109 | 404       | 1.99       |
+| 110 | 412       | 1.99       |
+```
 
 ## 2. 条件查询的进阶技巧
 
@@ -1493,53 +349,14 @@ WHERE Name LIKE '%John%'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ArtistId</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>170</td>
-      <td>Jack Johnson</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>218</td>
-      <td>Orchestre Révolutionnaire et Romantique &amp; John...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>222</td>
-      <td>Academy of St. Martin in the Fields, John Birc...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>263</td>
-      <td>Equale Brass Ensemble, John Eliot Gardiner &amp; M...</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | ArtistId | Name                                                                                  |
+|:---|:---------|:--------------------------------------------------------------------------------------|
+| 0  | 170      | Jack Johnson                                                                          |
+| 1  | 218      | Orchestre Révolutionnaire et Romantique & John Eliot Gardiner                         |
+| 2  | 222      | Academy of St. Martin in the Fields, John Birch, Sir Neville Marriner & Sylvia McNair |
+| 3  | 263      | Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir    |
+```
 
 
 
@@ -1555,63 +372,16 @@ WHERE Name LIKE '____'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ArtistId</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>52</td>
-      <td>Kiss</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>128</td>
-      <td>Rush</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>149</td>
-      <td>Lost</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>151</td>
-      <td>UB40</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>189</td>
-      <td>Otto</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>196</td>
-      <td>Cake</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | ArtistId | Name   |
+|:----|:---------|:-------|
+| 0   | 52       | Kiss   |
+| 1   | 128      | Rush   |
+| 2   | 149      | Lost   |
+| 3   | 151      | UB40   |
+| 4   | 189      | Otto   |
+| 5   | 196      | Cake   |
+```
 
 
 
@@ -1628,173 +398,22 @@ OR Name LIKE '%love%'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>24</td>
-      <td>Love In An Elevator</td>
-      <td>5</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Steven Tyler, Joe Perry</td>
-      <td>321828</td>
-      <td>10552051</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>56</td>
-      <td>Love, Hate, Love</td>
-      <td>7</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Jerry Cantrell, Layne Staley</td>
-      <td>387134</td>
-      <td>12575396</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>195</td>
-      <td>Let Me Love You Baby</td>
-      <td>20</td>
-      <td>1</td>
-      <td>6</td>
-      <td>Willie Dixon</td>
-      <td>175386</td>
-      <td>5716994</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>335</td>
-      <td>My Love</td>
-      <td>29</td>
-      <td>1</td>
-      <td>9</td>
-      <td>Jauperi/Zeu Góes</td>
-      <td>203493</td>
-      <td>6772813</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>341</td>
-      <td>The Girl I Love She Got Long Black Wavy Hair</td>
-      <td>30</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Jimmy Page/John Bonham/John Estes/John Paul Jo...</td>
-      <td>183327</td>
-      <td>5995686</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>3355</td>
-      <td>Love Comes</td>
-      <td>265</td>
-      <td>5</td>
-      <td>1</td>
-      <td>Darius "Take One" Minwalla/Jon Auer/Ken String...</td>
-      <td>199923</td>
-      <td>3240609</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>3377</td>
-      <td>Arms Around Your Love</td>
-      <td>270</td>
-      <td>2</td>
-      <td>23</td>
-      <td>Chris Cornell</td>
-      <td>214016</td>
-      <td>3516224</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>3460</td>
-      <td>Love Is a Losing Game</td>
-      <td>321</td>
-      <td>2</td>
-      <td>14</td>
-      <td>NaN</td>
-      <td>154386</td>
-      <td>2509409</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>3470</td>
-      <td>I Heard Love Is Blind</td>
-      <td>322</td>
-      <td>2</td>
-      <td>9</td>
-      <td>NaN</td>
-      <td>129666</td>
-      <td>2190831</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>3471</td>
-      <td>(There Is) No Greater Love (Teo Licks)</td>
-      <td>322</td>
-      <td>2</td>
-      <td>9</td>
-      <td>Isham Jones &amp; Marty Symes</td>
-      <td>167933</td>
-      <td>2773507</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>114 rows × 9 columns</p>
-</div>
+```
+|     | TrackId | Name                                         | AlbumId | MediaTypeId | GenreId | Composer                                                         | Milliseconds | Bytes    | UnitPrice |
+|:----|:--------|:---------------------------------------------|:--------|:------------|:--------|:-----------------------------------------------------------------|:-------------|:---------|:----------|
+| 0   | 24      | Love In An Elevator                          | 5       | 1           | 1       | Steven Tyler, Joe Perry                                          | 321828       | 10552051 | 0.99      |
+| 1   | 56      | Love, Hate, Love                             | 7       | 1           | 1       | Jerry Cantrell, Layne Staley                                     | 387134       | 12575396 | 0.99      |
+| 2   | 195     | Let Me Love You Baby                         | 20      | 1           | 6       | Willie Dixon                                                     | 175386       | 5716994  | 0.99      |
+| 3   | 335     | My Love                                      | 29      | 1           | 9       | Jauperi/Zeu Góes                                                 | 203493       | 6772813  | 0.99      |
+| 4   | 341     | The Girl I Love She Got Long Black Wavy Hair | 30      | 1           | 1       | Jimmy Page/John Bonham/John Estes/John Paul Jones/Robert Plant   | 183327       | 5995686  | 0.99      |
+| 5   | 345     | Whole Lotta Love                             | 30      | 1           | 1       | Jimmy Page/John Bonham/John Paul Jones/Robert Plant/Willie Dixon | 373394       | 12258175 | 0.99      |
+| ... | ...     | ...                                          | ...     | ...         | ...     | ...                                                              | ...          | ...      | ...       |
+| 109 | 3355    | Love Comes                                   | 265     | 5           | 1       | Darius "Take One" Minwalla/Jon Auer/Ken Stringfellow/Matt Harris | 199923       | 3240609  | 0.99      |
+| 110 | 3377    | Arms Around Your Love                        | 270     | 2           | 23      | Chris Cornell                                                    | 214016       | 3516224  | 0.99      |
+| 111 | 3460    | Love Is a Losing Game                        | 321     | 2           | 14      | NaN                                                              | 154386       | 2509409  | 0.99      |
+| 112 | 3470    | I Heard Love Is Blind                        | 322     | 2           | 9       | NaN                                                              | 129666       | 2190831  | 0.99      |
+| 113 | 3471    | \(There Is\) No Greater Love \(Teo Licks\)   | 322     | 2           | 9       | Isham Jones & Marty Symes                                        | 167933       | 2773507  | 0.99      |
+```
 
 
 
@@ -1817,173 +436,22 @@ WHERE Milliseconds BETWEEN 200000 AND 300000
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>3</td>
-      <td>Fast As a Shark</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>F. Baltes, S. Kaufman, U. Dirkscneider &amp; W. Ho...</td>
-      <td>230619</td>
-      <td>3990994</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4</td>
-      <td>Restless and Wild</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. D...</td>
-      <td>252051</td>
-      <td>4331779</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>6</td>
-      <td>Put The Finger On You</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Angus Young, Malcolm Young, Brian Johnson</td>
-      <td>205662</td>
-      <td>6713451</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>7</td>
-      <td>Let's Get It Up</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Angus Young, Malcolm Young, Brian Johnson</td>
-      <td>233926</td>
-      <td>7636561</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>8</td>
-      <td>Inject The Venom</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Angus Young, Malcolm Young, Brian Johnson</td>
-      <td>210834</td>
-      <td>6852860</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>1675</th>
-      <td>3495</td>
-      <td>24 Caprices, Op. 1, No. 24, for Solo Violin, i...</td>
-      <td>339</td>
-      <td>2</td>
-      <td>24</td>
-      <td>Niccolò Paganini</td>
-      <td>265541</td>
-      <td>4371533</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1676</th>
-      <td>3497</td>
-      <td>Erlkonig, D.328</td>
-      <td>341</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>261849</td>
-      <td>4307907</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1677</th>
-      <td>3499</td>
-      <td>Pini Di Roma (Pinien Von Rom) \ I Pini Della V...</td>
-      <td>343</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>286741</td>
-      <td>4718950</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1678</th>
-      <td>3502</td>
-      <td>Quintet for Horn, Violin, 2 Violas, and Cello ...</td>
-      <td>346</td>
-      <td>2</td>
-      <td>24</td>
-      <td>Wolfgang Amadeus Mozart</td>
-      <td>221331</td>
-      <td>3665114</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1679</th>
-      <td>3503</td>
-      <td>Koyaanisqatsi</td>
-      <td>347</td>
-      <td>2</td>
-      <td>10</td>
-      <td>Philip Glass</td>
-      <td>206005</td>
-      <td>3305164</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>1680 rows × 9 columns</p>
-</div>
+```
+|      | TrackId | Name                                                                                     | AlbumId | MediaTypeId | GenreId | Composer                                                               | Milliseconds | Bytes   | UnitPrice |
+|:-----|:--------|:-----------------------------------------------------------------------------------------|:--------|:------------|:--------|:-----------------------------------------------------------------------|:-------------|:--------|:----------|
+| 0    | 3       | Fast As a Shark                                                                          | 3       | 2           | 1       | F. Baltes, S. Kaufman, U. Dirkscneider & W. Hoffman                    | 230619       | 3990994 | 0.99      |
+| 1    | 4       | Restless and Wild                                                                        | 3       | 2           | 1       | F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. Dirkscneider & W. Hoffman | 252051       | 4331779 | 0.99      |
+| 2    | 6       | Put The Finger On You                                                                    | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                              | 205662       | 6713451 | 0.99      |
+| 3    | 7       | Let's Get It Up                                                                          | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                              | 233926       | 7636561 | 0.99      |
+| 4    | 8       | Inject The Venom                                                                         | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                              | 210834       | 6852860 | 0.99      |
+| 5    | 9       | Snowballed                                                                               | 1       | 1           | 1       | Angus Young, Malcolm Young, Brian Johnson                              | 203102       | 6599424 | 0.99      |
+| ...  | ...     | ...                                                                                      | ...     | ...         | ...     | ...                                                                    | ...          | ...     | ...       |
+| 1675 | 3495    | 24 Caprices, Op. 1, No. 24, for Solo Violin, in A Minor                                  | 339     | 2           | 24      | Niccolò Paganini                                                       | 265541       | 4371533 | 0.99      |
+| 1676 | 3497    | Erlkonig, D.328                                                                          | 341     | 2           | 24      | NaN                                                                    | 261849       | 4307907 | 0.99      |
+| 1677 | 3499    | Pini Di Roma \(Pinien Von Rom\) \\ I Pini Della Via Appia                                | 343     | 2           | 24      | NaN                                                                    | 286741       | 4718950 | 0.99      |
+| 1678 | 3502    | Quintet for Horn, Violin, 2 Violas, and Cello in E Flat Major, K. 407/386c: III. Allegro | 346     | 2           | 24      | Wolfgang Amadeus Mozart                                                | 221331       | 3665114 | 0.99      |
+| 1679 | 3503    | Koyaanisqatsi                                                                            | 347     | 2           | 10      | Philip Glass                                                           | 206005       | 3305164 | 0.99      |
+```
 
 
 
@@ -2006,173 +474,22 @@ WHERE BillingCountry IN ('Brazil', 'Austria', 'France')
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>CustomerId</th>
-      <th>InvoiceDate</th>
-      <th>BillingAddress</th>
-      <th>BillingCity</th>
-      <th>BillingState</th>
-      <th>BillingCountry</th>
-      <th>BillingPostalCode</th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>8</td>
-      <td>40</td>
-      <td>2021-02-01 00:00:00.000</td>
-      <td>8, Rue Hanovre</td>
-      <td>Paris</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>75002</td>
-      <td>1.98</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>9</td>
-      <td>42</td>
-      <td>2021-02-02 00:00:00.000</td>
-      <td>9, Place Louis Barthou</td>
-      <td>Bordeaux</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>33000</td>
-      <td>3.96</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>19</td>
-      <td>40</td>
-      <td>2021-03-14 00:00:00.000</td>
-      <td>8, Rue Hanovre</td>
-      <td>Paris</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>75002</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>25</td>
-      <td>10</td>
-      <td>2021-04-09 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>31</td>
-      <td>42</td>
-      <td>2021-05-07 00:00:00.000</td>
-      <td>9, Place Louis Barthou</td>
-      <td>Bordeaux</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>33000</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>383</td>
-      <td>10</td>
-      <td>2025-08-12 00:00:00.000</td>
-      <td>Rua Dr. Falcão Filho, 155</td>
-      <td>São Paulo</td>
-      <td>SP</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-      <td>13.86</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>389</td>
-      <td>39</td>
-      <td>2025-09-07 00:00:00.000</td>
-      <td>4, Rue Milton</td>
-      <td>Paris</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>75009</td>
-      <td>8.91</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>395</td>
-      <td>12</td>
-      <td>2025-10-05 00:00:00.000</td>
-      <td>Praça Pio X, 119</td>
-      <td>Rio de Janeiro</td>
-      <td>RJ</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-      <td>5.94</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>398</td>
-      <td>41</td>
-      <td>2025-10-21 00:00:00.000</td>
-      <td>11, Place Bellecour</td>
-      <td>Lyon</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>69002</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>399</td>
-      <td>42</td>
-      <td>2025-11-03 00:00:00.000</td>
-      <td>9, Place Louis Barthou</td>
-      <td>Bordeaux</td>
-      <td>NaN</td>
-      <td>France</td>
-      <td>33000</td>
-      <td>1.98</td>
-    </tr>
-  </tbody>
-</table>
-<p>77 rows × 9 columns</p>
-</div>
+```
+|     | InvoiceId | CustomerId | InvoiceDate             | BillingAddress            | BillingCity    | BillingState | BillingCountry | BillingPostalCode | Total |
+|:----|:----------|:-----------|:------------------------|:--------------------------|:---------------|:-------------|:---------------|:------------------|:------|
+| 0   | 8         | 40         | 2021-02-01 00:00:00.000 | 8, Rue Hanovre            | Paris          | NaN          | France         | 75002             | 1.98  |
+| 1   | 9         | 42         | 2021-02-02 00:00:00.000 | 9, Place Louis Barthou    | Bordeaux       | NaN          | France         | 33000             | 3.96  |
+| 2   | 19        | 40         | 2021-03-14 00:00:00.000 | 8, Rue Hanovre            | Paris          | NaN          | France         | 75002             | 13.86 |
+| 3   | 25        | 10         | 2021-04-09 00:00:00.000 | Rua Dr. Falcão Filho, 155 | São Paulo      | SP           | Brazil         | 01007-010         | 8.91  |
+| 4   | 31        | 42         | 2021-05-07 00:00:00.000 | 9, Place Louis Barthou    | Bordeaux       | NaN          | France         | 33000             | 5.94  |
+| 5   | 34        | 12         | 2021-05-23 00:00:00.000 | Praça Pio X, 119          | Rio de Janeiro | RJ           | Brazil         | 20040-020         | 0.99  |
+| ... | ...       | ...        | ...                     | ...                       | ...            | ...          | ...            | ...               | ...   |
+| 72  | 383       | 10         | 2025-08-12 00:00:00.000 | Rua Dr. Falcão Filho, 155 | São Paulo      | SP           | Brazil         | 01007-010         | 13.86 |
+| 73  | 389       | 39         | 2025-09-07 00:00:00.000 | 4, Rue Milton             | Paris          | NaN          | France         | 75009             | 8.91  |
+| 74  | 395       | 12         | 2025-10-05 00:00:00.000 | Praça Pio X, 119          | Rio de Janeiro | RJ           | Brazil         | 20040-020         | 5.94  |
+| 75  | 398       | 41         | 2025-10-21 00:00:00.000 | 11, Place Bellecour       | Lyon           | NaN          | France         | 69002             | 0.99  |
+| 76  | 399       | 42         | 2025-11-03 00:00:00.000 | 9, Place Louis Barthou    | Bordeaux       | NaN          | France         | 33000             | 1.98  |
+```
 
 
 
@@ -2196,172 +513,21 @@ WHERE Composer IS NULL
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>63</td>
-      <td>Desafinado</td>
-      <td>8</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>185338</td>
-      <td>5990473</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>64</td>
-      <td>Garota De Ipanema</td>
-      <td>8</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>285048</td>
-      <td>9348428</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>65</td>
-      <td>Samba De Uma Nota Só (One Note Samba)</td>
-      <td>8</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>137273</td>
-      <td>4535401</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>66</td>
-      <td>Por Causa De Você</td>
-      <td>8</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>169900</td>
-      <td>5536496</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>67</td>
-      <td>Ligia</td>
-      <td>8</td>
-      <td>1</td>
-      <td>2</td>
-      <td>NaN</td>
-      <td>251977</td>
-      <td>8226934</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>972</th>
-      <td>3478</td>
-      <td>Slowness</td>
-      <td>323</td>
-      <td>2</td>
-      <td>23</td>
-      <td>NaN</td>
-      <td>215386</td>
-      <td>3644793</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>973</th>
-      <td>3481</td>
-      <td>A Midsummer Night's Dream, Op.61 Incidental Mu...</td>
-      <td>326</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>387826</td>
-      <td>6497867</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>974</th>
-      <td>3496</td>
-      <td>Étude 1, In C Major - Preludio (Presto) - Liszt</td>
-      <td>340</td>
-      <td>4</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>51780</td>
-      <td>2229617</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>975</th>
-      <td>3497</td>
-      <td>Erlkonig, D.328</td>
-      <td>341</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>261849</td>
-      <td>4307907</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>976</th>
-      <td>3499</td>
-      <td>Pini Di Roma (Pinien Von Rom) \ I Pini Della V...</td>
-      <td>343</td>
-      <td>2</td>
-      <td>24</td>
-      <td>NaN</td>
-      <td>286741</td>
-      <td>4718950</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>977 rows × 9 columns</p>
-</div>
+```
+|     | TrackId | Name                                                             | AlbumId | MediaTypeId | GenreId | Composer | Milliseconds | Bytes   | UnitPrice |
+|:----|:--------|:-----------------------------------------------------------------|:--------|:------------|:--------|:---------|:-------------|:--------|:----------|
+| 0   | 63      | Desafinado                                                       | 8       | 1           | 2       | NaN      | 185338       | 5990473 | 0.99      |
+| 1   | 64      | Garota De Ipanema                                                | 8       | 1           | 2       | NaN      | 285048       | 9348428 | 0.99      |
+| 2   | 65      | Samba De Uma Nota Só \(One Note Samba\)                          | 8       | 1           | 2       | NaN      | 137273       | 4535401 | 0.99      |
+| 3   | 66      | Por Causa De Você                                                | 8       | 1           | 2       | NaN      | 169900       | 5536496 | 0.99      |
+| 4   | 67      | Ligia                                                            | 8       | 1           | 2       | NaN      | 251977       | 8226934 | 0.99      |
+| 5   | 68      | Fotografia                                                       | 8       | 1           | 2       | NaN      | 129227       | 4198774 | 0.99      |
+| ... | ...     | ...                                                              | ...     | ...         | ...     | ...      | ...          | ...     | ...       |
+| 972 | 3478    | Slowness                                                         | 323     | 2           | 23      | NaN      | 215386       | 3644793 | 0.99      |
+| 973 | 3481    | A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno | 326     | 2           | 24      | NaN      | 387826       | 6497867 | 0.99      |
+| 974 | 3496    | Étude 1, In C Major - Preludio \(Presto\) - Liszt                | 340     | 4           | 24      | NaN      | 51780        | 2229617 | 0.99      |
+| 975 | 3497    | Erlkonig, D.328                                                  | 341     | 2           | 24      | NaN      | 261849       | 4307907 | 0.99      |
+| 976 | 3499    | Pini Di Roma \(Pinien Von Rom\) \\ I Pini Della Via Appia        | 343     | 2           | 24      | NaN      | 286741       | 4718950 | 0.99      |
+```
 
 

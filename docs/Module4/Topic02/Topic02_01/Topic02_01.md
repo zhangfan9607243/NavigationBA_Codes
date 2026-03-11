@@ -48,77 +48,22 @@ FROM Album
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>For Those About To Rock We Salute You</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Balls to the Wall</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let There Be Rock</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Respighi:Pines of Rome</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 1 columns</p>
-</div>
+```
+|     | Title                                                          |
+|:----|:---------------------------------------------------------------|
+| 0   | For Those About To Rock We Salute You                          |
+| 1   | Balls to the Wall                                              |
+| 2   | Restless and Wild                                              |
+| 3   | Let There Be Rock                                              |
+| 4   | Big Ones                                                       |
+| 5   | Jagged Little Pill                                             |
+| ... | ...                                                            |
+| 342 | Respighi:Pines of Rome                                         |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) |
+| 344 | Monteverdi: L'Orfeo                                            |
+| 345 | Mozart: Chamber Music                                          |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           |
+```
 
 
 
@@ -133,89 +78,22 @@ FROM Album
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Respighi:Pines of Rome</td>
-      <td>226</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-      <td>272</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-      <td>273</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-      <td>274</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-      <td>275</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 2 columns</p>
-</div>
+```
+|     | Title                                                          | ArtistId |
+|:----|:---------------------------------------------------------------|:---------|
+| 0   | For Those About To Rock We Salute You                          | 1        |
+| 1   | Balls to the Wall                                              | 2        |
+| 2   | Restless and Wild                                              | 2        |
+| 3   | Let There Be Rock                                              | 1        |
+| 4   | Big Ones                                                       | 3        |
+| 5   | Jagged Little Pill                                             | 4        |
+| ... | ...                                                            | ...      |
+| 342 | Respighi:Pines of Rome                                         | 226      |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      |
+| 344 | Monteverdi: L'Orfeo                                            | 273      |
+| 345 | Mozart: Chamber Music                                          | 274      |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      |
+```
 
 
 
@@ -230,101 +108,22 @@ FROM Album
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>AlbumId</th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>343</td>
-      <td>Respighi:Pines of Rome</td>
-      <td>226</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>344</td>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-      <td>272</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>345</td>
-      <td>Monteverdi: L'Orfeo</td>
-      <td>273</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>346</td>
-      <td>Mozart: Chamber Music</td>
-      <td>274</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>347</td>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-      <td>275</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 3 columns</p>
-</div>
+```
+|     | AlbumId | Title                                                          | ArtistId |
+|:----|:--------|:---------------------------------------------------------------|:---------|
+| 0   | 1       | For Those About To Rock We Salute You                          | 1        |
+| 1   | 2       | Balls to the Wall                                              | 2        |
+| 2   | 3       | Restless and Wild                                              | 2        |
+| 3   | 4       | Let There Be Rock                                              | 1        |
+| 4   | 5       | Big Ones                                                       | 3        |
+| 5   | 6       | Jagged Little Pill                                             | 4        |
+| ... | ...     | ...                                                            | ...      |
+| 342 | 343     | Respighi:Pines of Rome                                         | 226      |
+| 343 | 344     | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      |
+| 344 | 345     | Monteverdi: L'Orfeo                                            | 273      |
+| 345 | 346     | Mozart: Chamber Music                                          | 274      |
+| 346 | 347     | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      |
+```
 
 
 
@@ -400,77 +199,22 @@ FROM Album AS A
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Album_Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>For Those About To Rock We Salute You</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Balls to the Wall</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let There Be Rock</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Respighi:Pines of Rome</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 1 columns</p>
-</div>
+```
+|     | Album\_Title                                                   |
+|:----|:---------------------------------------------------------------|
+| 0   | For Those About To Rock We Salute You                          |
+| 1   | Balls to the Wall                                              |
+| 2   | Restless and Wild                                              |
+| 3   | Let There Be Rock                                              |
+| 4   | Big Ones                                                       |
+| 5   | Jagged Little Pill                                             |
+| ... | ...                                                            |
+| 342 | Respighi:Pines of Rome                                         |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) |
+| 344 | Monteverdi: L'Orfeo                                            |
+| 345 | Mozart: Chamber Music                                          |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           |
+```
 
 
 
@@ -487,89 +231,22 @@ FROM Album AS A
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Album_Title</th>
-      <th>Artist_ID</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Respighi:Pines of Rome</td>
-      <td>226</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-      <td>272</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-      <td>273</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-      <td>274</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-      <td>275</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 2 columns</p>
-</div>
+```
+|     | Album\_Title                                                   | Artist\_ID |
+|:----|:---------------------------------------------------------------|:-----------|
+| 0   | For Those About To Rock We Salute You                          | 1          |
+| 1   | Balls to the Wall                                              | 2          |
+| 2   | Restless and Wild                                              | 2          |
+| 3   | Let There Be Rock                                              | 1          |
+| 4   | Big Ones                                                       | 3          |
+| 5   | Jagged Little Pill                                             | 4          |
+| ... | ...                                                            | ...        |
+| 342 | Respighi:Pines of Rome                                         | 226        |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272        |
+| 344 | Monteverdi: L'Orfeo                                            | 273        |
+| 345 | Mozart: Chamber Music                                          | 274        |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275        |
+```
 
 
 
@@ -590,32 +267,32 @@ FROM Album AS A
 - 假设我们有以下这张客户信息表：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.02.39.png" width="400">
+    <img src="../截屏2026-03-09 15.02.39.png" width="400">
 </div>
 
 - 在这张表中，当我们把 `Customer ID`、`City`、`Country` 这三列都查询出来的时候，每一行都是唯一的
 - 但是如果我们只查询 `City` 这一列的时候，就会有重复的结果：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.06.25.png" width="100">
+    <img src="../截屏2026-03-09 15.06.25.png" width="100">
 </div>
 
 - 对 `City` 列进行去重查询之后，就只保留了不同的城市：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.06.45.png" width="100">
+    <img src="../截屏2026-03-09 15.06.45.png" width="100">
 </div>
 
 - 同样，如果我们查询 `Country` 列的时候，也会有重复的结果：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.10.00.png" width="100">
+    <img src="../截屏2026-03-09 15.10.00.png" width="100">
 </div>
 
 - 对 `Country` 列进行去重查询之后，就只保留了不同的国家：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.10.05.png" width="100">
+    <img src="../截屏2026-03-09 15.10.05.png" width="100">
 </div>
 
 当然，去重查询也可以对多列进行去重查询：
@@ -623,13 +300,13 @@ FROM Album AS A
 - 当我们查询 `City` 和 `Country` 两列的时候，就会有重复的结果：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.12.32.png" width="200">
+    <img src="../截屏2026-03-09 15.12.32.png" width="200">
 </div>
 
 - 对 `City` 和 `Country` 两列进行去重查询：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.12.37.png" width="200">
+    <img src="../截屏2026-03-09 15.12.37.png" width="200">
 </div>
 
 当然，如果我们选择查询两列或多列，那么这两列或多列要去重的话就得同时去重，否则就会出现无法匹配的情况：
@@ -637,7 +314,7 @@ FROM Album AS A
 - 例如我们决定查询 `City` 和 `Country` 两列，并且只对 `Country` 列进行去重查询，那么就会出现以下这种情况：
 
 <div style="text-align: center;">
-    <img src="截屏2026-03-09 15.18.11.png" width="300">
+    <img src="../截屏2026-03-09 15.18.11.png" width="300">
 </div>
 
 - 这种情况下，`City` 查询出 6 行，但是 `Country` 只查询出 2 行，这样就无法匹配了，这个在 SQL 中是不允许的
@@ -660,77 +337,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>407</th>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>408</th>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>409</th>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>410</th>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>411</th>
-      <td>59</td>
-    </tr>
-  </tbody>
-</table>
-<p>412 rows × 1 columns</p>
-</div>
+```
+|     | CustomerId |
+|:----|:-----------|
+| 0   | 1          |
+| 1   | 1          |
+| 2   | 1          |
+| 3   | 1          |
+| 4   | 1          |
+| 5   | 1          |
+| ... | ...        |
+| 407 | 59         |
+| 408 | 59         |
+| 409 | 59         |
+| 410 | 59         |
+| 411 | 59         |
+```
 
 
 
@@ -747,268 +369,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId |
+|:----|:-----------|
+| 0   | 1          |
+| 1   | 2          |
+| 2   | 3          |
+| 3   | 4          |
+| 4   | 5          |
+| 5   | 6          |
+| ... | ...        |
+| 54  | 55         |
+| 55  | 56         |
+| 56  | 57         |
+| 57  | 58         |
+| 58  | 59         |
+```
 
 
 
@@ -1029,328 +405,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>BillingCountry</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Brazil</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Norway</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Czech Republic</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>Czech Republic</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>Austria</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>Belgium</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>Denmark</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>Brazil</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>Brazil</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>Brazil</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>Brazil</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>USA</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>Portugal</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>Portugal</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>Finland</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>Hungary</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>Ireland</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>Italy</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>Netherlands</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>Poland</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>Spain</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>Sweden</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>Australia</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>Argentina</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>Chile</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>India</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>India</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | BillingCountry |
+|:----|:-----------|:---------------|
+| 0   | 1          | Brazil         |
+| 1   | 2          | Germany        |
+| 2   | 3          | Canada         |
+| 3   | 4          | Norway         |
+| 4   | 5          | Czech Republic |
+| 5   | 6          | Czech Republic |
+| ... | ...        | ...            |
+| 54  | 55         | Australia      |
+| 55  | 56         | Argentina      |
+| 56  | 57         | Chile          |
+| 57  | 58         | India          |
+| 58  | 59         | India          |
+```
 
 
 
@@ -1368,388 +438,22 @@ FROM Invoice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerId</th>
-      <th>BillingCountry</th>
-      <th>BillingPostalCode</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Brazil</td>
-      <td>12227-000</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Germany</td>
-      <td>70174</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Canada</td>
-      <td>H2G 1A7</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Norway</td>
-      <td>0171</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Czech Republic</td>
-      <td>14700</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>Czech Republic</td>
-      <td>14300</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>Austria</td>
-      <td>1010</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>Belgium</td>
-      <td>1000</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>Denmark</td>
-      <td>1720</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>Brazil</td>
-      <td>01007-010</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>Brazil</td>
-      <td>01310-200</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>Brazil</td>
-      <td>20040-020</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>Brazil</td>
-      <td>71020-677</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>Canada</td>
-      <td>T6G 2C7</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>Canada</td>
-      <td>V6C 1G8</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>USA</td>
-      <td>94043-1351</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>USA</td>
-      <td>98052-8300</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>USA</td>
-      <td>10012-2612</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>USA</td>
-      <td>95014</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>USA</td>
-      <td>94040-111</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>USA</td>
-      <td>89503</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>USA</td>
-      <td>32801</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>USA</td>
-      <td>2113</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>USA</td>
-      <td>60611</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>USA</td>
-      <td>53703</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>USA</td>
-      <td>76110</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>USA</td>
-      <td>85719</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>USA</td>
-      <td>84102</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>Canada</td>
-      <td>M6J 1V1</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>Canada</td>
-      <td>K2P 1L7</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>31</td>
-      <td>Canada</td>
-      <td>B3S 1C5</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>32</td>
-      <td>Canada</td>
-      <td>R3L 2B9</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>33</td>
-      <td>Canada</td>
-      <td>X1A 1N6</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>34</td>
-      <td>Portugal</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>35</td>
-      <td>Portugal</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>36</td>
-      <td>Germany</td>
-      <td>10789</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>37</td>
-      <td>Germany</td>
-      <td>60316</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>38</td>
-      <td>Germany</td>
-      <td>10779</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>39</td>
-      <td>France</td>
-      <td>75009</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>40</td>
-      <td>France</td>
-      <td>75002</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>41</td>
-      <td>France</td>
-      <td>69002</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>42</td>
-      <td>France</td>
-      <td>33000</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>43</td>
-      <td>France</td>
-      <td>21000</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>44</td>
-      <td>Finland</td>
-      <td>00530</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>45</td>
-      <td>Hungary</td>
-      <td>H-1073</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>46</td>
-      <td>Ireland</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>47</td>
-      <td>Italy</td>
-      <td>00192</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>48</td>
-      <td>Netherlands</td>
-      <td>1016</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>49</td>
-      <td>Poland</td>
-      <td>00-358</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>50</td>
-      <td>Spain</td>
-      <td>28015</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>51</td>
-      <td>Sweden</td>
-      <td>11230</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>52</td>
-      <td>United Kingdom</td>
-      <td>N1 5LH</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>53</td>
-      <td>United Kingdom</td>
-      <td>SW1V 3EN</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>54</td>
-      <td>United Kingdom</td>
-      <td>EH4 1HH</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>55</td>
-      <td>Australia</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>56</td>
-      <td>Argentina</td>
-      <td>1106</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>57</td>
-      <td>Chile</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>58</td>
-      <td>India</td>
-      <td>110017</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>59</td>
-      <td>India</td>
-      <td>560001</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|     | CustomerId | BillingCountry | BillingPostalCode |
+|:----|:-----------|:---------------|:------------------|
+| 0   | 1          | Brazil         | 12227-000         |
+| 1   | 2          | Germany        | 70174             |
+| 2   | 3          | Canada         | H2G 1A7           |
+| 3   | 4          | Norway         | 0171              |
+| 4   | 5          | Czech Republic | 14700             |
+| 5   | 6          | Czech Republic | 14300             |
+| ... | ...        | ...            | ...               |
+| 54  | 55         | Australia      | 2010              |
+| 55  | 56         | Argentina      | 1106              |
+| 56  | 57         | Chile          | NaN               |
+| 57  | 58         | India          | 110017            |
+| 58  | 59         | India          | 560001            |
+```
 
 
 
@@ -1778,99 +482,31 @@ SELECT
 FROM Album
 ```
 
+```
+|     | Title                                                          | ArtistId |
+|:----|:---------------------------------------------------------------|:---------|
+| 0   | For Those About To Rock We Salute You                          | 1        |
+| 1   | Balls to the Wall                                              | 2        |
+| 2   | Restless and Wild                                              | 2        |
+| 3   | Let There Be Rock                                              | 1        |
+| 4   | Big Ones                                                       | 3        |
+| 5   | Jagged Little Pill                                             | 4        |
+| ... | ...                                                            | ...      |
+| 342 | Respighi:Pines of Rome                                         | 226      |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      |
+| 344 | Monteverdi: L'Orfeo                                            | 273      |
+| 345 | Mozart: Chamber Music                                          | 274      |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      |
+```
 
 
+## 4. SELECT 语句中的特殊操作
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+### (1) SELECT 语句中的计算
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+在 SQL 中，SELECT 语句中不仅可以提取表中列的原始数据，还可以对这些数据进行各种计算，计算的结果会作为查询结果的一部分返回。
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Respighi:Pines of Rome</td>
-      <td>226</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-      <td>272</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-      <td>273</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-      <td>274</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-      <td>275</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 2 columns</p>
-</div>
-
-
-
-## 4. SELECT 语句中的数据运算
-
-### (1) SELECT 语句中的数值计算
-
-在 SQL 中，我们可以在 `SELECT` 语句中对数值列进行加减乘除等各种计算：
+比方说，我们可以在 `SELECT` 语句中对数值列进行加减乘除等各种计算：
 
 - 加法符号：`+`
 - 减法符号：`-`
@@ -1896,101 +532,22 @@ FROM Track
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>UnitPrice</th>
-      <th>NewPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.99</td>
-      <td>1.089</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 3 columns</p>
-</div>
+```
+|     | Title                                                          | ArtistId |
+|:----|:---------------------------------------------------------------|:---------|
+| 0   | For Those About To Rock We Salute You                          | 1        |
+| 1   | Balls to the Wall                                              | 2        |
+| 2   | Restless and Wild                                              | 2        |
+| 3   | Let There Be Rock                                              | 1        |
+| 4   | Big Ones                                                       | 3        |
+| 5   | Jagged Little Pill                                             | 4        |
+| ... | ...                                                            | ...      |
+| 342 | Respighi:Pines of Rome                                         | 226      |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      |
+| 344 | Monteverdi: L'Orfeo                                            | 273      |
+| 345 | Mozart: Chamber Music                                          | 274      |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      |
+```
 
 
 
@@ -2008,101 +565,22 @@ FROM InvoiceLine
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>InvoiceId</th>
-      <th>TrackId</th>
-      <th>TotalPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>2</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>4</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2</td>
-      <td>6</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2</td>
-      <td>8</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2</td>
-      <td>10</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>2235</th>
-      <td>411</td>
-      <td>3136</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2236</th>
-      <td>411</td>
-      <td>3145</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2237</th>
-      <td>411</td>
-      <td>3154</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2238</th>
-      <td>411</td>
-      <td>3163</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2239</th>
-      <td>412</td>
-      <td>3177</td>
-      <td>1.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>2240 rows × 3 columns</p>
-</div>
+```
+|      | InvoiceId | TrackId | TotalPrice |
+|:-----|:----------|:--------|:-----------|
+| 0    | 1         | 2       | 0.99       |
+| 1    | 1         | 4       | 0.99       |
+| 2    | 2         | 6       | 0.99       |
+| 3    | 2         | 8       | 0.99       |
+| 4    | 2         | 10      | 0.99       |
+| 5    | 2         | 12      | 0.99       |
+| ...  | ...       | ...     | ...        |
+| 2235 | 411       | 3136    | 0.99       |
+| 2236 | 411       | 3145    | 0.99       |
+| 2237 | 411       | 3154    | 0.99       |
+| 2238 | 411       | 3163    | 0.99       |
+| 2239 | 412       | 3177    | 1.99       |
+```
 
 
 
@@ -2119,89 +597,22 @@ FROM Track
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>PricePerSecond</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.002880</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.002890</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.004293</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.003928</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.002637</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.003453</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.007112</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.014856</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.004473</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.004806</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 2 columns</p>
-</div>
+```
+|      | TrackId | PricePerSecond |
+|:-----|:--------|:---------------|
+| 0    | 1       | 0.002880       |
+| 1    | 2       | 0.002890       |
+| 2    | 3       | 0.004293       |
+| 3    | 4       | 0.003928       |
+| 4    | 5       | 0.002637       |
+| 5    | 6       | 0.004814       |
+| ...  | ...     | ...            |
+| 3498 | 3499    | 0.003453       |
+| 3499 | 3500    | 0.007112       |
+| 3500 | 3501    | 0.014856       |
+| 3501 | 3502    | 0.004473       |
+| 3502 | 3503    | 0.004806       |
+```
 
 
 
@@ -2234,7 +645,7 @@ FROM Track
 
     Exception                                 Traceback (most recent call last)
 
-    Cell In[33], line 1
+    Cell In[15], line 1
     ----> 1 raise Exception(__import__('base64').b64decode('W1MwMDAxXVsyMDddIOihjCA0OiBJbnZhbGlkIGNvbHVtbiBuYW1lICdQcmljZVBlclNlY29uZCcu').decode('utf-8'))
 
 
@@ -2255,296 +666,88 @@ FROM Track
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>PricePerSecond</th>
-      <th>PricePerMinute</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.002880</td>
-      <td>0.172816</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.002890</td>
-      <td>0.173399</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.004293</td>
-      <td>0.257568</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.003928</td>
-      <td>0.235667</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.002637</td>
-      <td>0.158224</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.003453</td>
-      <td>0.207156</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.007112</td>
-      <td>0.426724</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.014856</td>
-      <td>0.891370</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.004473</td>
-      <td>0.268376</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.004806</td>
-      <td>0.288343</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 3 columns</p>
-</div>
+```
+|      | TrackId | PricePerSecond |
+|:-----|:--------|:---------------|
+| 0    | 1       | 0.002880       |
+| 1    | 2       | 0.002890       |
+| 2    | 3       | 0.004293       |
+| 3    | 4       | 0.003928       |
+| 4    | 5       | 0.002637       |
+| 5    | 6       | 0.004814       |
+| ...  | ...     | ...            |
+| 3498 | 3499    | 0.003453       |
+| 3499 | 3500    | 0.007112       |
+| 3500 | 3501    | 0.014856       |
+| 3501 | 3502    | 0.004473       |
+| 3502 | 3503    | 0.004806       |
+```
 
 
 
-### (2) SQL 中的计算函数
+上面我们简单了解了使用运算符进行计算，更多高级的计算我们将在后续章节中介绍。
 
-除了运算符号之外，SQL 中还有一些内置的计算函数：
+### (2) SQL 中选取特定数值
 
-- 注意，计算函数会根据数据库类型的不同而有所不同
-- 我们来列举一些 Azure SQL Database 中常用的计算函数：
+SQL 有个神奇功能：
 
-    - `ABS(x)`：返回 x 的绝对值
-    - `ROUND(x, d)`：将 x 四舍五入到 d 位小数
-    - `CEILING(x)`：返回大于或等于 x 的最小整数
-    - `FLOOR(x)`：返回小于或等于 x 的最大整数
-    - `POWER(x, y)`：返回 x 的 y 次幂
-    - `SQRT(x)`：返回 x 的平方根
-    - `LOG(x)`：返回 x 的自然对数
-    - `EXP(x)`：返回 e 的 x 次幂
+- 就是它可以只写 `SELECT` 语句中的数值，而不写 `FROM` 语句中的表名
+- 这么做的话，SQL 就会返回一个只有一行一列的结果，这个结果就是我们在 `SELECT` 语句中写的数值
+- 相当于把 SQL 当做一个计算器来使用了，这个功能主要在测试 SQL 语法或者进行一些简单的计算的时候会用到
 
-- 其实还有很多运算函数，比方说三角函数什么的，但是使用的频率实在太少了，这里我们就不列举了，大家可以自己查询一下，但是注意查询的时候一定要查询 Azure SQL Database 中的计算函数，因为不同数据库类型中的计算函数可能会有所不同
-- 注意，这里我们推荐大家，运算函数和关键字一样，也使用大写字母来书写，这样可以和列名区分开来，代码也更清晰易读
-
-这里我们来在 `Track` 表中使用一些计算函数（数值可能没什么实际意义，我们只是展示函数功能）：
+我们来看一下这个功能的例子：
 
 
 ```sql
 %%sql
 SELECT
-    TrackId,
-    UnitPrice,
-    SQRT(UnitPrice) AS SqrtUnitPrice, -- 计算 UnitPrice 的平方根
-    LOG(UnitPrice) AS LogUnitPrice, -- 计算 UnitPrice 的自然对数
-    EXP(UnitPrice) AS ExpUnitPrice, -- 计算 e 的 UnitPrice 次幂
-    ROUND(UnitPrice, 1) AS RoundedUnitPrice, -- 将 UnitPrice 四舍五入到 1 位小数
-    CEILING(UnitPrice) AS CeilingUnitPrice, -- 将 UnitPrice 向上取整
-    FLOOR(UnitPrice) AS FloorUnitPrice -- 将 UnitPrice 向下取整
-FROM Track
+    1 + 2 AS Number
 ```
 
 
 
+```
+|     | Number |
+|:----|:-------|
+| 0   | 3      |
+```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+如果我们既有 `SELECT` 又有 `FROM`，但是我们在 `SELECT` 语句中不写列名，而是直接写数值，那么 SQL 也是可以执行的：
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>UnitPrice</th>
-      <th>SqrtUnitPrice</th>
-      <th>LogUnitPrice</th>
-      <th>ExpUnitPrice</th>
-      <th>RoundedUnitPrice</th>
-      <th>CeilingUnitPrice</th>
-      <th>FloorUnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3498</th>
-      <td>3499</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3499</th>
-      <td>3500</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3500</th>
-      <td>3501</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3501</th>
-      <td>3502</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3502</th>
-      <td>3503</td>
-      <td>0.99</td>
-      <td>0.994987</td>
-      <td>-0.01005</td>
-      <td>2.691234</td>
-      <td>1.0</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>3503 rows × 8 columns</p>
-</div>
+- 比方说 `SELECT 1 + 2 AS Number FROM Album` 这个查询语句也是可以执行的
+- 它的效果是，查询出来的所有行，`Number` 列的值都是 `1 + 2` 的计算结果，也就是 `3`
+- 而且这个查询结果中的行数和 `Album` 表中的行数是一样的
+- 这么做乍一看意义不明，但是我们后面学到一些高级 SQL 操作的时候，大家就可以感受到这个功能的作用了
+
+我们来看一下这个功能的例子：
+
+
+```sql
+%%sql
+SELECT
+    *,
+    1 + 2 AS Number
+FROM Album
+```
+
+
+
+```
+|     | AlbumId | Title                                                          | ArtistId | Number |
+|:----|:--------|:---------------------------------------------------------------|:---------|:-------|
+| 0   | 1       | For Those About To Rock We Salute You                          | 1        | 3      |
+| 1   | 2       | Balls to the Wall                                              | 2        | 3      |
+| 2   | 3       | Restless and Wild                                              | 2        | 3      |
+| 3   | 4       | Let There Be Rock                                              | 1        | 3      |
+| 4   | 5       | Big Ones                                                       | 3        | 3      |
+| 5   | 6       | Jagged Little Pill                                             | 4        | 3      |
+| ... | ...     | ...                                                            | ...      | ...    |
+| 342 | 343     | Respighi:Pines of Rome                                         | 226      | 3      |
+| 343 | 344     | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      | 3      |
+| 344 | 345     | Monteverdi: L'Orfeo                                            | 273      | 3      |
+| 345 | 346     | Mozart: Chamber Music                                          | 274      | 3      |
+| 346 | 347     | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      | 3      |
+```
 
 

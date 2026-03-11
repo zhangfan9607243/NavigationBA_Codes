@@ -34,89 +34,22 @@ ORDER BY Title
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>...And Justice For All</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[1997] Black Light Syndrome</td>
-      <td>136</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20th Century Masters - The Millennium Collecti...</td>
-      <td>179</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>A Copland Celebration, Vol. I</td>
-      <td>230</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>A Matter of Life and Death</td>
-      <td>90</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>War</td>
-      <td>150</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Warner 25 Anos</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Weill: The Seven Deadly Sins</td>
-      <td>264</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Worlds</td>
-      <td>202</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Zooropa</td>
-      <td>150</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 2 columns</p>
-</div>
+```
+|     | Title                                                                   | ArtistId |
+|:----|:------------------------------------------------------------------------|:---------|
+| 0   | ...And Justice For All                                                  | 50       |
+| 1   | \[1997\] Black Light Syndrome                                           | 136      |
+| 2   | 20th Century Masters - The Millennium Collection: The Best of Scorpions | 179      |
+| 3   | A Copland Celebration, Vol. I                                           | 230      |
+| 4   | A Matter of Life and Death                                              | 90       |
+| 5   | A Real Dead One                                                         | 90       |
+| ... | ...                                                                     | ...      |
+| 342 | War                                                                     | 150      |
+| 343 | Warner 25 Anos                                                          | 6        |
+| 344 | Weill: The Seven Deadly Sins                                            | 264      |
+| 345 | Worlds                                                                  | 202      |
+| 346 | Zooropa                                                                 | 150      |
+```
 
 
 
@@ -135,89 +68,22 @@ ORDER BY UnitPrice
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Love In An Elevator</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Love, Hate, Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Let Me Love You Baby</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>My Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>The Girl I Love She Got Long Black Wavy Hair</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>Love Comes</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>Arms Around Your Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>Love Is a Losing Game</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>I Heard Love Is Blind</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>(There Is) No Greater Love (Teo Licks)</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>114 rows × 2 columns</p>
-</div>
+```
+|     | Name                                         | UnitPrice |
+|:----|:---------------------------------------------|:----------|
+| 0   | Love In An Elevator                          | 0.99      |
+| 1   | Love, Hate, Love                             | 0.99      |
+| 2   | Let Me Love You Baby                         | 0.99      |
+| 3   | My Love                                      | 0.99      |
+| 4   | The Girl I Love She Got Long Black Wavy Hair | 0.99      |
+| 5   | Whole Lotta Love                             | 0.99      |
+| ... | ...                                          | ...       |
+| 109 | Love Comes                                   | 0.99      |
+| 110 | Arms Around Your Love                        | 0.99      |
+| 111 | Love Is a Losing Game                        | 0.99      |
+| 112 | I Heard Love Is Blind                        | 0.99      |
+| 113 | \(There Is\) No Greater Love \(Teo Licks\)   | 0.99      |
+```
 
 
 
@@ -244,89 +110,22 @@ ORDER BY Title DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Zooropa</td>
-      <td>150</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Worlds</td>
-      <td>202</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Weill: The Seven Deadly Sins</td>
-      <td>264</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Warner 25 Anos</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>War</td>
-      <td>150</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>A Matter of Life and Death</td>
-      <td>90</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>A Copland Celebration, Vol. I</td>
-      <td>230</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>20th Century Masters - The Millennium Collecti...</td>
-      <td>179</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>[1997] Black Light Syndrome</td>
-      <td>136</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>...And Justice For All</td>
-      <td>50</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 2 columns</p>
-</div>
+```
+|     | Title                                                                   | ArtistId |
+|:----|:------------------------------------------------------------------------|:---------|
+| 0   | Zooropa                                                                 | 150      |
+| 1   | Worlds                                                                  | 202      |
+| 2   | Weill: The Seven Deadly Sins                                            | 264      |
+| 3   | Warner 25 Anos                                                          | 6        |
+| 4   | War                                                                     | 150      |
+| 5   | Walking Into Clarksdale                                                 | 115      |
+| ... | ...                                                                     | ...      |
+| 342 | A Matter of Life and Death                                              | 90       |
+| 343 | A Copland Celebration, Vol. I                                           | 230      |
+| 344 | 20th Century Masters - The Millennium Collection: The Best of Scorpions | 179      |
+| 345 | \[1997\] Black Light Syndrome                                           | 136      |
+| 346 | ...And Justice For All                                                  | 50       |
+```
 
 
 
@@ -345,89 +144,22 @@ ORDER BY UnitPrice DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Love In An Elevator</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Love, Hate, Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Let Me Love You Baby</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>My Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>The Girl I Love She Got Long Black Wavy Hair</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>Love Comes</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>Arms Around Your Love</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>Love Is a Losing Game</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>I Heard Love Is Blind</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>(There Is) No Greater Love (Teo Licks)</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>114 rows × 2 columns</p>
-</div>
+```
+|     | Name                                         | UnitPrice |
+|:----|:---------------------------------------------|:----------|
+| 0   | Love In An Elevator                          | 0.99      |
+| 1   | Love, Hate, Love                             | 0.99      |
+| 2   | Let Me Love You Baby                         | 0.99      |
+| 3   | My Love                                      | 0.99      |
+| 4   | The Girl I Love She Got Long Black Wavy Hair | 0.99      |
+| 5   | Whole Lotta Love                             | 0.99      |
+| ... | ...                                          | ...       |
+| 109 | Love Comes                                   | 0.99      |
+| 110 | Arms Around Your Love                        | 0.99      |
+| 111 | Love Is a Losing Game                        | 0.99      |
+| 112 | I Heard Love Is Blind                        | 0.99      |
+| 113 | \(There Is\) No Greater Love \(Teo Licks\)   | 0.99      |
+```
 
 
 
@@ -465,101 +197,22 @@ ORDER BY UnitPrice DESC, Milliseconds ASC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>UnitPrice</th>
-      <th>Milliseconds</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Love And Marriage</td>
-      <td>0.99</td>
-      <td>89730</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>I Heard Love Is Blind</td>
-      <td>0.99</td>
-      <td>129666</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>What Now My Love</td>
-      <td>0.99</td>
-      <td>149995</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>When I Had Your Love</td>
-      <td>0.99</td>
-      <td>152424</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Love Is a Losing Game</td>
-      <td>0.99</td>
-      <td>154386</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>Old Love</td>
-      <td>0.99</td>
-      <td>472920</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>The Thin Line Between Love &amp; Hate</td>
-      <td>0.99</td>
-      <td>506801</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>Jesus Of Suburbia / City Of The Damned / I Don...</td>
-      <td>0.99</td>
-      <td>548336</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>Whole Lotta Love (Medley)</td>
-      <td>0.99</td>
-      <td>825103</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>Whole Lotta Love</td>
-      <td>0.99</td>
-      <td>863895</td>
-    </tr>
-  </tbody>
-</table>
-<p>114 rows × 3 columns</p>
-</div>
+```
+|     | Name                                                                                                  | UnitPrice | Milliseconds |
+|:----|:------------------------------------------------------------------------------------------------------|:----------|:-------------|
+| 0   | Love And Marriage                                                                                     | 0.99      | 89730        |
+| 1   | I Heard Love Is Blind                                                                                 | 0.99      | 129666       |
+| 2   | What Now My Love                                                                                      | 0.99      | 149995       |
+| 3   | When I Had Your Love                                                                                  | 0.99      | 152424       |
+| 4   | Love Is a Losing Game                                                                                 | 0.99      | 154386       |
+| 5   | Oh, My Love                                                                                           | 0.99      | 159473       |
+| ... | ...                                                                                                   | ...       | ...          |
+| 109 | Old Love                                                                                              | 0.99      | 472920       |
+| 110 | The Thin Line Between Love & Hate                                                                     | 0.99      | 506801       |
+| 111 | Jesus Of Suburbia / City Of The Damned / I Don't Care / Dearly Beloved / Tales Of Another Broken Home | 0.99      | 548336       |
+| 112 | Whole Lotta Love \(Medley\)                                                                           | 0.99      | 825103       |
+| 113 | Whole Lotta Love                                                                                      | 0.99      | 863895       |
+```
 
 
 
@@ -578,101 +231,22 @@ ORDER BY ArtistId ASC, AlbumId DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Title</th>
-      <th>ArtistId</th>
-      <th>AlbumId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Restless and Wild</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Big Ones</td>
-      <td>3</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>342</th>
-      <td>Locatelli: Concertos for Violin, Strings and C...</td>
-      <td>271</td>
-      <td>342</td>
-    </tr>
-    <tr>
-      <th>343</th>
-      <td>Schubert: The Late String Quartets &amp; String Qu...</td>
-      <td>272</td>
-      <td>344</td>
-    </tr>
-    <tr>
-      <th>344</th>
-      <td>Monteverdi: L'Orfeo</td>
-      <td>273</td>
-      <td>345</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Mozart: Chamber Music</td>
-      <td>274</td>
-      <td>346</td>
-    </tr>
-    <tr>
-      <th>346</th>
-      <td>Koyaanisqatsi (Soundtrack from the Motion Pict...</td>
-      <td>275</td>
-      <td>347</td>
-    </tr>
-  </tbody>
-</table>
-<p>347 rows × 3 columns</p>
-</div>
+```
+|     | Title                                                          | ArtistId | AlbumId |
+|:----|:---------------------------------------------------------------|:---------|:--------|
+| 0   | Let There Be Rock                                              | 1        | 4       |
+| 1   | For Those About To Rock We Salute You                          | 1        | 1       |
+| 2   | Restless and Wild                                              | 2        | 3       |
+| 3   | Balls to the Wall                                              | 2        | 2       |
+| 4   | Big Ones                                                       | 3        | 5       |
+| 5   | Jagged Little Pill                                             | 4        | 6       |
+| ... | ...                                                            | ...      | ...     |
+| 342 | Locatelli: Concertos for Violin, Strings and Continuo, Vol. 3  | 271      | 342     |
+| 343 | Schubert: The Late String Quartets & String Quintet \(3 CD's\) | 272      | 344     |
+| 344 | Monteverdi: L'Orfeo                                            | 273      | 345     |
+| 345 | Mozart: Chamber Music                                          | 274      | 346     |
+| 346 | Koyaanisqatsi \(Soundtrack from the Motion Picture\)           | 275      | 347     |
+```
 
 
 
@@ -707,101 +281,15 @@ ORDER BY Milliseconds DESC
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2820</td>
-      <td>Occupation / Precipice</td>
-      <td>227</td>
-      <td>3</td>
-      <td>19</td>
-      <td>NaN</td>
-      <td>5286953</td>
-      <td>1054423946</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3224</td>
-      <td>Through a Looking Glass</td>
-      <td>229</td>
-      <td>3</td>
-      <td>21</td>
-      <td>NaN</td>
-      <td>5088838</td>
-      <td>1059546140</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3244</td>
-      <td>Greetings from Earth, Pt. 1</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2960293</td>
-      <td>536824558</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3242</td>
-      <td>The Man With Nine Lives</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2956998</td>
-      <td>577829804</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>3227</td>
-      <td>Battlestar Galactica, Pt. 2</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2956081</td>
-      <td>521387924</td>
-      <td>1.99</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|   | TrackId | Name                        | AlbumId | MediaTypeId | GenreId | Composer | Milliseconds | Bytes      | UnitPrice |
+|:--|:--------|:----------------------------|:--------|:------------|:--------|:---------|:-------------|:-----------|:---------|
+| 0 | 2820    | Occupation / Precipice      | 227     | 3           | 19      | NaN      | 5286953      | 1054423946 | 1.99     |
+| 1 | 3224    | Through a Looking Glass     | 229     | 3           | 21      | NaN      | 5088838      | 1059546140 | 1.99     |
+| 2 | 3244    | Greetings from Earth, Pt. 1 | 253     | 3           | 20      | NaN      | 2960293      | 536824558  | 1.99     |
+| 3 | 3242    | The Man With Nine Lives     | 253     | 3           | 20      | NaN      | 2956998      | 577829804  | 1.99     |
+| 4 | 3227    | Battlestar Galactica, Pt. 2 | 253     | 3           | 20      | NaN      | 2956081      | 521387924  | 1.99     |
+```
 
 
 
@@ -817,94 +305,20 @@ ORDER BY ArtistId ASC, AlbumId DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>AlbumId</th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>4</td>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2</td>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>Jagged Little Pill</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>Facelift</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>34</td>
-      <td>Chill: Brazil (Disc 2)</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>8</td>
-      <td>Warner 25 Anos</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>9</td>
-      <td>Plays Metallica By Four Cellos</td>
-      <td>7</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|   | AlbumId | Title                                 | ArtistId |
+|:--|:--------|:--------------------------------------|:--------|
+| 0 | 4       | Let There Be Rock                     | 1       |
+| 1 | 1       | For Those About To Rock We Salute You | 1       |
+| 2 | 3       | Restless and Wild                     | 2       |
+| 3 | 2       | Balls to the Wall                     | 2       |
+| 4 | 5       | Big Ones                              | 3       |
+| 5 | 6       | Jagged Little Pill                    | 4       |
+| 6 | 7       | Facelift                              | 5       |
+| 7 | 34      | Chill: Brazil \(Disc 2\)              | 6       |
+| 8 | 8       | Warner 25 Anos                        | 6       |
+| 9 | 9       | Plays Metallica By Four Cellos        | 7       |
+```
 
 
 
@@ -938,173 +352,22 @@ ORDER BY Milliseconds DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2820</td>
-      <td>Occupation / Precipice</td>
-      <td>227</td>
-      <td>3</td>
-      <td>19</td>
-      <td>NaN</td>
-      <td>5286953</td>
-      <td>1054423946</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3224</td>
-      <td>Through a Looking Glass</td>
-      <td>229</td>
-      <td>3</td>
-      <td>21</td>
-      <td>NaN</td>
-      <td>5088838</td>
-      <td>1059546140</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3244</td>
-      <td>Greetings from Earth, Pt. 1</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2960293</td>
-      <td>536824558</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3242</td>
-      <td>The Man With Nine Lives</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2956998</td>
-      <td>577829804</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>3227</td>
-      <td>Battlestar Galactica, Pt. 2</td>
-      <td>253</td>
-      <td>3</td>
-      <td>20</td>
-      <td>NaN</td>
-      <td>2956081</td>
-      <td>521387924</td>
-      <td>1.99</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>696</th>
-      <td>493</td>
-      <td>Love Is Blind</td>
-      <td>40</td>
-      <td>1</td>
-      <td>1</td>
-      <td>David Coverdale/Earl Slick</td>
-      <td>344999</td>
-      <td>11409720</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>697</th>
-      <td>1383</td>
-      <td>Stranger in a Strange Land</td>
-      <td>111</td>
-      <td>1</td>
-      <td>3</td>
-      <td>Adrian Smith</td>
-      <td>344502</td>
-      <td>8270899</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>698</th>
-      <td>558</td>
-      <td>Viradouro</td>
-      <td>45</td>
-      <td>1</td>
-      <td>7</td>
-      <td>Dadinho/Gilbreto Gomes/Gustavo/P.C. Portugal/R...</td>
-      <td>344320</td>
-      <td>11484362</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>699</th>
-      <td>2102</td>
-      <td>Mr. Crowley</td>
-      <td>174</td>
-      <td>1</td>
-      <td>3</td>
-      <td>O. Osbourne, R. Daisley, R. Rhoads</td>
-      <td>344241</td>
-      <td>11184130</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>700</th>
-      <td>60</td>
-      <td>Confusion</td>
-      <td>7</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Jerry Cantrell, Michael Starr, Layne Staley</td>
-      <td>344163</td>
-      <td>11183647</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-<p>701 rows × 9 columns</p>
-</div>
+```
+|     | TrackId | Name                        | AlbumId | MediaTypeId | GenreId | Composer                                               | Milliseconds | Bytes      | UnitPrice |
+|:----|:--------|:----------------------------|:--------|:------------|:--------|:-------------------------------------------------------|:-------------|:-----------|:----------|
+| 0   | 2820    | Occupation / Precipice      | 227     | 3           | 19      | NaN                                                    | 5286953      | 1054423946 | 1.99      |
+| 1   | 3224    | Through a Looking Glass     | 229     | 3           | 21      | NaN                                                    | 5088838      | 1059546140 | 1.99      |
+| 2   | 3244    | Greetings from Earth, Pt. 1 | 253     | 3           | 20      | NaN                                                    | 2960293      | 536824558  | 1.99      |
+| 3   | 3242    | The Man With Nine Lives     | 253     | 3           | 20      | NaN                                                    | 2956998      | 577829804  | 1.99      |
+| 4   | 3227    | Battlestar Galactica, Pt. 2 | 253     | 3           | 20      | NaN                                                    | 2956081      | 521387924  | 1.99      |
+| 5   | 3226    | Battlestar Galactica, Pt. 1 | 253     | 3           | 20      | NaN                                                    | 2952702      | 541359437  | 1.99      |
+| ... | ...     | ...                         | ...     | ...         | ...     | ...                                                    | ...          | ...        | ...       |
+| 696 | 493     | Love Is Blind               | 40      | 1           | 1       | David Coverdale/Earl Slick                             | 344999       | 11409720   | 0.99      |
+| 697 | 1383    | Stranger in a Strange Land  | 111     | 1           | 3       | Adrian Smith                                           | 344502       | 8270899    | 0.99      |
+| 698 | 558     | Viradouro                   | 45      | 1           | 7       | Dadinho/Gilbreto Gomes/Gustavo/P.C. Portugal/R. Mocoto | 344320       | 11484362   | 0.99      |
+| 699 | 2102    | Mr. Crowley                 | 174     | 1           | 3       | O. Osbourne, R. Daisley, R. Rhoads                     | 344241       | 11184130   | 0.99      |
+| 700 | 60      | Confusion                   | 7       | 1           | 1       | Jerry Cantrell, Michael Starr, Layne Staley            | 344163       | 11183647   | 0.99      |
+```
 
 
 
@@ -1120,101 +383,22 @@ ORDER BY ArtistId ASC, AlbumId DESC
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>AlbumId</th>
-      <th>Title</th>
-      <th>ArtistId</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>4</td>
-      <td>Let There Be Rock</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1</td>
-      <td>For Those About To Rock We Salute You</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Restless and Wild</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2</td>
-      <td>Balls to the Wall</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Big Ones</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>169</th>
-      <td>162</td>
-      <td>Motley Crue Greatest Hits</td>
-      <td>109</td>
-    </tr>
-    <tr>
-      <th>170</th>
-      <td>164</td>
-      <td>Nevermind</td>
-      <td>110</td>
-    </tr>
-    <tr>
-      <th>171</th>
-      <td>163</td>
-      <td>From The Muddy Banks Of The Wishkah [Live]</td>
-      <td>110</td>
-    </tr>
-    <tr>
-      <th>172</th>
-      <td>165</td>
-      <td>Compositores</td>
-      <td>111</td>
-    </tr>
-    <tr>
-      <th>173</th>
-      <td>166</td>
-      <td>Olodum</td>
-      <td>112</td>
-    </tr>
-  </tbody>
-</table>
-<p>174 rows × 3 columns</p>
-</div>
+```
+|     | AlbumId | Title                                        | ArtistId |
+|:----|:--------|:---------------------------------------------|:---------|
+| 0   | 4       | Let There Be Rock                            | 1        |
+| 1   | 1       | For Those About To Rock We Salute You        | 1        |
+| 2   | 3       | Restless and Wild                            | 2        |
+| 3   | 2       | Balls to the Wall                            | 2        |
+| 4   | 5       | Big Ones                                     | 3        |
+| 5   | 6       | Jagged Little Pill                           | 4        |
+| ... | ...     | ...                                          | ...      |
+| 169 | 162     | Motley Crue Greatest Hits                    | 109      |
+| 170 | 164     | Nevermind                                    | 110      |
+| 171 | 163     | From The Muddy Banks Of The Wishkah \[Live\] | 110      |
+| 172 | 165     | Compositores                                 | 111      |
+| 173 | 166     | Olodum                                       | 112      |
+```
 
 
 
@@ -1238,100 +422,15 @@ WHERE Name LIKE '%Love%' OR Name LIKE '%love%'
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TrackId</th>
-      <th>Name</th>
-      <th>AlbumId</th>
-      <th>MediaTypeId</th>
-      <th>GenreId</th>
-      <th>Composer</th>
-      <th>Milliseconds</th>
-      <th>Bytes</th>
-      <th>UnitPrice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>24</td>
-      <td>Love In An Elevator</td>
-      <td>5</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Steven Tyler, Joe Perry</td>
-      <td>321828</td>
-      <td>10552051</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>56</td>
-      <td>Love, Hate, Love</td>
-      <td>7</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Jerry Cantrell, Layne Staley</td>
-      <td>387134</td>
-      <td>12575396</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>195</td>
-      <td>Let Me Love You Baby</td>
-      <td>20</td>
-      <td>1</td>
-      <td>6</td>
-      <td>Willie Dixon</td>
-      <td>175386</td>
-      <td>5716994</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>335</td>
-      <td>My Love</td>
-      <td>29</td>
-      <td>1</td>
-      <td>9</td>
-      <td>Jauperi/Zeu Góes</td>
-      <td>203493</td>
-      <td>6772813</td>
-      <td>0.99</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>341</td>
-      <td>The Girl I Love She Got Long Black Wavy Hair</td>
-      <td>30</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Jimmy Page/John Bonham/John Estes/John Paul Jo...</td>
-      <td>183327</td>
-      <td>5995686</td>
-      <td>0.99</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```
+|    | TrackId | Name                                         | AlbumId | MediaTypeId | GenreId | Composer                                                       | Milliseconds | Bytes    | UnitPrice |
+|:---|:--------|:---------------------------------------------|:--------|:------------|:--------|:---------------------------------------------------------------|:-------------|:---------|:----------|
+| 0  | 24      | Love In An Elevator                          | 5       | 1           | 1       | Steven Tyler, Joe Perry                                        | 321828       | 10552051 | 0.99      |
+| 1  | 56      | Love, Hate, Love                             | 7       | 1           | 1       | Jerry Cantrell, Layne Staley                                   | 387134       | 12575396 | 0.99      |
+| 2  | 195     | Let Me Love You Baby                         | 20      | 1           | 6       | Willie Dixon                                                   | 175386       | 5716994  | 0.99      |
+| 3  | 335     | My Love                                      | 29      | 1           | 9       | Jauperi/Zeu Góes                                               | 203493       | 6772813  | 0.99      |
+| 4  | 341     | The Girl I Love She Got Long Black Wavy Hair | 30      | 1           | 1       | Jimmy Page/John Bonham/John Estes/John Paul Jones/Robert Plant | 183327       | 5995686  | 0.99      |
+```
 
 
 
