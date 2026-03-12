@@ -16,7 +16,7 @@
     <img src="../Chinook ERD.png" style="width: 900px; height: auto;">
 </div>
 
-## 2. 连接并测试 Chinook 数据库
+## 2. 连接 Chinook 数据库
 
 首先，我们来安装连接数据库所使用的插件：
 
