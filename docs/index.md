@@ -21,8 +21,8 @@
 
 本系列课程的资料包括：
 
-- 讲义：[本网站](https://navigationba.github.io/NavigationBA_Basics/)
-- 代码：[GitHub](https://github.com/NavigationBA/NavigationBA_Basics_Code)
+- 讲义：[本网站](https://zhangfan9607243.github.io/NavigationBA_Codes)
+- 代码：[GitHub](https://github.com/zhangfan9607243/NavigationBA_Codes)
 
 ## 课程大纲
 
@@ -31,3 +31,5 @@
 ### Module 2 - Python 面向对象
 
 ### Module 3 - Python 数据分析
+
+### Module 4 - SQL 语言基础
