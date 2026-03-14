@@ -249,6 +249,41 @@ ORDER BY ArtistId ASC, AlbumId DESC
 ```
 
 
+### (4) ORDER BY 语法的注意事项
+
+这里大家注意一下 `ORDER BY` 语句的一个特殊性：
+
+- 之前我们在讲 `WHERE` 语句的时候，提到过 `WHERE` 语句中的列名必须使用原列名
+- 而在 `ORDER BY` 语句中，列名可以使用原列名，也可以使用列别名
+- 这个是 `ORDER BY` 语句的一个特殊性
+- 我们来看以下例子：
+
+```sql
+%%sql
+SELECT
+    Title AS AlbumTitle,
+    ArtistId AS ArtistId
+FROM Album
+ORDER BY AlbumTitle DESC, ArtistId ASC
+```
+
+```
+|     | AlbumTitle                                                              | ArtistId |
+|:----|:------------------------------------------------------------------------|:---------|
+| 0   | Zooropa                                                                 | 150      |
+| 1   | Worlds                                                                  | 202      |
+| 2   | Weill: The Seven Deadly Sins                                            | 264      |
+| 3   | Warner 25 Anos                                                          | 6        |
+| 4   | War                                                                     | 150      |
+| 5   | Walking Into Clarksdale                                                 | 115      |
+| ... | ...                                                                     | ...      |
+| 342 | A Matter of Life and Death                                              | 90       |
+| 343 | A Copland Celebration, Vol. I                                           | 230      |
+| 344 | 20th Century Masters - The Millennium Collection: The Best of Scorpions | 179      |
+| 345 | \[1997\] Black Light Syndrome                                           | 136      |
+| 346 | ...And Justice For All                                                  | 50       |
+```
+
 
 ## 2. 头部查询
 
