@@ -1,4 +1,4 @@
-# Topic 2.4 - SELECT 语句中的进阶数据运算
+# Topic 4.1 - SELECT 语句中的进阶数据运算
 
 ## 1. SQL 中的数据类型
 

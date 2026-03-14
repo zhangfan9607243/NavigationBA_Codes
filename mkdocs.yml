@@ -210,6 +210,5 @@ nav:
       - ✅ Topic 2.1 - SELECT 与 FROM 语句:                     Module4/Topic02/Topic02_01/Topic02_01.md
       - ✅ Topic 2.2 - WHERE 条件过滤:                          Module4/Topic02/Topic02_02/Topic02_02.md
       - ✅ Topic 2.3 - ORDER BY 语句数据排序与 TOP 结果限制:      Module4/Topic02/Topic02_03/Topic02_03.md
-      - ✅ Topic 2.4 - SELECT 语句中的进阶数据运算:               Module4/Topic02/Topic02_04/Topic02_04.md
-      - ✅ Topic 2.5 - GROUP BY 与数据集合运算:                  Module4/Topic02/Topic02_05/Topic02_05.md
+      - ✅ Topic 2.4 - GROUP BY 与数据集合运算:                  Module4/Topic02/Topic02_04/Topic02_04.md
     

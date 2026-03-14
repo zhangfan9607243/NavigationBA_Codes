@@ -1,4 +1,4 @@
-# Topic 2.5 - GROUP BY 语句与数据聚合运算
+# Topic 2.4 - GROUP BY 语句与数据聚合运算
 
 ## 1. 基础数据聚合运算
 
